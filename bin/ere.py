@@ -25,6 +25,7 @@ training_args = TrainingArguments(
     weight_decay=0.01,               # 权重衰减
     logging_dir='./logs',            # 日志目录
     logging_steps=10,
+    save_steps=10
 )
 train_data = EREDataset(tokenizer, data_dir=config["train_ner"])
 test_data = EREDataset(tokenizer, data_dir=config["val_ner"])
