@@ -13,9 +13,7 @@
 **ERE**
 
 使用数据集 [Tacred](https://nlp.stanford.edu/projects/tacred/) 对于 BERT 进行微调，采取最简单的编码方式，然后利用 **[CLS]** Token
-$$
-\rm [E1] \mbox{ SUBJ } [/E1] \mbox{ ... }[E2]\mbox{ ... }[/E2]
-$$
+$$\rm \[E1\] \mbox{ SUBJ } \[/E1\] \mbox{ ... }\[E2\]\mbox{ ... }\[/E2\]$$
 
 关于数据集形式，我们期望训练集 `train.txt` 包含：
 
