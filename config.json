@@ -70,5 +70,5 @@
     "val_ner": "D:\\projects\\nlp\\nlp-kb\\data\\ere_data\\tacred\\val_ner.txt",
     "root_dir": "D:\\projects\\nlp\\nlp-kb",
     "model_dir": "D:\\projects\\nlp\\huggingface_model\\bert-base-uncased",
-    "pretrained_model": "D:\\projects\\nlp\\nlp-kb\\results\\checkpoint-12500"
+    "pretrained_model": "D:\\projects\\nlp\\nlp-kb\\results\\best"
 }

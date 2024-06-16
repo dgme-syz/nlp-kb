@@ -1,4 +1,4 @@
-import os, json, sys, torch
+import json, sys, torch, argparse
 from ner import get_entity
 from transformers import BertTokenizer, BertForSequenceClassification
 
@@ -20,7 +20,6 @@ def extract(sentence: str):
             if i == j:
                 continue
             en1, en2 = ens[i], ens[j]
-            print(f'extracting relation between {en1["name"]} and {en2["name"]}')
             # 这里调用 ERE 模型提取关系
             encode_str = combine_entity(tokens, en1['pos'], en2['pos'])
             inputs = tokenizer.encode(encode_str, return_tensors='pt')
@@ -28,7 +27,24 @@ def extract(sentence: str):
                 outputs = model(inputs).logits
             # 输出置信度(0~1)
             prdicted_label = torch.argmax(outputs, dim=-1)[0]
-            print("relation: {}\nconfidence: {}\n".
-                    format(config["schema"][prdicted_label], torch.max(torch.softmax(outputs, dim=-1)[0]).item()))
+            if config["schema"][prdicted_label] != "NA":
+                print(f'extracting relation between {en1["name"]} and {en2["name"]}')
+                print("relation: {}\nconfidence: {}\n".
+                        format(config["schema"][prdicted_label], torch.max(torch.softmax(outputs, dim=-1)[0]).item()))
 
-extract("William Henry Gates is an American businessman, investor, philanthropist, and writer best known for co-founding the software company Microsoft with his childhood friend Paul Allen.")
+def batch_extract(sentences: list):
+    for sentence in sentences:
+        print('extracting sentence:', sentence)
+        extract(sentence)
+        
+def main(args):
+    if args.sentence:
+        extract(args.sentence)
+    else:
+        print('Please input sentence')
+
+if __name__ == '__main__':
+    paser = argparse.ArgumentParser()
+    paser.add_argument('--sentence', type=str, default=None, help='input sentence')
+    args = paser.parse_args()
+    main(args)

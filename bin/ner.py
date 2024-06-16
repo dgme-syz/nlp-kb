@@ -3,19 +3,18 @@
 @author:XuMing(xuming624@qq.com)
 @description: 
 """
-import os, torch
+import os, torch, json
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 from seqeval.metrics.sequence_labeling import get_entities
 
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
-
+config = json.load(open("config.json", "r"))
 # Load model from HuggingFace Hub
 tokenizer = AutoTokenizer.from_pretrained("shibing624/bert4ner-base-uncased")
 model = AutoModelForTokenClassification.from_pretrained("shibing624/bert4ner-base-uncased")
-label_list = ["E-ORG", "E-LOC", "S-MISC", "I-MISC", "S-PER", "E-PER", "B-MISC", "O", "S-LOC",
-              "E-MISC", "B-ORG", "S-ORG", "I-ORG", "B-LOC", "I-LOC", "B-PER", "I-PER"]
+label_list = config["NER_LABLES"]
 
-sentence = "Established in 1875, Blackburn were one of the founding members of the Football League."
+# sentence = "Established in 1875, Blackburn were one of the founding members of the Football League."
 
 
 def get_entity(x):

@@ -1,8 +1,7 @@
 import os, json, sys, torch
 from tqdm import tqdm
 from torch.utils.data import Dataset
-with open("./config.json", "r") as f:
-    config = json.load(f)
+config = json.load(open("config.json", "r"))
     
 data_dir = config["val"]
 data_ner_dir = config["val_ner"]
