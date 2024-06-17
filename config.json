@@ -1,25 +1,16 @@
 {
     "NER_LABLES": [
-        "E-ORG", 
-        "E-LOC", 
-        "S-MISC", 
-        "I-MISC", 
-        "S-PER", 
-        "E-PER", 
-        "B-MISC", 
-        "O", 
-        "S-LOC",
-        "E-MISC", 
-        "B-ORG", 
-        "S-ORG", 
-        "I-ORG", 
-        "B-LOC", 
-        "I-LOC", 
-        "B-PER", 
-        "I-PER"
+        "O",
+        "B-MISC",
+        "I-MISC",
+        "B-PER",
+        "I-PER",
+        "B-ORG",
+        "I-ORG",
+        "B-LOC",
+        "I-LOC"
     ], 
     "schema": [
-        "no_relation",
         "org:alternate_names",
         "org:city_of_headquarters",
         "org:country_of_headquarters",
@@ -61,14 +52,21 @@
         "per:stateorprovince_of_death",
         "per:stateorprovinces_of_residence",
         "per:title",
+        "per:is_good_at",
+        "per:write",
+        "per:frined_of",
+        "per:enemy_of",
         "NA"
     ],
-    "len_schema": 43,
+    "len_schema": 46,
     "train": "D:\\projects\\nlp\\nlp-kb\\data\\ere_data\\tacred\\train.txt",
     "train_ner": "D:\\projects\\nlp\\nlp-kb\\data\\ere_data\\tacred\\train_ner.txt",
     "val": "D:\\projects\\nlp\\nlp-kb\\data\\ere_data\\tacred\\val.txt",
     "val_ner": "D:\\projects\\nlp\\nlp-kb\\data\\ere_data\\tacred\\val_ner.txt",
     "root_dir": "D:\\projects\\nlp\\nlp-kb",
     "model_dir": "D:\\projects\\nlp\\huggingface_model\\bert-base-uncased",
-    "pretrained_model": "D:\\projects\\nlp\\nlp-kb\\results\\best"
+    "pretrained_model": "D:\\projects\\nlp\\nlp-kb\\results\\best",
+    "gcn_train": "D:\\projects\\nlp\\nlp-kb\\data\\gcn_data\\train_gcn.txt",
+    "gcn_val": "D:\\projects\\nlp\\nlp-kb\\data\\gcn_data\\val_gcn.txt",
+    "gcn_data_root": "D:\\projects\\nlp\\nlp-kb\\data\\gcn_data"
 }
