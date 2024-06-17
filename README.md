@@ -54,7 +54,9 @@ $$\rm \[E1\] \mbox{ SUBJ } \[/E1\] \mbox{ ... }\[E2\]\mbox{ ... }\[/E2\]$$
 
 训练将近 3 h，训练集上的损失变化曲线为：
 
-![](./logs/train_loss.svg)
+<div align="center">
+  <img src="./logs/train_loss.svg" width="50%">
+</div>
 
 **如何提取**
 
