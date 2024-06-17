@@ -25,3 +25,4 @@ TestResults.xml
 *.pyc
 /weights/*
 *.pth
+/data/ere_data/tacred/*
