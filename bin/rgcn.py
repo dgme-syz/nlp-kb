@@ -98,7 +98,7 @@ def main():
     if use_cuda:
         model.cuda()
 
-    for epoch in trange(1, (10001), desc='Epochs', position=0):
+    for epoch in trange(1, (101), desc='Epochs', position=0):
 
         model.train()
         optimizer.zero_grad()
@@ -110,7 +110,7 @@ def main():
         torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
         optimizer.step()
 
-        if epoch % 500 == 0:
+        if epoch % 20 == 0:
 
             tqdm.write("Train Loss {} at epoch {}".format(loss, epoch))
 

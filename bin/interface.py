@@ -28,7 +28,7 @@ def get_kth_relation(triples, threshold=2.):
     print(ans)
     return ans
 
-def near_entitys(entity, lim_egde=1):
+def near_entitys(entity, lim_egde=2):
     # 得到只经过 lim_egde 条边可以到达的实体
     li = [0 for _ in range(len(entities))]
     li[entities[entity]] = 1
@@ -69,6 +69,6 @@ def use_entity2_plus_relation_to_get_relation(entity2, relation):
     return get_kth_relation(triples)
 
 if __name__ == '__main__':
-    use_2entitys_to_get_relation('02693895', '05228496')
+    # use_2entitys_to_get_relation('Snap', 'DefenceAgainsttheDark Arts')
     # near_entitys('03964744', 3)
-    # use_entity1_plus_relation_to_get_relation('03964744', '_hyponym')
+    use_entity1_plus_relation_to_get_relation('Harry', 'per:friend_of')
