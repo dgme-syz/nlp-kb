@@ -17,8 +17,11 @@ def combine_entity(tokens: list, en1: list, en2: list):
             ["[E2]"] + tokens[en2[0]:en2[1]] + ["[/E2]"] + tokens[en2[1]:]
     return " ".join(EncodeStr)
 
-def solve_one(fd, sens: dict):
+def solve_one(fd, sens: dict) -> None:
     string, h, t, label = sens["token"], sens["h"]["pos"], sens["t"]["pos"], sens["relation"]
+    # 关系不在schema中则跳过
+    if label not in label2num:
+        return
     encode_str = combine_entity(string, h, t)
     fd.write(encode_str + "\t" + label + "\n")
 

@@ -9,8 +9,8 @@ from seqeval.metrics.sequence_labeling import get_entities
 
 config = json.load(open("config.json", "r"))
 # Load model from HuggingFace Hub
-tokenizer = AutoTokenizer.from_pretrained("dslim/bert-base-NER")
-model = AutoModelForTokenClassification.from_pretrained("dslim/bert-base-NER")
+tokenizer = AutoTokenizer.from_pretrained("dslim/bert-large-NER")
+model = AutoModelForTokenClassification.from_pretrained("dslim/bert-large-NER")
 
 label_list = config["NER_LABLES"]
 
@@ -59,6 +59,6 @@ def get_entity(x):
             })
 
     # print("Sentence entity:")
-    # print(entities)
+    print(entities)
     return entities
-# get_entity("Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling. The novels chronicle the lives of a young wizard, Harry Potter, and his friends Hermione Granger and Ron Weasley, all of whom are students at Hogwarts School of Witchcraft and Wizardry. The main story arc concerns Harry's struggle against Lord Voldemort, a dark wizard who intends to become immortal, overthrow the wizard governing body known as the Ministry of Magic, and subjugate all wizards and Muggles.")
+# get_entity("Harry finds an old textbook with notes from the Half-Blood Prince that helps him in Potions class.")

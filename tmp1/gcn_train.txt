@@ -1,0 +1,19 @@
+Harry Potter	per:schools_attended	Hogwarts School
+Harry Potter	per:enemy_of	Voldemort
+Harry Potter	per:enemy_of	Ministry of Magic
+Voldemort	per:enemy_of	Harry Potter
+Harry Potter	org:country_of_headquarters	English
+Harry Potter	org:country_of_headquarters	UK
+Harry Potter	org:country_of_headquarters	US
+English	org:country_of_headquarters	UK
+English	org:country_of_headquarters	US
+Scholastic Press	org:country_of_headquarters	US
+Hagrid	per:write	James Potter
+Lily	per:enemy_of	James Potter
+Voldemor	per:enemy_of	Harry
+Harry	per:siblings	Sirius Black
+Sirius	per:friend_of	James Potter
+James	per:other_family	Harry
+Crouch	per:enemy_of	Harry
+Voldemor	org:alternate_names	Ministry
+Harry	per:enemy_of	Voldemor

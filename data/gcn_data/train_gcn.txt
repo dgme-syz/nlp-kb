@@ -122,3 +122,4 @@ Harry	per:other_family	Ron
 Harry	per:other_family	Ron
 Harry	per:stateorprovince_of_birth	LordVoldemor
 Harry	per:city_of_birth	Tom Marvolo Riddle
+Harry	per:schools_attended	NUAA
