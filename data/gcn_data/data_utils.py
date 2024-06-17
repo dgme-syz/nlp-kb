@@ -78,6 +78,7 @@ class RGCNDataset(Dataset):
 def sample_edge_uniform(n_triples, sample_size):
     """Sample edges uniformly from all the edges."""
     all_edges = np.arange(n_triples)
+    sample_size = min(sample_size, len(all_edges))
     return np.random.choice(all_edges, sample_size, replace=False)
 
 def negative_sampling(pos_samples, num_entity, negative_rate):
@@ -117,7 +118,7 @@ def generate_sampled_graph_and_labels(triplets, sample_size, split_size, num_ent
         First perform edge neighborhood sampling on graph, then perform negative
         sampling to generate negative samples
     """
-
+    sample_size = min(sample_size, len(triplets))
     edges = sample_edge_uniform(len(triplets), sample_size)
 
     # Select sampled edges

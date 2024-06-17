@@ -2,10 +2,14 @@ import json, sys, torch, argparse, re
 from ner import get_entity
 from transformers import BertTokenizer, BertForSequenceClassification
 
+import nltk
+nltk.download('punkt')
+from nltk.tokenize import sent_tokenize
+
+print('start load ere model...')
 config = json.load(open('config.json', 'r'))
 tokenizer = BertTokenizer.from_pretrained(config['model_dir'])
 model = BertForSequenceClassification.from_pretrained(config['pretrained_model'])
-
 sys.path.append(config['root_dir'])
 from data.ere_data.data_utils import combine_entity
 
@@ -19,7 +23,7 @@ def extract(sentence: str):
     # 两两组合实体，再用 ere 提取关系
     for i in range(len(ens)):
         for j in range(len(ens)):
-            if i == j:
+            if ens[i]["name"] == ens[j]["name"]:
                 continue
             en1, en2 = ens[i], ens[j]
             # 这里调用 ERE 模型提取关系
@@ -45,17 +49,8 @@ def split_article(article: str):
     # 将文章分割成句子
     with open(article, 'r', encoding='utf-8') as f:
         data = f.read()
-    # 利用换行符进行分割
-    sentence_endings = re.compile(r'[.!?]')
-    sentences = data.split('\n')
-    # 对每个分割得到的片段再次利用句子分隔符进行切分
-    result = []
-    for sentence in sentences:
-        sub_sentences = sentence_endings.split(sentence)
-        # 去除空白句子
-        sub_sentences = [s.strip() for s in sub_sentences if s.strip()]
-        result.extend(sub_sentences)
-    return result
+    sentences = sent_tokenize(data)
+    return sentences
 
 def article_extract(article: str):
     # 从文章中提取实体和关系

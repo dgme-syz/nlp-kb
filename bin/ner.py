@@ -16,6 +16,14 @@ label_list = config["NER_LABLES"]
 
 # sentence = "Established in 1875, Blackburn were one of the founding members of the Football League."
 
+def get_str_from_list(tokens):
+    str = ""
+    for token in tokens:
+        if token.startswith("##"):
+            str += token[2:]
+        else:
+            str += " " + token
+    return str.strip()
 
 def get_entity(x):
     if isinstance(x, str):
@@ -39,13 +47,13 @@ def get_entity(x):
         entity_type = i[0]
         #去除 ## 符号
         if len(entities) > 1 and (word[0].startswith("##") or entities[-1]["pos"][1] == i[1]):
-            word = [w.replace("##", "") for w in word]
-            entities[-1]["name"] += "".join(word)
+            word = get_str_from_list(word)
+            entities[-1]["name"] += word
             entities[-1]["pos"][1] = i[2] + 1
         else: 
-            word = [w.replace("##", "") for w in word]
+            word = get_str_from_list(word)
             entities.append({
-                "name": "".join(word),
+                "name": "".join(word),  
                 "type": entity_type,
                 "pos": [i[1], i[2] + 1]
             })

@@ -22,16 +22,17 @@ def solve_one(fd, sens: dict):
     encode_str = combine_entity(string, h, t)
     fd.write(encode_str + "\t" + label + "\n")
 
-def get_ere_data(data_dir, data_ner_dir):
+def get_ere_data(data_dir: list, data_ner_dir):
     # 清空
     with open(os.path.join(data_ner_dir), "w") as fd:
         pass
     print("start converting...")
-    with open(os.path.join(data_dir), "r") as f:
-        data = f.readlines()
-        with open(os.path.join(data_ner_dir), "a", encoding='utf-8') as fd:
-            for line in data:
-                solve_one(fd, json.loads(line))
+    for dir in data_dir:
+        with open(os.path.join(dir), "r") as f:
+            data = f.readlines()
+            with open(os.path.join(data_ner_dir), "a", encoding='utf-8') as fd:
+                for line in data:
+                    solve_one(fd, json.loads(line))
     print("done")
 
 
@@ -70,3 +71,8 @@ class EREDataset(Dataset):
             progress_bar.close()
         print("done")
         return inputs, labels
+    
+if __name__ == '__main__':
+    get_ere_data([config["add_data"], config["train"]], config["train_ner"])
+    get_ere_data([config["val"]], config["val_ner"])
+    
