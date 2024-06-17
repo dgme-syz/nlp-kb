@@ -21,7 +21,6 @@ rad.json
 #Test results file
 TestResults.xml
 /results/*
-/logs/*
 *.pyc
 /weights/*
 *.pth
