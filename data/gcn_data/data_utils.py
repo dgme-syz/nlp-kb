@@ -1,4 +1,4 @@
-import os, json, torch
+import os, json, torch, argparse
 import torch.nn.functional as F
 from tqdm import tqdm
 from torch_scatter import scatter_add
@@ -6,14 +6,11 @@ from torch_geometric.data import Data
 from torch.utils.data import Dataset
 
 import numpy as np
-config = json.load(open("config.json", "r"))
-data_root = config["gcn_data_root"]
-train, val = config["gcn_train"], config["gcn_val"]
 
-def split():
+def split(data_root):
     # Get entities.dict 
     entitys, relations = {}, {}
-    
+    train, val = os.path.join(data_root, "gcn_train.txt"), os.path.join(data_root, "gcn_val.txt")
     for x in [train, val]:    
         with open(x, "r") as f:
             for line in f:
@@ -33,6 +30,7 @@ def split():
             json.dump(dicts[i], f, indent=4)
 
     # 将训练集和测试集中的实体和关系映射到数字
+    print("now converting...")
     filenames = ["train.txt", "valid.txt"]
     for i in range(2):
         with open([train, val][i], "r") as f:
@@ -40,7 +38,7 @@ def split():
                 for line in f:
                     e1, r, e2 = line.strip().split("\t")
                     f2.write(f"{entitys[e1]}\t{relations[r]}\t{entitys[e2]}\n")
-                    
+    print("Split Done!")          
 def read_triplets(file):
     triplets = []
     with open(file, "r") as f:
@@ -50,10 +48,10 @@ def read_triplets(file):
     return np.array(triplets)
 
 def load_data(file):
-    entity2id = json.load(open(os.path.join(data_root, "entities.json"), "r"))
-    relation2id = json.load(open(os.path.join(data_root, "relations.json"), "r"))
-    train_triplets = read_triplets(os.path.join(data_root, "train.txt"))
-    valid_triplets = read_triplets(os.path.join(data_root, "valid.txt"))
+    entity2id = json.load(open(os.path.join(file, "entities.json"), "r"))
+    relation2id = json.load(open(os.path.join(file, "relations.json"), "r"))
+    train_triplets = read_triplets(os.path.join(file, "train.txt"))
+    valid_triplets = read_triplets(os.path.join(file, "valid.txt"))
     
     print('num_entity: {}'.format(len(entity2id)))
     print('num_relation: {}'.format(len(relation2id)))
@@ -123,7 +121,6 @@ def generate_sampled_graph_and_labels(triplets, sample_size, split_size, num_ent
 
     # Select sampled edges
     edges = triplets[edges]
-    print(edges.shape)
     src, rel, dst = edges.transpose()
     uniq_entity, edges = np.unique((src, dst), return_inverse=True)
     src, dst = np.reshape(edges, (2, -1))
@@ -267,4 +264,7 @@ def calc_mrr(embedding, w, test_triplets, all_triplets, hits=[]):
             
     return mrr.item()
 if __name__ == "__main__":
-    split()
+    paser = argparse.ArgumentParser()
+    paser.add_argument("--data_dir", type=str, default=None)
+    args = paser.parse_args()
+    split(args.data_dir)

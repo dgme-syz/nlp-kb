@@ -1,14 +1,10 @@
-import os, json, sys, torch
+import os, json, torch, argparse
 from tqdm import tqdm
 from torch.utils.data import Dataset
-config = json.load(open("config.json", "r"))
-    
-data_dir = config["val"]
-data_ner_dir = config["val_ner"]
-sys.path.append(config["root_dir"])
 
+from config import schema
 label2num = {}
-for i, label in enumerate(config["schema"]):
+for i, label in enumerate(schema):
     label2num[label] = i
 
 def combine_entity(tokens: list, en1: list, en2: list):
@@ -31,9 +27,9 @@ def get_ere_data(data_dir: list, data_ner_dir):
         pass
     print("start converting...")
     for dir in data_dir:
-        with open(os.path.join(dir), "r") as f:
+        with open(dir, "r") as f:
             data = f.readlines()
-            with open(os.path.join(data_ner_dir), "a", encoding='utf-8') as fd:
+            with open(data_ner_dir, "a", encoding='utf-8') as fd:
                 for line in data:
                     solve_one(fd, json.loads(line))
     print("done")
@@ -74,8 +70,17 @@ class EREDataset(Dataset):
             progress_bar.close()
         print("done")
         return inputs, labels
+
+def main(args):
+    for x in ["train", "val"]:
+        i = os.path.join(args.data_dir, x + ".txt")
+        o = os.path.join(args.data_dir, x + "_ner.txt")
+        print(i, o)
+        get_ere_data([i], o)
     
 if __name__ == '__main__':
-    get_ere_data([config["add_data"], config["train"]], config["train_ner"])
-    get_ere_data([config["val"]], config["val_ner"])
+    paser = argparse.ArgumentParser()
+    paser.add_argument("--data_dir", type=str, default="./data/ere_data", help="data directory")
+    args = paser.parse_args()
+    main(args)
     

@@ -1,6 +1,5 @@
-import ollama, nltk
+import ollama
 from tqdm import tqdm
-nltk.download('punkt')
 from nltk.tokenize import sent_tokenize
 
 # 处理文本
