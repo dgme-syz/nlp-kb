@@ -167,7 +167,7 @@ with app:
             run1 = gr.Button()
             run1.click(llama_process_data, inputs=[raw_data, step, prompt], outputs=[llama_data])
         with gr.Tab(label='实体关系抽取'):
-            gr.Markdown('TIP: 如果有本地模型,可以自己输入地址,如./models/bert-large-ner','./models/rebel')
+            gr.Markdown("TIP: 如果有本地模型,可以自己输入地址,如./models/bert-large-ner','./models/rebel")
             # 推理
             gr.Markdown("### 测试")
             gr.Markdown("#### DEMO")

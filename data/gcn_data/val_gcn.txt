@@ -234,3 +234,202 @@ Harry Potter and the Half-Blood Prince	country of origin	United Kingdom
 Harry Potter and the Deathly Hallows	publisher	Bloomsbury
 Crisp	said to be the same as	chip
 chip	said to be the same as	Crisp
+Jacket potato	subclass of	potato
+The Letters from No One	number of episodes	26
+Diagon Alley	publication date	19 May 2020
+Diagon Alley	number of episodes	48
+The Journey from Platform Nine and Three-Quarters	length	41
+The Sorting Hat	publication date	27 May 2020
+The Sorting Hat	number of episodes	27
+The Sorting Hat	cast member	Olivia Colman
+The Sorting Hat	cast member	Jonathan Van Ness
+The Sorting Hat	cast member	Kate McKinnon
+The Potions Master	number of episodes	18
+Midnight Duel	publication date	3 June 2020
+Hallowe'en	cast member	Whoopi Goldberg
+Quidditch	publication date	10 June 2020
+David Beckham	sport	Quidditch
+Norbert the Norwegian Ridgeback	publication date	8 July 2020
+The Forbidden Forest	number of episodes	33
+Through the Trapdoor	publication date	14 July 2020
+Hogwarts School of Witchcraft and Wizardry	has part	Slytherin
+Slytherin	part of	Hogwarts School of Witchcraft and Wizardry
+petrified	subclass of	threats
+incompetent	subclass of	self-serving
+Hogwarts Express	terminus	King's Cross station
+the car	located in the administrative territorial entity	forest
+Harry	residence	castle walls
+castle walls	occupant	Harry
+Slytherin	office held by head of the organization	Heir
+Bludger	sport	Quidditch
+Dobby	student	Harry
+Harry	student of	Dobby
+Hermione	child	Harry
+Hermione	child	Ron
+Harry	mother	Hermione
+Harry	sibling	Ron
+Ron	mother	Hermione
+Ron	sibling	Harry
+Draco	child	heir
+heir	father	Draco
+Tom Riddle	significant event	another student's death
+another student's death	participant	Tom Riddle
+lockdown	facet of	school
+Albus Dumbledore	position held	Headmaster
+Harry	sibling	Ron
+Harry	spouse	Hermione
+Ron	sibling	Harry
+Ron	spouse	Hermione
+Hermione	spouse	Harry
+Hermione	spouse	Ron
+walls	connects with	plumbing
+plumbing	connects with	walls
+Ron	sibling	Ginny
+Ginny	sibling	Ron
+Tom Riddle	member of	Slytherin
+Hagrid	location	Chamber
+Harry	instance of	basilisk
+Harry	relative	Fawkes
+Fawkes	relative	Harry
+Fawkes	relative	Harry
+Harry	relative	Fawkes
+Harry	spouse	Ginny
+Ginny	spouse	Harry
+Harry	spouse	Ginny
+Ginny	spouse	Harry
+Dobby	relative	Harry
+Dobby	relative	Harry
+Harry	relative	Dobby
+Harry	relative	Dobby
+Dobby	relative	Harry
+Dobby	relative	Harry
+Bloomsbury	field of work	revision
+official website	owned by	J. K. Rowling
+First edition	followed by	subsequent reprints
+subsequent reprints	follows	First edition
+Salazar Slytherin	said to be the same as	his descendant
+his descendant	said to be the same as	Salazar Slytherin
+Gilderoy Lockhart	notable work	Weekends with Werewolves
+Gilderoy Lockhart	notable work	Wanderings with Werewolves
+Weekends with Werewolves	author	Gilderoy Lockhart
+Wanderings with Werewolves	author	Gilderoy Lockhart
+Fawkes	instance of	deus ex machina
+Fawkes	instance of	deus ex machina
+Fawkes	instance of	deus ex machina
+Harry Potter and the Philosopher's Stone	award received	Nestlé Smarties Book Prize
+Harry Potter and the Prisoner of Azkaban	award received	Nestlé Smarties Book Prize
+Children's Book Award	inception	1999
+Harry Potter and the Chamber of Secrets	follows	first book
+first book	followed by	Harry Potter and the Chamber of Secrets
+Gilderoy Lockhart	present in work	Harry Potter and the Chamber of Secrets
+racism	subclass of	prejudice
+Harry Potter and the Chamber of Secrets	characters	Dobby
+Harry Potter and the Chamber of Secrets	characters	Nearly Headless Nick
+Dobby	present in work	Harry Potter and the Chamber of Secrets
+Nearly Headless Nick	present in work	Harry Potter and the Chamber of Secrets
+Chamber of Secrets	characters	Tom Riddle
+Chamber of Secrets	characters	Ginny Weasley
+Tom Riddle	present in work	Chamber of Secrets
+Ginny Weasley	present in work	Chamber of Secrets
+Harry Potter	author	J. Rowling
+Petrarca	notable work	Secretum
+Secretum	author	Petrarca
+Horcruxes	owned by	Voldemort
+Harry Potter and the Secular City	author	Ken Jacobson
+memory modification	instance of	euphemism
+Half-Blood Prince	followed by	book six
+book six	follows	Half-Blood Prince
+Half-Blood Prince	has part	Chamber of Secrets
+Half-Blood Prince	characters	Tom Riddle
+Chamber of Secrets	part of	Half-Blood Prince
+Tom Riddle	present in work	Half-Blood Prince
+Harry	spouse	Ginny Weasley
+Ginny Weasley	spouse	Harry
+Chris Columbus	occupation	directed
+Titanic	publication date	1997
+Harry Potter and the Philosopher's Stone	publication date	2001
+Best Fantasy Film	part of	Saturn Award
+Harry Potter	has part	Philosopher's Stone
+Philosopher's Stone	part of	Harry Potter
+Homer	ethnic group	ancient Greek
+object lessons	subclass of	educational techniques
+Harry Potter	educated at	Hogwarts School of Witchcraft and Wizardry
+Harry Potter	father	James
+Harry Potter	mother	Lily Potter
+Rubeus Hagrid	educated at	Hogwarts School of Witchcraft and Wizardry
+Harry Potter	educated at	Hogwarts School of Witchcraft and Wizardry
+Harry Potter	father	James
+Harry Potter	mother	Lily Potter
+James	child	Harry Potter
+James	child	Harry Potter
+James	child	Harry Potter
+James	spouse	Lily Potter
+Lily Potter	child	Harry Potter
+Diagon Alley	located in the administrative territorial entity	London
+Hedwig	instance of	owl
+Harry Potter	student	Draco Malfoy
+Draco Malfoy	student of	Harry Potter
+Harry Potter	student	Ron Weasley
+Ron Weasley	student of	Harry Potter
+Hermione Granger	present in work	Harry Potter
+Harry Potter	characters	Hermione Granger
+Harry Potter	student	Ron Weasley
+Harry Potter	student	Hermione Granger
+Ron Weasley	student of	Harry Potter
+Ron Weasley	spouse	Hermione Granger
+Hermione Granger	student of	Harry Potter
+Hermione Granger	spouse	Ron Weasley
+Harry Potter	sport	Quidditch
+Mirror of Erised	narrative location	school
+Harry Potter	father	his parents
+his parents	child	Harry Potter
+philosopher's stone	has effect	immortality
+Voldemort	student	Quirrell
+Quirrell	student of	Voldemort
+philosopher's stone	part of	pocket
+pocket	has part	philosopher's stone
+Quirrell	student	Harry
+Harry	student of	Quirrell
+Harry Potter	instance of	orphan
+Harry Potter	significant event	eleventh birthday
+Harry Potter	significant event	eleventh birthday
+Harry Potter	relative	Voldemort
+Harry Potter	relative	Voldemort
+Voldemort	relative	Harry Potter
+Voldemort	relative	Harry Potter
+Ron Weasley	relative	Harry Potter
+Harry Potter	relative	Ron Weasley
+Harry Potter	relative	Ron Weasley
+Ron Weasley	relative	Harry Potter
+Ron Weasley	family	pure-blood family
+Philosopher's Stone	owned by	Ron Weasley
+Hermione Granger	has part	brown hair
+Neville Longbottom	present in work	Remembrall
+Neville Longbottom	present in work	Remembrall
+Neville Longbottom	present in work	Remembrall
+Neville Longbottom	present in work	Remembrall
+Remembrall	characters	Neville Longbottom
+Remembrall	characters	Neville Longbottom
+Remembrall	characters	Neville Longbottom
+Remembrall	characters	Neville Longbottom
+Remembrall	characters	Neville Longbottom
+Neville Longbottom	present in work	Remembrall
+Neville Longbottom	member of sports team	Neville Longbottom
+Neville Longbottom	member of sports team	Neville Longbottom
+Neville Longbottom	member of sports team	Neville Longbottom
+Neville Longbottom	has part	Neville Longbottom
+Neville Longbottom	has part	Neville Longbottom
+Neville Longbottom	has part	Neville Longbottom
+Neville Longbottom	has part	Neville Longbottom
+Neville Longbottom	has part	Neville Longbottom
+Neville Longbottom	has part	Neville Longbottom
+Neville Longbottom	has part	Neville Longbottom
+Neville Longbottom	has part	Neville Longbottom
+Rubeus Hagrid	educated at	Hogwarts
+Rubeus Hagrid	educated at	Hogwarts
+Rubeus Hagrid	educated at	Hogwarts
+Rubeus Hagrid	educated at	Hogwarts
+Professor Albus Dumbledore	said to be the same as	the "epitome of goodness"
+the "epitome of goodness"	said to be the same as	Professor Albus Dumbledore
+Vernon Dursley	spouse	Petunia Dursley
+Petunia Dursley	spouse	Vernon Dursley
