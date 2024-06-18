@@ -605,3 +605,366 @@ chips	said to be the same as	fries
 fries	said to be the same as	Chips
 Jelly	said to be the same as	Jell-O
 Jell-O	said to be the same as	Jelly
+Jumper	said to be the same as	"sweater"
+"sweater"	said to be the same as	Jumper
+The Boy Who Lived	publication date	5 May 2020
+The Boy Who Lived	number of episodes	25
+The Boy Who Lived	cast member	Daniel Radcliffe
+The Vanishing Glass	publication date	8 May 2020
+The Vanishing Glass	number of episodes	27
+The Vanishing Glass	cast member	Noma Dumezweni
+The Letters from No One	publication date	12 May 2020
+The Letters from No One	cast member	Eddie Redmayne
+The Keeper of the Keys	publication date	14 May 2020
+The Keeper of the Keys	number of episodes	26
+The Keeper of the Keys	author	Stephen Fry
+Diagon Alley	cast member	Simon Callow
+Diagon Alley	cast member	Bonnie Wright
+Diagon Alley	cast member	Evanna Lynch
+Platform Nine and Three-Quarters	publication date	20 May 2020
+Harry Potter and the Cursed Child	cast member	Jamie Parker
+The Potions Master	publication date	28 May 2020
+The Potions Master	cast member	Alia Bhatt
+The Potions Master	cast member	Alec Baldwin
+The Potions Master	cast member	Carmen Baldwin
+Midnight Duel	number of episodes	33
+Midnight Duel	cast member	Alison Sudol
+Midnight Duel	cast member	Dan Fogler
+Hallowe'en	publication date	4 June 2020
+Hallowe'en	number of episodes	29
+Quidditch	number of episodes	22
+The Mirror of Erised	publication date	3 July 2020
+The Mirror of Erised	number of episodes	39
+The Mirror of Erised	cast member	Matthew Lewis
+The Mirror of Erised	cast member	Helen Howard
+The Mirror of Erised	cast member	Imelda Staunton
+Nicolas Flamel	publication date	7 July 2020
+Nicolas Flamel	number of episodes	22
+Nicolas Flamel	cast member	Hugh Bonneville
+Norbert the Norwegian Ridgeback	number of episodes	26
+Norbert the Norwegian Ridgeback	cast member	Jason Isaacs
+Norbert the Norwegian Ridgeback	cast member	Tom Felton
+Norbert the Norwegian Ridgeback	cast member	Helen McCrory
+The Forbidden Forest	publication date	13 July 2020
+The Forbidden Forest	cast member	Claudia Kim
+The Forbidden Forest	cast member	Dakota Fanning
+Through the Trapdoor	number of episodes	51
+Through the Trapdoor	cast member	Kenneth Branagh
+Through the Trapdoor	cast member	Ruth Wilson
+Through the Trapdoor	cast member	Helena Bonham Carter
+The Man with the Two Faces	publication date	16 July 2020
+The Man with the Two Faces	number of episodes	41
+The Man with the Two Faces	main subject	Harry Potter
+Harry Potter and the Chamber of Secrets	author	J. K. Rowling
+Harry Potter and the Chamber of Secrets	part of the series	Harry Potter series
+Harry Potter series	has part	Harry Potter and the Chamber of Secrets
+Harry Potter series	author	J. K. Rowling
+Ron	spouse	Hermione
+Hermione	spouse	Ron
+Bloomsbury	country	United Kingdom
+Scholastic Inc.	country	United States
+young readers	part of	book industry
+book industry	has part	young readers
+Harry Potter and the Chamber of Secrets	part of the series	the series
+non-human	different from	non-living people
+non-living people	different from	non-human
+reliability	subclass of	motives
+film adaptation of the novel	publication date	2002
+Harry Potter	has part	Chamber of Secrets
+Chamber of Secrets	part of	Harry Potter
+Dobby	instance of	house-elf
+Harry	educated at	Hogwarts
+Aunt Petunia	spouse	Uncle Vernon
+Uncle Vernon	spouse	Aunt Petunia
+Uncle Vernon	child	Harry
+Harry	father	Uncle Vernon
+Hogwarts	affiliation	Ministry of Magic
+Ron	sibling	Fred
+Ron	sibling	George
+Fred	sibling	Ron
+Fred	sibling	George
+George	sibling	Ron
+George	sibling	Fred
+Harry	family	Weasley family
+Draco	father	Lucius Malfoy
+Mr Weasley	educated at	Hogwarts
+Mr Filch	spouse	Mrs Norris
+Mrs Norris	spouse	Mr Filch
+Enemies of the heir	said to be the same as	beware
+beware	said to be the same as	Enemies of the heir
+Salazar Slytherin	member of	the school's founders
+Hermione	ethnic group	Muggle
+Lockhart	characters	Harry
+Harry	present in work	Lockhart
+Chamber of Secrets	different from	Chamber of Secrets
+Chamber of Secrets	different from	Chamber of Secrets
+Dobby	instance of	house-elf
+Parseltongue	depicts	snake
+Harry	sibling	Ron
+Harry	sibling	Hermione
+Ron	sibling	Harry
+Ron	sibling	Hermione
+Hermione	sibling	Harry
+Hermione	sibling	Ron
+Moaning Myrtle	instance of	ghost
+Riddle	characters	Hagrid
+Hagrid	present in work	Riddle
+petrified	facet of	Hermione
+Hagrid	child	Harry
+Hagrid	child	Ron
+Harry	father	Hagrid
+Harry	sibling	Ron
+Ron	father	Hagrid
+Ron	sibling	Harry
+Aragog	instance of	Acromantula
+Harry	sibling	Ron
+Ron	sibling	Harry
+Moaning Myrtle	instance of	student
+Harry	sibling	Ron
+Ron	sibling	Harry
+Ron	owner of	wand
+wand	owned by	Ron
+Harry	sibling	Ron
+Harry	spouse	Ginny
+Ginny	spouse	Harry
+Ginny	subject has role	possess
+Fawkes	instance of	phoenix
+Sword of Godric Gryffindor	owned by	Hat
+Hat	owner of	Sword of Godric Gryffindor
+poisoned	has cause	venom
+venom	has effect	poisoned
+Harry	sibling	Ron
+Harry	sibling	Ginny
+Harry	sibling	Lockhart
+Ron	sibling	Harry
+Ron	sibling	Ginny
+Ron	sibling	Lockhart
+Ginny	sibling	Harry
+Ginny	sibling	Ron
+Ginny	sibling	Lockhart
+Lockhart	sibling	Harry
+Lockhart	sibling	Ron
+Lockhart	sibling	Ginny
+Harry	student	Dumbledore
+Dumbledore	student of	Harry
+Lucius	sibling	Dumbledore
+Dumbledore	sibling	Lucius
+Dobby	instance of	house-elf
+Gryffindor	award received	House Cup
+House Cup	winner	Gryffindor
+Harry Potter and the Chamber of Secrets	author	J. K Rowling
+Harry Potter and the Philosopher's Stone	author	J. K Rowling
+Nearly Headless Nick	instance of	ghost
+Neville Longbottom	father	Dean Thomas
+Harry Potter and the Chamber of Secrets	publication date	2 July 1998
+Children's Book of the Year	part of	British Book Awards
+The New York Times	has part	US bestseller lists
+Harry Potter and the Chamber of Secrets	award received	near-universal acclaim
+children's book	followed by	adulthood
+adulthood	follows	children's book
+Charles de Lint	genre	Fantasy
+Harry Potter	has part	Harry Potter and the Philosopher's Stone
+Harry Potter and the Philosopher's Stone	part of the series	Harry Potter
+predecessor	characters	Harry
+predecessor	characters	mandragoras
+Harry	present in work	predecessor
+mandragoras	present in work	predecessor
+children	different from	adult readers
+adult readers	different from	children
+Harry Potter and the Chamber of Secrets	follows	Harry Potter and the Philosopher's Stone
+Harry Potter and the Philosopher's Stone	followed by	Harry Potter and the Chamber of Secrets
+J. Rowling	notable work	Harry Potter and the Chamber of Secrets
+Harry Potter and the Chamber of Secrets	author	J. Rowling
+Notable Children's Books	conferred by	American Library Association
+Best Books for Young Adults	conferred by	American Library Association
+Harry Potter and the Chamber of Secrets	publication date	1999
+CCBC Choice	conferred by	Cooperative Children's Book Center
+Children's Book of the Year	part of	British Book Award
+British Book Award	has part	Children's Book of the Year
+Harry Potter and the Chamber of Secrets	publication date	1998
+The Big Read	publisher	BBC
+Slytherin	educated at	Hogwarts
+ingenuity	different from	hard work
+hard work	different from	ingenuity
+Bronwyn Williams	spouse	Amy Zenger
+Amy Zenger	spouse	Bronwyn Williams
+Authority	facet of	Morality
+Harry Potter	characters	Draco Malfoy
+Draco Malfoy	present in work	Harry Potter
+Harry Potter and the Chamber of Secrets	characters	Professor McGonagall
+Professor McGonagall	present in work	Harry Potter and the Chamber of Secrets
+authority figures	different from	political institutions
+political institutions	different from	authority figures
+Griffith University	located in the administrative territorial entity	Queensland
+Griffith University	country	Australia
+Queensland	country	Australia
+Australia	contains administrative territorial entity	Queensland
+Nicholas De Mimsy Porpington	date of death	31 October 1492
+Chamber of Secrets	part of the series	Harry Potter and the Half-Blood Prince
+Harry Potter and the Half-Blood Prince	has part	Chamber of Secrets
+Harry Potter and the Chamber of Secrets	publication date	2002
+Metacritic	instance of	aggregator
+Rotten Tomatoes	instance of	aggregator
+Harry Potter and the Philosopher's Stone	author	J. K. Rowling
+J. K. Rowling	notable work	Harry Potter and the Philosopher's Stone
+Harry Potter series	characters	Harry Potter
+Harry Potter series	characters	Harry Potter
+Harry Potter series	characters	Harry Potter
+Harry Potter series	characters	Harry Potter
+Harry Potter	present in work	Harry Potter series
+Harry Potter	educated at	Hogwarts School of Witchcraft and Wizardry
+Harry Potter	present in work	Harry Potter series
+Harry Potter	educated at	Hogwarts School of Witchcraft and Wizardry
+Harry Potter	present in work	Harry Potter series
+Harry Potter	educated at	Hogwarts School of Witchcraft and Wizardry
+Ron Weasley	spouse	Hermione Granger
+Hermione Granger	spouse	Ron Weasley
+Harry Potter and the Philosopher's Stone	publication date	26 June 1997
+Harry Potter and the Philosopher's Stone	publisher	Bloomsbury
+Harry Potter and the Philosopher's Stone	publisher	Scholastic Corporation
+Harry Potter and the Philosopher's Stone	publication date	1999
+film of the same name	based on	Harry Potter and the Philosopher's Stone
+fourth best-selling book of all time	is a list of	sold in excess of 120 million copies
+humour	subclass of	imagination
+Harry Potter and the Philosopher's Stone	main subject	boarding school
+Harry Potter and the Philosopher's Stone	main subject	boarding school
+Vernon	spouse	Petunia Dursley
+Vernon	child	Dudley
+Petunia Dursley	spouse	Vernon
+Petunia Dursley	child	Dudley
+Dudley	father	Vernon
+Dudley	mother	Petunia Dursley
+Lord Voldemort	member of	dark wizard
+Harry Potter	field of work	wizarding world
+Harry Potter	field of work	wizarding world
+Harry Potter	owner of	Gringotts Wizarding Bank
+Harry Potter	owner of	Gringotts Wizarding Bank
+Harry Potter	owner of	Gringotts Wizarding Bank
+Gringotts Wizarding Bank	owned by	Harry Potter
+Gringotts Wizarding Bank	owned by	Harry Potter
+Gringotts Wizarding Bank	owned by	Harry Potter
+Harry Potter	owner of	Gringotts Wizarding Bank
+Harry Potter	sibling	Lord Voldemort
+Lord Voldemort	sibling	Harry Potter
+Hogwarts Express	terminus	King's Cross railway station
+Harry Potter	educated at	Hogwarts
+Ron Weasley	educated at	Hogwarts
+Hermione Granger	educated at	Hogwarts
+Hogwarts	has part	Gryffindor
+Hogwarts	has part	Hufflepuff
+Hogwarts	has part	Ravenclaw
+Hogwarts	has part	Slytherin
+Gryffindor	part of	Hogwarts
+Gryffindor	instance of	school Houses
+Hufflepuff	part of	Hogwarts
+Hufflepuff	instance of	school Houses
+Ravenclaw	part of	Hogwarts
+Ravenclaw	instance of	school Houses
+Slytherin	part of	Hogwarts
+Slytherin	instance of	school Houses
+Draco	member of	Slytherin
+Harry Potter	member of	Slytherin
+Harry Potter	sibling	Ron Weasley
+Harry Potter	sibling	Hermione Granger
+Harry Potter	member of	Gryffindor
+Ron Weasley	member of	Slytherin
+Ron Weasley	sibling	Harry Potter
+Ron Weasley	sibling	Hermione Granger
+Ron Weasley	member of	Gryffindor
+Hermione Granger	member of	Slytherin
+Hermione Granger	sibling	Harry Potter
+Hermione Granger	sibling	Ron Weasley
+Hermione Granger	member of	Gryffindor
+Harry Potter	member of sports team	Gryffindor Quidditch team
+Severus Snape	member of	Slytherin
+Three-headed dog	uses	trapdoor
+trapdoor	used by	Three-headed dog
+Harry Potter	spouse	Hermione Granger
+Ron Weasley	spouse	Hermione Granger
+Hermione Granger	spouse	Harry Potter
+Hermione Granger	spouse	Ron Weasley
+Hermione Granger	spouse	Harry Potter
+Harry Potter	spouse	Hermione Granger
+Harry Potter	father	his father
+his father	child	Harry Potter
+Albus Dumbledore	educated at	Hogwarts
+Firenze	instance of	forest centaur
+Harry Potter	educated at	Hogwarts
+Hermione Granger	educated at	Hogwarts
+Ron Weasley	educated at	Hogwarts
+Ron Weasley	spouse	Hermione Granger
+Hermione Granger	spouse	Ron Weasley
+Professor Quirrell	field of work	Defence Against the Dark Arts
+Severus Snape	student	Harry
+Severus Snape	student	Harry
+Harry	student of	Severus Snape
+Mirror of Erised	owned by	Harry Potter
+Harry's scar	has effect	passes out
+passes out	has cause	Harry's scar
+Harry Potter	residence	infirmary
+Voldemort	mother	Lily
+Harry	relative	Voldemort
+Voldemort	relative	Harry
+Albus Dumbledore	student	Harry
+Harry	student of	Albus Dumbledore
+Gryffindor	award received	House Cup
+Harry Potter	residence	Dursleys
+Harry Potter	sport	Quidditch
+Ron Weasley	family	family
+Hermione Granger	ethnic group	Muggle
+Hermione Granger	present in work	Hermione Granger's swottiness
+Hermione Granger's swottiness	characters	Hermione Granger
+Hermione Granger's swottiness	characters	Hermione Granger
+Hermione Granger	present in work	Hermione Granger's swottiness
+Philosopher's Stone	owned by	Hermione Granger
+Philosopher's Stone	owned by	Hermione Granger
+Philosopher's Stone	owned by	Hermione Granger
+Philosopher's Stone	owned by	Hermione Granger
+Neville Longbottom	present in work	Neville Longbottom
+Neville Longbottom	present in work	Neville Longbottom
+Neville Longbottom	present in work	Neville Longbottom
+Neville Longbottom	present in work	Neville Longbottom
+Neville Longbottom	characters	Neville Longbottom
+Neville Longbottom	characters	Neville Longbottom
+Harry Potter	student	Ron Weasley
+Harry Potter	student	Hermione Granger
+Ron Weasley	student of	Harry Potter
+Ron Weasley	student	Hermione Granger
+Hermione Granger	student of	Harry Potter
+Hermione Granger	student of	Ron Weasley
+Professor Albus Dumbledore	educated at	Hogwarts
+Professor Albus Dumbledore	educated at	Hogwarts
+Hogwarts	headmaster	Professor Albus Dumbledore
+Hogwarts	headmaster	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor
+Professor Minerva McGonagall	field of work	Transfiguration
+Professor Minerva McGonagall	field of work	Transfiguration
+Minerva McGonagall	residence	Gryffindor House
+Petunia Dursley	sibling	Lily
+Harry Potter	mother	Lily
+Lily	sibling	Petunia Dursley
+Lily	child	Harry Potter
+Lily	sibling	Petunia Dursley
+Petunia Dursley	mother	Lily
+Muggle	different from	magical
+magical	different from	Muggle
+Dudley Dursley	relative	Harry Potter
+Harry Potter	relative	Dudley Dursley
+Draco Malfoy	voice type	bored drawl
+Draco Malfoy	sport	Quidditch
+Draco Malfoy	sport	Quidditch
+Draco Malfoy	sport	Quidditch
+Draco Malfoy	father	his parents
+his parents	child	Draco Malfoy
+Harry Potter	present in work	Harry Potter's friends
+Harry Potter's friends	characters	Harry Potter
