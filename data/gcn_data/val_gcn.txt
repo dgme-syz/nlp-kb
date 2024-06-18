@@ -433,3 +433,200 @@ Professor Albus Dumbledore	said to be the same as	the "epitome of goodness"
 the "epitome of goodness"	said to be the same as	Professor Albus Dumbledore
 Vernon Dursley	spouse	Petunia Dursley
 Petunia Dursley	spouse	Vernon Dursley
+Oliver Wood	member of sports team	Gryffindor Quidditch team
+Professor Severus Snape	student	Harry Potter
+Professor Severus Snape	student	Harry Potter
+Mrs. Norris	owned by	Argus Filch
+Mrs. Norris	owned by	Argus Filch
+Harry Potter	author	Rowling
+Harry Potter	family	Dursley family
+Harry Potter	family	Dursley family
+Harry	creator	Rowling
+Harry	creator	Rowling
+Harry	creator	Rowling
+Harry	creator	Rowling
+Harry	creator	Rowling
+Harry	creator	Rowling
+Rowling	notable work	Harry
+Rowling	notable work	Harry
+Rowling	notable work	Harry
+Harry	creator	Rowling
+Harry	creator	Rowling
+Harry	creator	Rowling
+Ron	creator	Rowling
+J. K. Rowling	notable work	The Lord of the Rings
+The Lord of the Rings	author	J. K. Rowling
+Professor Quirrell	present in work	Quirrell
+Quirrell	characters	Professor Quirrell
+Harry	occupation	wizard
+Harry	occupation	wizard
+Harry's parents	child	Harry
+Harry	father	Harry's parents
+the curse	characters	Harry
+Harry	present in work	the curse
+Voldemort	occupation	evil wizard
+Harry Potter	publication date	1990
+Philosopher's Stone	has part	I began to write Philosopher's Stone that very evening
+I began to write Philosopher's Stone that very evening	part of	Philosopher's Stone
+2008 Summer Olympics	point in time	2008
+2008 Summer Olympics	location	Beijing
+2008 Summer Olympics	country	China
+Beijing	country	China
+China	capital	Beijing
+Nestlé Smarties Book Prize	inception	1997
+The following year	winner	Philosopher's Stone
+Philosopher's Stone	award received	The following year
+children's books awards	different from	adults
+adults	different from	children's books awards
+The Big Read	publisher	BBC
+Scottish Braille Press	language of work or name	Braille
+Philip Nel	field of work	alchemy
+Scholastic	language used	British English
+BookBrowse	instance of	aggregates book reviews
+Harry Potter and the Sorcerer's Stone	publication date	1998
+Harry Potter and the Sorcerer's Stone	publication date	1998
+Harry Potter and the Sorcerer's Stone	publication date	1998
+Ancient Greek	influenced by	Latin
+Sirius Black	present in work	Harry Potter and the Philosopher's Stone
+Harry Potter and the Philosopher's Stone	characters	Sirius Black
+excited communal reading of letters	author	Austen
+Charles Dickens	genre	caricature
+Narnia	author	C. S. Lewis
+C. S. Lewis	notable work	Narnia
+R. L. Stine	genre	children's author
+adult	opposite of	child
+child	opposite of	adult
+Victorian	followed by	Edwardian
+Vernon	spouse	Petunia Dursley
+Petunia Dursley	spouse	Vernon
+Harry Potter	instance of	orphan
+Harry Potter	instance of	orphan
+social stereotypes	facet of	stratified society
+Rubeus Hagrid	family	Weasley family
+Remus Lupin	family	Weasley family
+Sirius Black	family	Weasley family
+Harry Potter and the Chamber of Secrets	publication date	2 July 1998
+Harry Potter and the Prisoner of Azkaban	publication date	8 July 1999
+Harry Potter and the Order of the Phoenix	publication date	21 June 2003
+Harry Potter and the Half-Blood Prince	publication date	16 July 2005
+Harry Potter	has part	Wizarding World
+Wizarding World	part of	Harry Potter
+Dumbledore	performer	Richard Harris
+Harry Potter and the Philosopher's Stone	publication date	14 November 2001
+education	part of	business
+Paperback Children's Edition	publication date	11 September 1998
+Paperback Children's Edition	publication date	6 October 2015
+Hardcover Illustrated Edition	publication date	6 October 2015
+Hardback Signature Special Edition	publication date	1 November 1999
+Paperback Adult Edition	publication date	27 August 2013
+Action	subclass of	puzzle genre
+Warthog	genre	Action-adventure
+The Keeper of the Keys	publication date	14 May 2020
+The Forbidden Forest	cast member	Claudia Kim
+The Forbidden Forest	cast member	Dakota Fanning
+The Man with the Two Faces	publication date	16 July 2020
+Harry	sibling	Ron
+Ron	sibling	Harry
+quick wit	subclass of	knowledge
+Diagon Alley	part of	wizarding world
+Hermione	present in work	Harry Potter
+William Shakespeare	notable work	The Winter's Tale
+The Winter's Tale	author	William Shakespeare
+Philosopher's Stone	owned by	Hermione
+Philosopher's Stone	owned by	Hermione
+Professor Severus Snape	spouse	Hermione
+Draco Malfoy	member of	Slytherin
+Hermione	significant event	Petrified
+Professor Minerva McGonagall	owner of	Time-Turner
+Time-Turner	owned by	Professor Minerva McGonagall
+Ron	spouse	Hermione
+Hermione	spouse	Ron
+James	sibling	Lily Potter
+Lily Potter	sibling	James
+Viktor Krum	sport	Quidditch
+Hermione	student	Krum
+Krum	student of	Hermione
+Krum	student of	Hermione
+Hermione	student	Krum
+Hermione Jean Granger	member of	Gryffindor
+Luna Lovegood	member of	Gryffindor
+Hermione Jean Granger	member of	Gryffindor
+Luna Lovegood	member of	Gryffindor
+Hermione	spouse	Harry
+Harry	spouse	Hermione
+Undetectable Extension Charm	owned by	Hermione
+Hermione	owner of	Undetectable Extension Charm
+Bellatrix	student	Griphook the goblin
+Griphook the goblin	student of	Bellatrix
+Bellatrix	student	Hermione
+Hermione	student of	Bellatrix
+Hermione	spouse	Ron
+Ron	spouse	Hermione
+final battle	characters	Bellatrix Lestrange
+final battle	characters	Ginny Weasley
+final battle	characters	Luna Lovegood
+Bellatrix Lestrange	present in work	final battle
+Ginny Weasley	present in work	final battle
+Luna Lovegood	present in work	final battle
+Hermione	spouse	Ron
+Ron	spouse	Hermione
+Emma Watson	medical condition treated	difficulties in speech
+difficulties in speech	medical condition treated	Emma Watson
+Hermione	present in work	Prisoner of Azkaban
+Buckbeak	instance of	hippogriff
+Hermione	occupation	librarian
+bossy	opposite of	loyal
+loyal	opposite of	bossy
+Hermione	creator	J. K. Rowling
+Prisoner of Azkaban	characters	Professor McGonagall
+Professor McGonagall	present in work	Prisoner of Azkaban
+last book	author	J.K. Rowling
+Hermione Jean Granger	occupation	witch
+Hermione	creator	J.K. Rowling
+fake Galleon coins	creator	N.E.W.
+Hermione's name	part of	previous characters with the same name
+previous characters with the same name	has part	Hermione's name
+previous characters with the same name	has part	Hermione's name
+Hermione's name	part of	previous characters with the same name
+Hermione	present in work	the series
+Hermione	present in work	the series
+Hermione	present in work	the series
+Hermione	present in work	the series
+the series	characters	Hermione
+the series	characters	Hermione
+the series	characters	Hermione
+the series	characters	Hermione
+Hermione	present in work	the series
+Hermione Jean Granger	educated at	grammar school
+Hermione's Society for the Promotion of Elfish Welfare	political ideology	abolitionist
+Emma Watson	notable work	Harry Potter films
+Hermione	performer	Emma Watson
+Hermione	present in work	Harry Potter films
+Harry Potter films	cast member	Emma Watson
+Harry Potter films	characters	Hermione
+Emma Watson	participant in	Emma Watson's first screen test
+Emma Watson's first screen test	participant	Emma Watson
+Harry Potter	author	Rowling
+Harry Potter	author	Rowling
+Rowling	notable work	Harry Potter
+Rowling	notable work	Harry Potter
+Emma Watson	notable work	steals the show
+steals the show	cast member	Emma Watson
+Half-Blood Prince	cast member	Emma Watson
+Half-Blood Prince	cast member	Emma Watson
+Hermione	performer	Emma Watson
+Hermione	performer	Emma Watson
+dumb themselves down	said to be the same as	bad
+bad	said to be the same as	dumb themselves down
+Emma Watson	notable work	Beautiful
+Beautiful	cast member	Emma Watson
+Emma Watson	creator	J.K. Rowling
+J.K. Rowling	notable work	Emma Watson
+J.K. Rowling	notable work	Emma Watson
+J.K. Rowling	notable work	Emma Watson
+Emma Watson	creator	J.K. Rowling
+Emma Watson	creator	J.K. Rowling
+parodied	subclass of	animated series
+Big Impression	presenter	Alistair McGowan
+Yes Man	cast member	Zooey Deschanel
+Yes Man	cast member	Jim Carrey
