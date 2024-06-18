@@ -7,12 +7,8 @@ from bin.interface import InterFace
 
 Infer = InterFace()
 import nltk
-if not nltk.data.find('tokenizers/punkt'):
-    print("Downloading punkt tokenizer...")
-    nltk.download('punkt')
-else:
-    print("Punkt tokenizer is already downloaded.")
-
+nltk.download('punkt')
+    
 app = gr.Blocks(title='App',
     theme=gr.themes.Soft(primary_hue='orange', secondary_hue="blue"))
 

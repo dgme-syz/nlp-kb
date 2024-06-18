@@ -968,3 +968,592 @@ Draco Malfoy	father	his parents
 his parents	child	Draco Malfoy
 Harry Potter	present in work	Harry Potter's friends
 Harry Potter's friends	characters	Harry Potter
+Professor Quirrell	field of work	Defence Against the Dark Arts
+Professor Quirrell	instance of	vampire
+Professor Quirrell	instance of	vampire
+Professor Quirrell	uses	turban
+Professor Quirrell	uses	turban
+Professor Quirrell	uses	turban
+Severus Snape	field of work	Defence Against the Dark Arts
+Slytherin	instance of	House
+Harry Potter	member of	Slytherin
+Professor Sprout	field of work	Herbology
+Professor Flitwick	field of work	Charms
+Professor Binns	field of work	History of magic
+Peeves	instance of	poltergeist
+Vernon Dursley	relative	Harry Potter
+Harry Potter	relative	Vernon Dursley
+Harry Potter	student	Ronald Weasley
+Harry Potter	student	Hermione Granger
+Ronald Weasley	student of	Harry Potter
+Hermione Granger	student of	Harry Potter
+Hermione	creator	J.Rowling
+Albus Dumbledore	position held	headmaster of Hogwarts
+Albus Dumbledore	said to be the same as	the epitome of goodness
+the epitome of goodness	said to be the same as	Albus Dumbledore
+Albus Dumbledore	spouse	Minerva McGonagall
+Minerva McGonagall	spouse	Albus Dumbledore
+Rubeus Hagrid	instance of	half-giant
+Draco Malfoy	student	Harry Potter
+Lord Voldemort	child	Harry Potter
+Harry Potter	student of	Draco Malfoy
+Harry Potter	father	Lord Voldemort
+Voldemort	opposite of	Harry
+Harry	opposite of	Voldemort
+William Shakespeare	notable work	Cymbeline
+Cymbeline	author	William Shakespeare
+Harry Potter	has part	Harry Potter II
+Harry Potter II	part of the series	Harry Potter
+the most evil wizard	significant event	attempted to kill him
+attempted to kill him	participant	the most evil wizard
+1995	point in time	1995
+Harry	instance of	orphan
+Harry Potter and the Philosopher's Stone	part of the series	the sequels
+the sequels	has part	Harry Potter and the Philosopher's Stone
+literary agent	field of this occupation	publisher
+publisher	practiced by	literary agent
+Barry Cunningham	employer	Bloomsbury Children's Books
+Rowling	employer	Bloomsbury
+boys' book	opposite of	male authors
+male authors	opposite of	boys' book
+J. K. Rowling	instance of	pen name
+Philosopher's Stone	publisher	Bloomsbury
+copyright page	country	British
+Joanne	publication date	1998
+booksellers	has part	customers
+customers	part of	booksellers
+2021 Heritage auction	point in time	2021
+Taylor	notable work	created the cover
+created the cover	creator	Taylor
+Lindsey Fraser	employer	The Scotsman
+Harry Potter and the Philosopher's Stone	genre	thriller
+William Shakespeare	notable work	Cymbeline
+William Shakespeare	notable work	Cymbeline
+Cymbeline	author	William Shakespeare
+Cymbeline	author	William Shakespeare
+Cymbeline	author	William Shakespeare
+Cymbeline	author	William Shakespeare
+William Shakespeare	notable work	Cymbeline
+William Shakespeare	notable work	Cymbeline
+Cymbeline	author	William Shakespeare
+Cymbeline	author	William Shakespeare
+Books for Keeps	instance of	magazine
+The Scotsman	different from	Sunday Times
+children's books have to wait for years	facet of	children
+Dahl	notable work	Dahl's books
+Dahl's books	author	Dahl
+Harry Potter and the Philosopher's Stone	award received	British Book Awards Children's Book of the Year
+Harry Potter and the Philosopher's Stone	award received	Booksellers' Association / Bookseller Author of the Year
+Best-selling title in December 2001	point in time	December 2001
+Hogwarts Express	terminus	King's Cross railway station
+Scholastic Corporation	country	US
+Bologna Book Fair	country	US
+Harry Potter	author	J. K. Rowling
+Harry Potter	author	J. K. Rowling
+J.K. Rowling	different from	J.K. Rowling
+J.K. Rowling	different from	J.K. Rowling
+Harry Potter and the Sorcerer's Stone	author	J.K. Rowling
+Philosopher's Stone	author	J.K. Rowling
+UK	language used	British English
+British English	country	UK
+Harry Potter and the Sorcerer's Stone	genre	children's fiction
+Harry Potter and the Sorcerer's Stone	genre	children's fiction
+Harry Potter	author	J. K. Rowling
+J. K. Rowling	notable work	Harry Potter
+Michael Winerip	employer	The New York Times
+Harry Potter and the Sorcerer's Stone	publisher	School Library Journal
+Harry Potter and the Sorcerer's Stone	publication date	1999
+Harry Potter and the Sorcerer's Stone	genre	children's fiction
+Harry Potter and the Sorcerer's Stone	publisher	Scholastic
+Harry Potter and the Sorcerer's Stone	publisher	Scholastic
+official translations	facet of	Harry Potter and the Sorcerer's Stone
+Harry Potter and the Sorcerer's Stone	language of work or name	Lowland Scots
+J. K. Rowling	influenced by	Jane Austen
+Jane Austen	influenced by	J. K. Rowling
+Harry Potter	present in work	Harry Potter's ideas
+Harry Potter's ideas	characters	Harry Potter
+characters	has part	personalities
+personalities	part of	characters
+Roman mythology	part of	ancient
+fantasy	instance of	literary genre
+young adult fiction	instance of	literary genre
+boarding school stories	instance of	literary genre
+Bildungsroman	instance of	literary genre
+Roald Dahl	date of death	1990
+Roald Dahl	work period (start)	1970
+Roald Dahl	work period (start)	1970
+Harry Potter and the Philosopher's Stone	author	Roald Dahl
+Harry Potter and the Philosopher's Stone	after a work by	Roald Dahl
+Vernon	spouse	Petunia Dursley
+Petunia Dursley	spouse	Vernon
+Diagon Alley	author	Nancy Knapp
+Diagon Alley	author	Stephen Brown
+J. K. Rowling	influenced by	Homer
+Stephen King	spouse	J.K. Rowling
+J.K. Rowling	spouse	Stephen King
+Hogwarts	instance of	boarding school
+Argus Filch	owner of	Mrs. Norris
+Mrs. Norris	owned by	Argus Filch
+Hogwarts	country	Britain
+Ministry of Magic	present in work	Harry Potter books
+Voldemort	present in work	Voldemort's own horrific version of order
+Voldemort's own horrific version of order	characters	Voldemort
+Voldemort's own horrific version of order	characters	Voldemort
+Voldemort	present in work	Voldemort's own horrific version of order
+Harry Potter	spouse	Hermione Granger
+Hermione Granger	spouse	Harry Potter
+Hermione Granger	notable work	Philosopher's Stone
+Dursleys	creator	J.K. Rowling
+Dursleys	creator	J.K. Rowling
+Harry Potter	occupation	wizard
+Harry Potter and the Goblet of Fire	publication date	8 July 2000
+Harry Potter and the Goblet of Fire	publisher	Bloomsbury
+Harry Potter and the Goblet of Fire	publisher	Scholastic
+Harry Potter and the Order of the Phoenix	part of the series	the series
+the series	has part	Harry Potter and the Order of the Phoenix
+Harry Potter and the Deathly Hallows	publication date	21 July 2007
+Harry Potter and the Deathly Hallows	country of origin	UK
+Harry Potter and the Philosopher's Stone	publication date	6 October 2015
+illustrated version	subclass of	illustrated
+illustrated version	subclass of	illustrated
+Harry Potter at Home: Readings	distributed by	Spotify
+J. K. Rowling	notable work	Harry Potter books
+Harry Potter books	author	J. K. Rowling
+Harry Potter and the Philosopher's Stone	production company	Leavesden Film Studios
+Metacritic	has part	Fresh rating
+Jennifer Conn	spouse	Madam Hooch
+Madam Hooch	spouse	Jennifer Conn
+Joyce Fields	field of work	sociology
+Harry Potter	has part	Harry Potter and the Philosopher's Stone
+Harry Potter and the Philosopher's Stone	part of the series	Harry Potter
+brand name	instance of	marketing
+Bertie Bott	notable work	Every Flavour Beans
+Every Flavour Beans	author	Bertie Bott
+Harry Potter and the Philosopher's Stone	publication date	26 June 1997
+Harry Potter and the Philosopher's Stone	publisher	Bloomsbury
+Paperback Adult Edition	publication date	27 September 1999
+Hardback Signature Special Edition	publication date	8 October 2001
+Paperback Special Edition	publication date	10 July 2004
+The Hardback Adult Edition	publication date	4 October 2004
+Paperback Adult Edition	country of origin	United Kingdom
+Paperback Adult Edition	publication date	1 November 2010
+Paperback Harry Potter Signature Edition	publication date	18 July 2013
+Paperback Adult Edition	publication date	1 September 2014
+Children's Edition	country of origin	United Kingdom
+Jim Kay	country of citizenship	United Kingdom
+MinaLima	publication date	9 June 2022
+Harry Potter and the Philosopher's Stone	publisher	Scholastic
+Paperback Edition	publication date	8 September 1999
+Hardback Collector's Edition	publication date	1 November 2000
+Mass Market Paperback	publication date	1 November 2001
+The Paperback	publication date	September 2008
+Hardback 10th Anniversary Edition	publication date	1 October 2008
+The Paperback	publication date	27 August 2013
+MinaLima	publication date	20 October 2020
+Harry Potter and the Philosopher's Stone	publisher	Raincoast
+Paperback Adult Edition	country of origin	Canada
+Paperback Adult Edition	publication date	1 December 1998
+Paperback Children's Edition	publication date	31 August 2000
+Paperback Magic Edition	publication date	16 October 2002
+The Hardback Adult Edition	publication date	4 October 2004
+Paperback Adult Edition	publisher	Bloomsbury
+Paperback Harry Potter Signature Edition	publication date	12 January 2011
+KnowWonder	platform	Microsoft Windows
+Argonaut	platform	PlayStation
+Griptonite	product or material produced	Role-playing game
+Aspyr	product or material produced	Mac OS X
+Warthog	genre	Action-adventure
+Warthog	genre	Action-adventure
+The Boy Who Lived	cast member	Daniel Radcliffe
+The Vanishing Glass	publication date	8 May 2020
+The Letters from No One	publication date	12 May 2020
+Diagon Alley	publication date	19 May 2020
+Harry Potter and the Cursed Child	cast member	Jamie Parker
+The Sorting Hat	cast member	Olivia Colman
+The Sorting Hat	cast member	Jonathan Van Ness
+The Sorting Hat	cast member	Kate McKinnon
+Alec Baldwin	spouse	Carmen Baldwin
+Carmen Baldwin	spouse	Alec Baldwin
+Midnight Duel	publication date	3 June 2020
+Hallowe'en	publication date	4 June 2020
+Quidditch	publication date	10 June 2020
+The Mirror of Erised	publication date	3 July 2020
+Nicolas Flamel	cast member	Hugh Bonneville
+Norbert the Norwegian Ridgeback	publication date	8 July 2020
+Through the Trapdoor	cast member	Kenneth Branagh
+Through the Trapdoor	cast member	Ruth Wilson
+Through the Trapdoor	cast member	Helena Bonham Carter
+Hermione Jean Granger	present in work	Harry Potter series
+Hermione Jean Granger	present in work	Harry Potter and the Philosopher's Stone
+Harry Potter series	author	J. K. Rowling
+Harry Potter series	has part	Harry Potter and the Philosopher's Stone
+Harry Potter and the Philosopher's Stone	author	J. K. Rowling
+Harry Potter and the Philosopher's Stone	part of the series	Harry Potter series
+Hermione	said to be the same as	Hermione's similarity to herself
+Hermione's similarity to herself	said to be the same as	Hermione
+The character	instance of	popularity
+Hermione	performer	Emma Watson
+Hermione	present in work	Philosopher's Stone
+Hermione	present in work	Deathly Hallows – Part 2
+Harry Potter films	has part	Philosopher's Stone
+Harry Potter films	has part	Deathly Hallows – Part 2
+Philosopher's Stone	cast member	Emma Watson
+Philosopher's Stone	part of the series	Harry Potter films
+Deathly Hallows – Part 2	cast member	Emma Watson
+Deathly Hallows – Part 2	part of the series	Harry Potter films
+Hermione Jean Granger	member of	Gryffindor
+Harry Potter	member of	Gryffindor
+Ron Weasley	member of	Gryffindor
+Hermione	date of birth	19 September 1979
+Hermione	date of birth	19 September 1979
+Hermione	date of birth	19 September 1979
+Hermione	creator	Rowling
+Rowling	notable work	Hermione
+Hermione	ethnic group	Muggle
+Hermione	ethnic group	Muggle
+Hermione	instance of	only child
+Luna Lovegood	different from	Hermione
+Luna Lovegood	different from	Hermione
+Hermione	different from	Luna Lovegood
+Hermione	different from	Luna Lovegood
+Hermione Jean Granger	said to be the same as	Hermione
+Hermione	said to be the same as	Hermione Jean Granger
+I was when I was younger	said to be the same as	Hermione
+I was when I was younger	instance of	exaggeration
+I was when I was younger	said to be the same as	Hermione
+Hermione	said to be the same as	I was when I was younger
+Hermione	instance of	exaggeration
+Hermione	said to be the same as	Hermione
+Hermione	said to be the same as	I was when I was younger
+Hermione	instance of	exaggeration
+Hermione	said to be the same as	I was when I was younger
+Queen Elizabeth II	spouse	Prince Philip
+Prince Philip	spouse	Queen Elizabeth II
+Hermione	creator	Rowling
+Albus Dumbledore	present in work	Harry Potter universe
+Harry Potter universe	characters	Albus Dumbledore
+Hermione	occupation	witch
+Hermione's name	author	Rowling
+Hermione's name	author	Rowling
+Hermione's name	author	Rowling
+Hermione	present in work	Potter
+Potter	characters	Hermione
+Potter	characters	Hermione
+Hermione	present in work	Potter
+Hermione Jean Granger	present in work	Harry Potter and the Philosopher's Stone
+Harry Potter and the Philosopher's Stone	characters	Hermione Jean Granger
+Harry Potter and the Philosopher's Stone	characters	Harry
+Harry Potter and the Philosopher's Stone	characters	Ron
+Harry	present in work	Harry Potter and the Philosopher's Stone
+Ron	present in work	Harry Potter and the Philosopher's Stone
+Hermione	present in work	Harry Potter
+Harry Potter	characters	Hermione
+Harry Potter	characters	Hermione
+Hermione	present in work	Harry Potter
+Harry	sibling	Ron
+Ron	sibling	Harry
+Harry	sibling	Ron
+Harry	sibling	Ron
+Ron	sibling	Harry
+Ron	sibling	Harry
+Harry	sibling	Ron
+Harry	sibling	Ron
+Ron	sibling	Harry
+Ron	sibling	Harry
+Ron	sibling	Harry
+Hermione Jean Granger	present in work	the Stone
+the Stone	characters	Hermione Jean Granger
+Harry	sibling	Ron
+Ron	sibling	Harry
+Hermione	present in work	Philosopher's Stone
+Philosopher's Stone	characters	Hermione
+Philosopher's Stone	characters	Hermione
+Philosopher's Stone	characters	Harry
+Philosopher's Stone	characters	Ron
+Hermione	present in work	Philosopher's Stone
+Harry	present in work	Philosopher's Stone
+Ron	present in work	Philosopher's Stone
+Defence Against the Dark Arts	author	Gilderoy Lockhart
+Gilderoy Lockhart	notable work	Defence Against the Dark Arts
+Heir of Slytherin	residence	Chamber of Secrets
+Lockhart	member of	Slytherin
+Harry	sibling	Ron
+Ron	sibling	Harry
+Harry	spouse	Hermione
+Harry	spouse	Hermione
+Hermione	spouse	Harry
+Hermione	spouse	Harry
+Hermione Jean Granger	spouse	Ron
+Ron	spouse	Hermione Jean Granger
+Harry	spouse	Hermione
+Harry	spouse	Hermione
+Harry	spouse	Hermione
+Hermione	spouse	Harry
+Hermione	spouse	Harry
+Harry	spouse	Hermione
+Harry	spouse	Hermione
+Harry	spouse	Hermione
+Hermione	spouse	Harry
+Hermione	spouse	Harry
+Remus Lupin	member of	Gryffindor
+Hermione Jean Granger	member of	Gryffindor
+Hermione	student	Lupin
+Lupin	student of	Hermione
+Hermione	spouse	Harry Potter
+Harry Potter	spouse	Hermione
+Hermione Jean Granger	member of	S.P.E.
+S.P.E.	founded by	Hermione Jean Granger
+Hermione	spouse	Ron
+Ron	spouse	Hermione
+Hermione	spouse	Ron
+Ron	spouse	Hermione
+Hermione	child	Harry
+Harry	mother	Hermione
+Krum	spouse	Hermione
+Krum	spouse	Hermione
+Hermione	spouse	Krum
+Hermione	spouse	Krum
+Rita Skeeter	instance of	Animagus
+Hermione	residence	Lavender Brown
+Lavender Brown	spouse	Hermione
+Ron	spouse	Hermione
+Hermione	spouse	Ron
+Hermione	spouse	Harry
+Harry	spouse	Hermione
+Hermione	part of	Dumbledore's Army
+Dumbledore's Army	has part	Hermione
+Antonin Dolohov	member of	Death Eater
+Hermione	residence	Lavender Brown
+Lavender Brown	spouse	Hermione
+Ron	spouse	Hermione
+Hermione	spouse	Ron
+Hermione	part of	Dumbledore's Army
+Dumbledore's Army	has part	Hermione
+Antonin Dolohov	member of	Death Eater
+seventh and last book	characters	Harry Potter
+Hermione Jean Granger	present in work	seventh and last book
+Harry Potter	present in work	seventh and last book
+Wendell	spouse	Monica Wilkins
+Monica Wilkins	spouse	Wendell
+The Tales of Beedle the Bard	present in work	Deathly Hallows
+Deathly Hallows	characters	The Tales of Beedle the Bard
+Lord Voldemort	owner of	Nagini
+Nagini	owned by	Lord Voldemort
+Ron	spouse	Hermione
+Hermione	spouse	Ron
+Penelope Clearwater	educated at	Hogwarts
+Bellatrix Lestrange	uses	Cruciatus Curse
+Cruciatus Curse	used by	Bellatrix Lestrange
+Hermione	spouse	Harry
+Harry	spouse	Hermione
+Hermione	spouse	Harry
+Hermione	spouse	Ron
+Harry	spouse	Hermione
+Harry	sibling	Ron
+Ron	spouse	Hermione
+Ron	sibling	Harry
+Hermione Jean Granger	uses	Polyjuice Potion
+Polyjuice Potion	used by	Hermione Jean Granger
+Bellatrix Lestrange	instance of	Horcrux
+Harry Potter	student	Ron Weasley
+Ron Weasley	student of	Harry Potter
+Hermione	sibling	Harry
+Hermione	sibling	Ron
+Hermione	conflict	Battle of Hogwarts
+Harry	sibling	Hermione
+Harry	sibling	Ron
+Harry	conflict	Battle of Hogwarts
+Harry	sibling	Hermione
+Ron	sibling	Hermione
+Ron	sibling	Harry
+Ron	sibling	Hermione
+Battle of Hogwarts	participant	Hermione
+Battle of Hogwarts	participant	Harry
+Battle of Hogwarts	participant	Ron
+Battle of Hogwarts	participant	Hermione
+Hermione	sibling	Harry
+Hermione	sibling	Ron
+Hermione	conflict	Battle of Hogwarts
+Bellatrix	characters	Molly Weasley
+Molly Weasley	present in work	Bellatrix
+Hermione Jean Granger	spouse	Ron Weasley
+Hermione Jean Granger	child	Rose Granger-Weasley
+Ron Weasley	spouse	Hermione Jean Granger
+Ron Weasley	child	Rose Granger-Weasley
+Rose Granger-Weasley	mother	Hermione Jean Granger
+Rose Granger-Weasley	father	Ron Weasley
+Hermione Jean Granger	present in work	Harry Potter and the Cursed Child
+Minister for Magic	present in work	Harry Potter and the Cursed Child
+Kingsley Shacklebolt	present in work	Harry Potter and the Cursed Child
+Hermione Jean Granger	present in work	Harry Potter and the Cursed Child
+Goblet of Fire	characters	Draco Malfoy
+Draco Malfoy	present in work	Goblet of Fire
+Madam Pomfrey	student	Hermione
+Madam Pomfrey	student	Hermione
+Madam Pomfrey	student	Hermione
+Hermione	student of	Madam Pomfrey
+Hermione	student of	Madam Pomfrey
+Philosopher's Stone	cast member	Emma Watson
+Hermione Jean Granger	instance of	skin colour
+tone	facet of	skin
+Hermione	creator	J. K. Rowling
+Prisoner of Azkaban	characters	Florean Fortescue
+Prisoner of Azkaban	characters	Ron
+Prisoner of Azkaban	characters	Hermione
+Florean Fortescue	present in work	Prisoner of Azkaban
+Ron	present in work	Prisoner of Azkaban
+Hermione	present in work	Prisoner of Azkaban
+Hermione Jean Granger	instance of	skin colour
+Hermione Jean Granger	occupation	cleverness
+levelheaded	said to be the same as	book-smart
+book-smart	said to be the same as	levelheaded
+Hermione	residence	school library
+Hermione	present in work	Harry Potter
+Hermione	present in work	Harry Potter
+Hermione	present in work	Harry Potter
+Lupin	instance of	werewolves
+Harry Potter	sibling	Ron Weasley
+Ron Weasley	sibling	Harry Potter
+Harry	sibling	Ron
+Ron	sibling	Harry
+Hermione	present in work	Deathly Hallows
+Deathly Hallows	characters	Hermione
+Deathly Hallows	characters	Hermione
+Hermione	present in work	Deathly Hallows
+Outstanding	followed by	Exceeds Expectations
+Harry Potter	student	Hermione
+Harry Potter	student	Hermione
+Hermione	student of	Harry Potter
+Hermione	student of	Harry Potter
+charm	instance of	level
+Hermione	spouse	Harry Potter
+Harry Potter	spouse	Hermione
+Harry Potter	spouse	Hermione
+Hermione	spouse	Harry Potter
+Hermione	occupation	duellist
+Hermione	occupation	duellist
+Hermione	occupation	duellist
+Harry	field of work	Divination
+Hermione	spouse	Ron
+Ron	spouse	Hermione
+Hermione Jean Granger	instance of	Patronus
+Deathly Hallows	characters	Harry Potter
+Deathly Hallows	characters	Ron Weasley
+Deathly Hallows	characters	Hermione
+Deathly Hallows	characters	Mafalda Hopkirk
+Harry Potter	present in work	Deathly Hallows
+Ron Weasley	present in work	Deathly Hallows
+Hermione	present in work	Deathly Hallows
+Mafalda Hopkirk	present in work	Deathly Hallows
+Hermione's wand	has part	vine wood
+Hermione's wand	has part	dragon heartstring core
+vine wood	part of	Hermione's wand
+dragon heartstring core	part of	Hermione's wand
+Hermione Jean Granger	instance of	feminist icon
+The Ivory Tower and Harry Potter	author	Lana A. Whited
+Hermione	creator	J.K. Rowling
+Hermione	creator	J.K. Rowling
+Hermione	creator	J.K. Rowling
+Hermione Jean Granger	instance of	magical abilities
+Harry Potter	sibling	Ron Weasley
+Ron Weasley	sibling	Harry Potter
+Hermione	present in work	Harry Potter
+Harry Potter	characters	Hermione
+Harry Potter	characters	Hermione
+Hermione	present in work	Harry Potter
+Hermione	present in work	Harry Potter
+Harry Potter	characters	Hermione
+Harry Potter	characters	Hermione
+Hermione	present in work	Harry Potter
+The Hollywood Reporter	place of publication	Hollywood
+Philip Nel	employer	Kansas State University
+Hermione	present in work	Harry Potter and the Deathly Hallows
+Hermione	present in work	Harry Potter and the Deathly Hallows
+Ginny Weasley	sibling	Ron
+Ron	sibling	Ginny Weasley
+Philosopher's Stone	cast member	Emma Watson
+Philosopher's Stone	cast member	Emma Watson
+Emma Watson	notable work	Emma Watson
+Emma Watson	notable work	Emma Watson
+Emma Watson	notable work	Emma Watson
+Emma Watson	notable work	Emma Watson
+Emma Watson	notable work	Emma Watson
+Emma Watson	notable work	Emma Watson
+Madeline	cast member	Hatty Jones
+Emma Watson	said to be the same as	Hermione
+Hermione	said to be the same as	Emma Watson
+Hermione	said to be the same as	Emma Watson
+Hermione	said to be the same as	Emma Watson
+Emma Watson	said to be the same as	Hermione
+Hermione Granger	performer	Emma Watson
+Hermione Granger	performer	Emma Watson
+Hermione Granger	performer	Emma Watson
+Hermione Granger	performer	Emma Watson
+Hermione	performer	Emma Watson
+Hermione	performer	Emma Watson
+Hermione	performer	Emma Watson
+Chamber of Secrets	cast member	Emma Watson
+Chamber of Secrets	cast member	Emma Watson
+Chamber of Secrets	cast member	Emma Watson
+Chamber of Secrets	cast member	Emma Watson
+Chamber of Secrets	cast member	Emma Watson
+Order of the Phoenix	cast member	Emma Watson
+Hermione	spouse	Harry
+Harry	spouse	Hermione
+Emma Watson	sibling	Emma Watson
+Emma Watson	sibling	Emma Watson
+Emma Watson	sibling	Emma Watson
+Emma Watson	sibling	Emma Watson
+Emma Watson	sibling	Emma Watson
+Emma Watson	sibling	Emma Watson
+Emma Watson	sibling	Emma Watson
+Emma Watson	sibling	Emma Watson
+Emma Watson	sibling	Emma Watson
+Emma Watson	sibling	Emma Watson
+Emma Watson	sibling	Emma Watson
+Emma Watson	sibling	Emma Watson
+Emma Watson	sibling	Emma Watson
+Emma Watson	sibling	Emma Watson
+Emma Watson	sibling	Emma Watson
+Hermione	different from	Hermione looks like
+Hermione looks like	different from	Hermione
+Hermione	occupation	tomboy
+Steve Kloves	occupation	Screenwriter
+Hermione	present in work	Harry Potter
+Harry Potter	characters	Hermione
+Harry Potter	characters	Hermione
+Hermione	present in work	Harry Potter
+Hermione	present in work	Harry Potter and the Cursed Child
+Hermione	performer	Noma Dumezweni
+Linda	cast member	Noma Dumezweni
+A Raisin in the Sun	cast member	Noma Dumezweni
+A Human Being Died That Night	cast member	Noma Dumezweni
+Noma Dumezweni	notable work	Hermione
+Hermione	creator	Noma Dumezweni
+Hermione	performer	Noma Dumezweni
+Hermione	performer	Noma Dumezweni
+Hermione	performer	Noma Dumezweni
+Noma Dumezweni	cast member	Noma Dumezweni
+Noma Dumezweni	cast member	Noma Dumezweni
+Noma Dumezweni	cast member	Noma Dumezweni
+Noma Dumezweni	cast member	Noma Dumezweni
+Noma Dumezweni	cast member	Noma Dumezweni
+Noma Dumezweni	cast member	Noma Dumezweni
+Noma Dumezweni	award received	Award for Best Actress in a Supporting Role
+Award for Best Actress in a Supporting Role	winner	Noma Dumezweni
+Award for Best Actress in a Supporting Role	winner	Noma Dumezweni
+Noma Dumezweni	award received	Award for Best Actress in a Supporting Role
+Saturday Night Live	cast member	Lindsay Lohan
+Rita Skeeter	performer	Miranda Richardson
+All That	cast member	Lisa Foiles
+Hermione	spouse	Harry
+Harry	spouse	Hermione
+Laura J	sibling	Amy K
+Laura J	sibling	Anna M. Lewis
+Amy K	sibling	Laura J
+Amy K	sibling	Anna M. Lewis
+Anna M. Lewis	sibling	Laura J
+Anna M. Lewis	sibling	Amy K
+Harry Cover	author	Pierre Veys
+Potter Puppet Pals	creator	Neil Cicierega
+Hermione Granger and the Quarter Life Crisis	instance of	web-series
