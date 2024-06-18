@@ -10,7 +10,7 @@ import numpy as np
 def split(data_root):
     # Get entities.dict 
     entitys, relations = {}, {}
-    train, val = os.path.join(data_root, "gcn_train.txt"), os.path.join(data_root, "gcn_val.txt")
+    train, val = os.path.join(data_root, "train_gcn.txt"), os.path.join(data_root, "val_gcn.txt")
     for x in [train, val]:    
         with open(x, "r") as f:
             for line in f:

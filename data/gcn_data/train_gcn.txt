@@ -30,3 +30,231 @@ Severus Snape	occupation	potions professor
 Quirinus Quirrell	member of	Defence Against the Dark Arts
 Voldemort	member of	Defence Against the Dark Arts
 non-magical parentage	subclass of	Wizards
+similar incidents happened	point in time	Fifty years ago
+Ginny	spouse	Tom Marvolo Riddle
+Tom Marvolo Riddle	spouse	Ginny
+Sirius Black	present in work	Harry Potter and the Prisoner of Azkaban
+Sirius	instance of	Dementor
+Remus Lupin	uses	protection charm
+protection charm	used by	Remus Lupin
+James Potter	student	Peter Pettigrew
+Peter Pettigrew	student of	James Potter
+Lupin	instance of	werewolf
+Sirius	sibling	Pettigrew
+Pettigrew	sibling	Sirius
+Triwizard Tournament	participant	Hogwarts
+Triwizard Tournament	participant	Durmstrang
+Harry	sibling	Cedric
+Harry	sibling	Cedric
+Cedric	sibling	Harry
+Cedric	sibling	Harry
+Harry	sibling	Cedric
+Harry	sibling	Cedric
+Cedric	sibling	Harry
+Cedric	sibling	Harry
+duel	participant	Harry
+Alastor "Mad-Eye" Moody	notable work	Defence Against Dark Arts
+Death Eater	has part	Order of the Phoenix
+Order of the Phoenix	part of	Death Eater
+Dumbledore	student	Voldemort
+Dumbledore	student	Voldemort
+Voldemort	student	Dumbledore
+Voldemort	student	Dumbledore
+Harry	sibling	Voldemort
+Voldemort	sibling	Harry
+Slughorn	field of work	Potions
+Half-Blood Prince	present in work	Potions class
+Potions class	characters	Half-Blood Prince
+Tom Riddle	student of	Slughorn
+Slughorn	student	Tom Riddle
+Harry	sibling	Dumbledore
+Dumbledore	sibling	Harry
+Snape	student	Dumbledore
+Dumbledore	student of	Snape
+Nagini	owned by	Voldemort
+Voldemort	owner of	Nagini
+Horcrux	owned by	Gringotts
+Gringotts	owner of	Horcrux
+Voldemort	student	Harry
+Voldemort	student	Harry
+Harry	student of	Voldemort
+Harry	student of	Voldemort
+Harry	sibling	Voldemort
+Voldemort	sibling	Harry
+Defenders of Hogwarts	part of	Hogwarts
+Hogwarts	has part	Defenders of Hogwarts
+Harry	sibling	Voldemort
+Voldemort	sibling	Harry
+Harry Potter series	characters	Harry Potter
+Harry Potter series	characters	Harry Potter
+Harry Potter series	characters	Harry Potter
+Harry Potter series	characters	Harry Potter
+Harry Potter	present in work	Harry Potter series
+Harry Potter	educated at	Hogwarts School of Witchcraft and Wizardry
+Harry Potter	present in work	Harry Potter series
+Harry Potter	educated at	Hogwarts School of Witchcraft and Wizardry
+Harry Potter	present in work	Harry Potter series
+Harry Potter	educated at	Hogwarts School of Witchcraft and Wizardry
+Ron Weasley	spouse	Hermione Granger
+Hermione Granger	spouse	Ron Weasley
+Harry Potter and the Philosopher's Stone	publication date	26 June 1997
+Harry Potter and the Philosopher's Stone	publisher	Bloomsbury
+Harry Potter	has part	Philosopher's Stone
+Philosopher's Stone	part of	Harry Potter
+Harry Potter and the Philosopher's Stone	publication date	1999
+fourth best-selling book of all time	is a list of	sold in excess of 120 million copies
+humour	subclass of	imagination
+Homer	ethnic group	ancient Greek
+object lessons	subclass of	educational techniques
+Vernon	spouse	Petunia Dursley
+Vernon	child	Dudley
+Petunia Dursley	spouse	Vernon
+Petunia Dursley	child	Dudley
+Dudley	father	Vernon
+Dudley	mother	Petunia Dursley
+Harry Potter	educated at	Hogwarts School of Witchcraft and Wizardry
+Harry Potter	father	James
+Harry Potter	mother	Lily Potter
+Rubeus Hagrid	educated at	Hogwarts School of Witchcraft and Wizardry
+Harry Potter	educated at	Hogwarts School of Witchcraft and Wizardry
+Harry Potter	father	James
+Harry Potter	mother	Lily Potter
+James	child	Harry Potter
+James	child	Harry Potter
+James	child	Harry Potter
+James	spouse	Lily Potter
+Lily Potter	child	Harry Potter
+Lord Voldemort	member of	dark wizard
+Harry Potter	field of work	wizarding world
+Harry Potter	field of work	wizarding world
+Diagon Alley	located in the administrative territorial entity	London
+Harry Potter	sibling	Lord Voldemort
+Lord Voldemort	sibling	Harry Potter
+Harry Potter	educated at	Hogwarts
+Ron Weasley	educated at	Hogwarts
+Hermione Granger	educated at	Hogwarts
+Harry Potter	student	Draco Malfoy
+Draco Malfoy	student of	Harry Potter
+Hogwarts	has part	Gryffindor
+Hogwarts	has part	Hufflepuff
+Hogwarts	has part	Ravenclaw
+Hogwarts	has part	Slytherin
+Gryffindor	part of	Hogwarts
+Gryffindor	instance of	school Houses
+Hufflepuff	part of	Hogwarts
+Hufflepuff	instance of	school Houses
+Ravenclaw	part of	Hogwarts
+Ravenclaw	instance of	school Houses
+Slytherin	part of	Hogwarts
+Slytherin	instance of	school Houses
+Draco	member of	Slytherin
+Harry Potter	member of	Slytherin
+Harry Potter	sibling	Ron Weasley
+Harry Potter	sibling	Hermione Granger
+Harry Potter	member of	Gryffindor
+Ron Weasley	member of	Slytherin
+Ron Weasley	sibling	Harry Potter
+Ron Weasley	sibling	Hermione Granger
+Ron Weasley	member of	Gryffindor
+Hermione Granger	member of	Slytherin
+Hermione Granger	sibling	Harry Potter
+Hermione Granger	sibling	Ron Weasley
+Hermione Granger	member of	Gryffindor
+Harry Potter	member of sports team	Gryffindor Quidditch team
+Severus Snape	member of	Slytherin
+Harry Potter	student	Ron Weasley
+Ron Weasley	student of	Harry Potter
+Three-headed dog	uses	trapdoor
+trapdoor	used by	Three-headed dog
+Harry Potter	spouse	Hermione Granger
+Ron Weasley	spouse	Hermione Granger
+Hermione Granger	spouse	Harry Potter
+Hermione Granger	spouse	Ron Weasley
+Harry Potter	student	Ron Weasley
+Harry Potter	student	Hermione Granger
+Ron Weasley	student of	Harry Potter
+Ron Weasley	spouse	Hermione Granger
+Hermione Granger	student of	Harry Potter
+Hermione Granger	spouse	Ron Weasley
+Hermione Granger	spouse	Harry Potter
+Harry Potter	spouse	Hermione Granger
+Harry Potter	father	his father
+his father	child	Harry Potter
+Mirror of Erised	narrative location	school
+Harry Potter	father	his parents
+his parents	child	Harry Potter
+Albus Dumbledore	educated at	Hogwarts
+philosopher's stone	has effect	immortality
+Harry Potter	educated at	Hogwarts
+Hermione Granger	educated at	Hogwarts
+Ron Weasley	educated at	Hogwarts
+Ron Weasley	spouse	Hermione Granger
+Hermione Granger	spouse	Ron Weasley
+Severus Snape	student	Harry
+Severus Snape	student	Harry
+Harry	student of	Severus Snape
+Voldemort	student	Quirrell
+Quirrell	student of	Voldemort
+Mirror of Erised	owned by	Harry Potter
+philosopher's stone	part of	pocket
+pocket	has part	philosopher's stone
+Quirrell	student	Harry
+Harry	student of	Quirrell
+Harry Potter	residence	infirmary
+Voldemort	mother	Lily
+Harry Potter	residence	Dursleys
+Harry Potter	instance of	orphan
+Harry Potter	sport	Quidditch
+Hermione Granger	ethnic group	Muggle
+Hermione Granger	present in work	Hermione Granger's swottiness
+Hermione Granger's swottiness	characters	Hermione Granger
+Hermione Granger's swottiness	characters	Hermione Granger
+Hermione Granger	present in work	Hermione Granger's swottiness
+Philosopher's Stone	owned by	Hermione Granger
+Philosopher's Stone	owned by	Hermione Granger
+Philosopher's Stone	owned by	Hermione Granger
+Philosopher's Stone	owned by	Hermione Granger
+Hermione Granger	has part	brown hair
+Neville Longbottom	present in work	Remembrall
+Neville Longbottom	present in work	Remembrall
+Neville Longbottom	present in work	Remembrall
+Neville Longbottom	present in work	Remembrall
+Remembrall	characters	Neville Longbottom
+Remembrall	characters	Neville Longbottom
+Remembrall	characters	Neville Longbottom
+Remembrall	characters	Neville Longbottom
+Remembrall	characters	Neville Longbottom
+Neville Longbottom	present in work	Remembrall
+Neville Longbottom	present in work	Neville Longbottom
+Neville Longbottom	present in work	Neville Longbottom
+Neville Longbottom	present in work	Neville Longbottom
+Neville Longbottom	present in work	Neville Longbottom
+Neville Longbottom	characters	Neville Longbottom
+Neville Longbottom	characters	Neville Longbottom
+Neville Longbottom	member of sports team	Neville Longbottom
+Neville Longbottom	member of sports team	Neville Longbottom
+Neville Longbottom	member of sports team	Neville Longbottom
+Neville Longbottom	has part	Neville Longbottom
+Neville Longbottom	has part	Neville Longbottom
+Neville Longbottom	has part	Neville Longbottom
+Neville Longbottom	has part	Neville Longbottom
+Neville Longbottom	has part	Neville Longbottom
+Neville Longbottom	has part	Neville Longbottom
+Neville Longbottom	has part	Neville Longbottom
+Neville Longbottom	has part	Neville Longbottom
+Rubeus Hagrid	educated at	Hogwarts
+Rubeus Hagrid	educated at	Hogwarts
+Rubeus Hagrid	educated at	Hogwarts
+Rubeus Hagrid	educated at	Hogwarts
+Harry Potter	student	Ron Weasley
+Harry Potter	student	Hermione Granger
+Ron Weasley	student of	Harry Potter
+Ron Weasley	student	Hermione Granger
+Hermione Granger	student of	Harry Potter
+Hermione Granger	student of	Ron Weasley
+Professor Albus Dumbledore	educated at	Hogwarts
+Professor Albus Dumbledore	educated at	Hogwarts
+Hogwarts	headmaster	Professor Albus Dumbledore
+Hogwarts	headmaster	Professor Albus Dumbledore
+Professor Albus Dumbledore	said to be the same as	the "epitome of goodness"
+the "epitome of goodness"	said to be the same as	Professor Albus Dumbledore

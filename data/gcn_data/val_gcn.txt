@@ -26,3 +26,83 @@ James Potter	sibling	Lily
 Voldemort	instance of	spirit
 Voldemort	owner of	Philosopher's Stone
 Philosopher's Stone	owned by	Voldemort
+Chamber of Secrets	instance of	legendary place
+Harry	instance of	snake
+dark magic	instance of	skill
+Hermione	spouse	Ginny Weasley
+Ginny Weasley	spouse	Hermione
+Harry	sibling	Ron
+Ron	sibling	Harry
+Harry	owner of	Gryffindor sword
+Gryffindor sword	owned by	Harry
+Harry	spouse	Hermione
+Hermione	spouse	Harry
+Group chase	subclass of	chase
+Harry	spouse	Hermione
+Hermione	spouse	Harry
+Cedric Diggory	educated at	Hogwarts
+Voldemort	member of	Death Eater
+Dolores Umbridge	position held	High Inquisitor
+Practical Defence Against Dark Arts	instance of	banned
+Harry Potter	derivative work	Harry Potter II
+Harry Potter II	based on	Harry Potter
+Sirius	significant event	being tortured
+being tortured	participant	Sirius
+Harry	employer	Ministry
+Horcruxes	owned by	Voldemort
+Draco	member of	Death Eater
+Sword of Gryffindor	owned by	Patronus
+Harry	instance of	Horcrux
+Harry	present in work	Harry is brought back to life
+Harry is brought back to life	characters	Harry
+Harry Potter and the Philosopher's Stone	author	J. K. Rowling
+J. K. Rowling	notable work	Harry Potter and the Philosopher's Stone
+Harry Potter and the Philosopher's Stone	publisher	Scholastic Corporation
+film of the same name	based on	Harry Potter and the Philosopher's Stone
+Harry Potter and the Philosopher's Stone	main subject	boarding school
+Harry Potter and the Philosopher's Stone	main subject	boarding school
+Harry Potter	owner of	Gringotts Wizarding Bank
+Harry Potter	owner of	Gringotts Wizarding Bank
+Harry Potter	owner of	Gringotts Wizarding Bank
+Gringotts Wizarding Bank	owned by	Harry Potter
+Gringotts Wizarding Bank	owned by	Harry Potter
+Gringotts Wizarding Bank	owned by	Harry Potter
+Harry Potter	owner of	Gringotts Wizarding Bank
+Hedwig	instance of	owl
+Hogwarts Express	terminus	King's Cross railway station
+Hermione Granger	present in work	Harry Potter
+Harry Potter	characters	Hermione Granger
+Harry Potter	sport	Quidditch
+Firenze	instance of	forest centaur
+Professor Quirrell	field of work	Defence Against the Dark Arts
+Harry's scar	has effect	passes out
+passes out	has cause	Harry's scar
+Harry	relative	Voldemort
+Voldemort	relative	Harry
+Albus Dumbledore	student	Harry
+Harry	student of	Albus Dumbledore
+Gryffindor	award received	House Cup
+Harry Potter	significant event	eleventh birthday
+Harry Potter	significant event	eleventh birthday
+Harry Potter	relative	Voldemort
+Harry Potter	relative	Voldemort
+Voldemort	relative	Harry Potter
+Voldemort	relative	Harry Potter
+Ron Weasley	relative	Harry Potter
+Harry Potter	relative	Ron Weasley
+Harry Potter	relative	Ron Weasley
+Ron Weasley	relative	Harry Potter
+Ron Weasley	family	pure-blood family
+Ron Weasley	family	family
+Philosopher's Stone	owned by	Ron Weasley
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor Albus Dumbledore
+Professor Albus Dumbledore	different from	Professor
