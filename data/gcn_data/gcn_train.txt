@@ -1,0 +1,32 @@
+Harry Potter	author	J. K. Rowling
+J. K. Rowling	notable work	Harry Potter
+mystery	subclass of	thriller
+1997	point in time	1997
+adult	opposite of	younger readers
+younger readers	opposite of	adult
+Harry	sibling	Voldemort
+Harry	sibling	Voldemort
+Voldemort	sibling	Harry
+Voldemort	sibling	Harry
+Harry	sibling	Voldemort
+Harry	sibling	Voldemort
+Voldemort	sibling	Harry
+Voldemort	sibling	Harry
+Harry survived	has effect	lightning-shaped scar
+lightning-shaped scar	has cause	Harry survived
+Ron Weasley	spouse	Hermione Granger
+Hermione Granger	spouse	Ron Weasley
+Albus Dumbledore	position held	headmaster
+Severus Snape	occupation	potions professor
+Quirinus Quirrell	member of	Defence Against the Dark Arts
+Voldemort	member of	Defence Against the Dark Arts
+Voldemort	owner of	Philosopher's Stone
+Philosopher's Stone	owned by	Voldemort
+Chamber of Secrets	instance of	legendary place
+similar incidents happened	point in time	Fifty years ago
+Harry	instance of	snake
+dark magic	instance of	skill
+Harry	sibling	Ron
+Ron	sibling	Harry
+Ginny	spouse	Tom Marvolo Riddle
+Tom Marvolo Riddle	spouse	Ginny
