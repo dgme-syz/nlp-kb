@@ -1,0 +1,28 @@
+Harry Potter	author	J. K. Rowling
+J. K. Rowling	notable work	Harry Potter
+Harry Potter series	publisher	Bloomsbury
+Harry Potter series	publisher	Scholastic Press
+mystery	subclass of	thriller
+1997	point in time	1997
+Harry Potter	characters	boy named Harry Potter
+boy named Harry Potter	present in work	Harry Potter
+boy named Harry Potter	present in work	Harry Potter
+Harry Potter	characters	boy named Harry Potter
+Harry	relative	aunt
+Harry	relative	uncle
+Harry	relative	cousin
+aunt	relative	Harry
+aunt	sibling	uncle
+aunt	sibling	cousin
+uncle	relative	Harry
+uncle	sibling	aunt
+uncle	sibling	cousin
+cousin	relative	Harry
+cousin	sibling	aunt
+cousin	sibling	uncle
+Harry	occupation	wizard
+Lily	sibling	James Potter
+James Potter	sibling	Lily
+Voldemort	instance of	spirit
+Voldemort	owner of	Philosopher's Stone
+Philosopher's Stone	owned by	Voldemort
