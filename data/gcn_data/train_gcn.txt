@@ -258,3 +258,350 @@ Hogwarts	headmaster	Professor Albus Dumbledore
 Hogwarts	headmaster	Professor Albus Dumbledore
 Professor Albus Dumbledore	said to be the same as	the "epitome of goodness"
 the "epitome of goodness"	said to be the same as	Professor Albus Dumbledore
+Petunia Dursley	sibling	Lily
+Harry Potter	mother	Lily
+Lily	sibling	Petunia Dursley
+Lily	child	Harry Potter
+Lily	sibling	Petunia Dursley
+Petunia Dursley	mother	Lily
+Muggle	different from	magical
+magical	different from	Muggle
+Draco Malfoy	voice type	bored drawl
+Draco Malfoy	sport	Quidditch
+Draco Malfoy	sport	Quidditch
+Draco Malfoy	sport	Quidditch
+Oliver Wood	member of sports team	Gryffindor Quidditch team
+Severus Snape	field of work	Defence Against the Dark Arts
+Professor Severus Snape	student	Harry Potter
+Professor Severus Snape	student	Harry Potter
+Mrs. Norris	owned by	Argus Filch
+Mrs. Norris	owned by	Argus Filch
+Peeves	instance of	poltergeist
+Harry Potter	author	Rowling
+Vernon Dursley	relative	Harry Potter
+Harry Potter	relative	Vernon Dursley
+Harry Potter	family	Dursley family
+Harry Potter	family	Dursley family
+Harry	creator	Rowling
+Harry	creator	Rowling
+Harry	creator	Rowling
+Harry	creator	Rowling
+Harry	creator	Rowling
+Harry	creator	Rowling
+Rowling	notable work	Harry
+Rowling	notable work	Harry
+Rowling	notable work	Harry
+Harry	creator	Rowling
+Harry	creator	Rowling
+Harry	creator	Rowling
+Harry Potter	student	Ronald Weasley
+Harry Potter	student	Hermione Granger
+Ronald Weasley	student of	Harry Potter
+Hermione Granger	student of	Harry Potter
+Ron	creator	Rowling
+Albus Dumbledore	position held	headmaster of Hogwarts
+Albus Dumbledore	said to be the same as	the epitome of goodness
+the epitome of goodness	said to be the same as	Albus Dumbledore
+Albus Dumbledore	spouse	Minerva McGonagall
+Minerva McGonagall	spouse	Albus Dumbledore
+Rubeus Hagrid	instance of	half-giant
+Professor Quirrell	present in work	Quirrell
+Quirrell	characters	Professor Quirrell
+Draco Malfoy	student	Harry Potter
+Lord Voldemort	child	Harry Potter
+Harry Potter	student of	Draco Malfoy
+Harry Potter	father	Lord Voldemort
+Voldemort	opposite of	Harry
+Harry	opposite of	Voldemort
+William Shakespeare	notable work	Cymbeline
+Cymbeline	author	William Shakespeare
+Harry	occupation	wizard
+Harry	occupation	wizard
+Harry Potter	has part	Harry Potter II
+Harry Potter II	part of the series	Harry Potter
+Harry's parents	child	Harry
+Harry	father	Harry's parents
+the curse	characters	Harry
+Harry	present in work	the curse
+Voldemort	occupation	evil wizard
+1995	point in time	1995
+Philosopher's Stone	has part	I began to write Philosopher's Stone that very evening
+I began to write Philosopher's Stone that very evening	part of	Philosopher's Stone
+2008 Summer Olympics	point in time	2008
+2008 Summer Olympics	location	Beijing
+2008 Summer Olympics	country	China
+Beijing	country	China
+China	capital	Beijing
+Harry	instance of	orphan
+Harry Potter and the Philosopher's Stone	part of the series	the sequels
+the sequels	has part	Harry Potter and the Philosopher's Stone
+literary agent	field of this occupation	publisher
+publisher	practiced by	literary agent
+Barry Cunningham	employer	Bloomsbury Children's Books
+Rowling	employer	Bloomsbury
+boys' book	opposite of	male authors
+male authors	opposite of	boys' book
+Philosopher's Stone	publisher	Bloomsbury
+copyright page	country	British
+Joanne	publication date	1998
+booksellers	has part	customers
+customers	part of	booksellers
+2021 Heritage auction	point in time	2021
+Taylor	notable work	created the cover
+created the cover	creator	Taylor
+Lindsey Fraser	employer	The Scotsman
+Harry Potter and the Philosopher's Stone	genre	thriller
+William Shakespeare	notable work	Cymbeline
+William Shakespeare	notable work	Cymbeline
+Cymbeline	author	William Shakespeare
+Cymbeline	author	William Shakespeare
+Cymbeline	author	William Shakespeare
+Cymbeline	author	William Shakespeare
+William Shakespeare	notable work	Cymbeline
+William Shakespeare	notable work	Cymbeline
+Cymbeline	author	William Shakespeare
+Cymbeline	author	William Shakespeare
+Books for Keeps	instance of	magazine
+Nestlé Smarties Book Prize	inception	1997
+children's books awards	different from	adults
+adults	different from	children's books awards
+Best-selling title in December 2001	point in time	December 2001
+Scottish Braille Press	language of work or name	Braille
+Hogwarts Express	terminus	King's Cross railway station
+Scholastic Corporation	country	US
+Bologna Book Fair	country	US
+Harry Potter	author	J. K. Rowling
+Harry Potter	author	J. K. Rowling
+J.K. Rowling	different from	J.K. Rowling
+J.K. Rowling	different from	J.K. Rowling
+Philip Nel	field of work	alchemy
+Harry Potter and the Sorcerer's Stone	author	J.K. Rowling
+Philosopher's Stone	author	J.K. Rowling
+Scholastic	language used	British English
+UK	language used	British English
+British English	country	UK
+BookBrowse	instance of	aggregates book reviews
+Harry Potter and the Sorcerer's Stone	genre	children's fiction
+Harry Potter and the Sorcerer's Stone	genre	children's fiction
+Michael Winerip	employer	The New York Times
+Harry Potter and the Sorcerer's Stone	publication date	1998
+Harry Potter and the Sorcerer's Stone	publication date	1998
+Harry Potter and the Sorcerer's Stone	publication date	1998
+Harry Potter and the Sorcerer's Stone	publisher	School Library Journal
+Harry Potter and the Sorcerer's Stone	genre	children's fiction
+Harry Potter and the Sorcerer's Stone	publisher	Scholastic
+official translations	facet of	Harry Potter and the Sorcerer's Stone
+Harry Potter and the Sorcerer's Stone	language of work or name	Lowland Scots
+Ancient Greek	influenced by	Latin
+J. K. Rowling	influenced by	Jane Austen
+Jane Austen	influenced by	J. K. Rowling
+Harry Potter	present in work	Harry Potter's ideas
+Harry Potter's ideas	characters	Harry Potter
+Charles Dickens	genre	caricature
+Narnia	author	C. S. Lewis
+C. S. Lewis	notable work	Narnia
+Roald Dahl	date of death	1990
+Roald Dahl	work period (start)	1970
+Roald Dahl	work period (start)	1970
+Harry Potter and the Philosopher's Stone	author	Roald Dahl
+R. L. Stine	genre	children's author
+Harry Potter and the Philosopher's Stone	after a work by	Roald Dahl
+Vernon	spouse	Petunia Dursley
+Petunia Dursley	spouse	Vernon
+Diagon Alley	author	Nancy Knapp
+Diagon Alley	author	Stephen Brown
+J. K. Rowling	influenced by	Homer
+Stephen King	spouse	J.K. Rowling
+J.K. Rowling	spouse	Stephen King
+Vernon	spouse	Petunia Dursley
+Petunia Dursley	spouse	Vernon
+Harry Potter	instance of	orphan
+Harry Potter	instance of	orphan
+Hogwarts	country	Britain
+Ministry of Magic	present in work	Harry Potter books
+Harry Potter	spouse	Hermione Granger
+Hermione Granger	spouse	Harry Potter
+Dursleys	creator	J.K. Rowling
+Dursleys	creator	J.K. Rowling
+Harry Potter and the Prisoner of Azkaban	publication date	8 July 1999
+Harry Potter and the Order of the Phoenix	part of the series	the series
+the series	has part	Harry Potter and the Order of the Phoenix
+Harry Potter and the Order of the Phoenix	publication date	21 June 2003
+Harry Potter and the Deathly Hallows	publication date	21 July 2007
+Harry Potter and the Deathly Hallows	country of origin	UK
+Harry Potter and the Philosopher's Stone	publication date	6 October 2015
+illustrated version	subclass of	illustrated
+illustrated version	subclass of	illustrated
+Harry Potter at Home: Readings	distributed by	Spotify
+Harry Potter	has part	Wizarding World
+Wizarding World	part of	Harry Potter
+J. K. Rowling	notable work	Harry Potter books
+Harry Potter books	author	J. K. Rowling
+Dumbledore	performer	Richard Harris
+Harry Potter and the Philosopher's Stone	production company	Leavesden Film Studios
+Harry Potter and the Philosopher's Stone	publication date	14 November 2001
+education	part of	business
+Jennifer Conn	spouse	Madam Hooch
+Madam Hooch	spouse	Jennifer Conn
+Joyce Fields	field of work	sociology
+Harry Potter	has part	Harry Potter and the Philosopher's Stone
+Harry Potter and the Philosopher's Stone	part of the series	Harry Potter
+brand name	instance of	marketing
+Bertie Bott	notable work	Every Flavour Beans
+Every Flavour Beans	author	Bertie Bott
+Paperback Children's Edition	publication date	11 September 1998
+Paperback Adult Edition	publication date	27 September 1999
+The Hardback Adult Edition	publication date	4 October 2004
+Paperback Harry Potter Signature Edition	publication date	18 July 2013
+Paperback Adult Edition	publication date	1 September 2014
+Children's Edition	country of origin	United Kingdom
+Paperback Children's Edition	publication date	6 October 2015
+Jim Kay	country of citizenship	United Kingdom
+MinaLima	publication date	9 June 2022
+Harry Potter and the Philosopher's Stone	publisher	Scholastic
+Mass Market Paperback	publication date	1 November 2001
+Hardback 10th Anniversary Edition	publication date	1 October 2008
+The Paperback	publication date	27 August 2013
+MinaLima	publication date	20 October 2020
+Hardback Signature Special Edition	publication date	1 November 1999
+Paperback Children's Edition	publication date	31 August 2000
+The Hardback Adult Edition	publication date	4 October 2004
+Paperback Adult Edition	publication date	27 August 2013
+KnowWonder	platform	Microsoft Windows
+Griptonite	product or material produced	Role-playing game
+Action	subclass of	puzzle genre
+Aspyr	product or material produced	Mac OS X
+Warthog	genre	Action-adventure
+The Vanishing Glass	publication date	8 May 2020
+The Letters from No One	publication date	12 May 2020
+The Keeper of the Keys	publication date	14 May 2020
+Diagon Alley	publication date	19 May 2020
+Harry Potter and the Cursed Child	cast member	Jamie Parker
+The Sorting Hat	cast member	Olivia Colman
+The Sorting Hat	cast member	Jonathan Van Ness
+The Sorting Hat	cast member	Kate McKinnon
+Quidditch	publication date	10 June 2020
+Nicolas Flamel	cast member	Hugh Bonneville
+The Forbidden Forest	cast member	Claudia Kim
+The Forbidden Forest	cast member	Dakota Fanning
+Through the Trapdoor	cast member	Kenneth Branagh
+Through the Trapdoor	cast member	Ruth Wilson
+Through the Trapdoor	cast member	Helena Bonham Carter
+The Man with the Two Faces	publication date	16 July 2020
+Harry Potter and the Philosopher's Stone	author	J. K. Rowling
+J. K. Rowling	notable work	Harry Potter and the Philosopher's Stone
+Harry Potter and the Philosopher's Stone	language of work or name	English
+Harry Potter and the Philosopher's Stone	part of the series	the series
+the series	has part	Harry Potter and the Philosopher's Stone
+Harry Potter and the Philosopher's Stone	genre	fantasy
+Harry Potter and the Philosopher's Stone	country of origin	United Kingdom
+Harry Potter and the Philosopher's Stone	publisher	Bloomsbury
+Harry Potter and the Philosopher's Stone	publisher	Scholastic
+Harry Potter and the Philosopher's Stone	publication date	26 June 1997
+Harry Potter and the Philosopher's Stone	country of origin	United Kingdom
+first edition	part of the series	Harry Potter and the Philosopher's Stone
+Harry Potter and the Philosopher's Stone	has part	first edition
+Harry Potter and the Philosopher's Stone	publication date	978
+Harry Potter and the Philosopher's Stone	followed by	Harry Potter and the Chamber of Secrets
+Harry Potter and the Chamber of Secrets	follows	Harry Potter and the Philosopher's Stone
+Harry Potter and the Chamber of Secrets	language of work or name	English
+Harry Potter and the Chamber of Secrets	part of the series	Harry Potter series
+Harry Potter series	has part	Harry Potter and the Chamber of Secrets
+Harry Potter and the Chamber of Secrets	country of origin	United Kingdom
+Harry Potter and the Chamber of Secrets	publication date	2 July 1998
+Harry Potter and the Chamber of Secrets	follows	Harry Potter and the Philosopher's Stone
+Harry Potter and the Philosopher's Stone	followed by	Harry Potter and the Chamber of Secrets
+Harry Potter and the Chamber of Secrets	followed by	Harry Potter and the Prisoner of Azkaban
+Harry Potter and the Prisoner of Azkaban	follows	Harry Potter and the Chamber of Secrets
+Harry Potter and the Prisoner of Azkaban	author	J. K. Rowling
+J. K. Rowling	notable work	Harry Potter and the Prisoner of Azkaban
+Cliff Wright	notable work	Harry Potter and the Prisoner of Azkaban
+Harry Potter and the Prisoner of Azkaban	language of work or name	English
+Harry Potter and the Prisoner of Azkaban	part of the series	the series
+the series	has part	Harry Potter and the Prisoner of Azkaban
+Harry Potter and the Prisoner of Azkaban	genre	fantasy
+Harry Potter and the Prisoner of Azkaban	publisher	Bloomsbury
+Harry Potter and the Prisoner of Azkaban	publication date	8 July 1999
+Harry Potter and the Prisoner of Azkaban	country of origin	United Kingdom
+first edition	part of the series	Harry Potter and the Prisoner of Azkaban
+Harry Potter and the Prisoner of Azkaban	has part	first edition
+Harry Potter and the Prisoner of Azkaban	publication date	0
+Harry Potter and the Prisoner of Azkaban	follows	Harry Potter and the Chamber of Secrets
+Harry Potter and the Chamber of Secrets	followed by	Harry Potter and the Prisoner of Azkaban
+Harry Potter and the Prisoner of Azkaban	followed by	Harry Potter and the Goblet of Fire
+Harry Potter and the Goblet of Fire	follows	Harry Potter and the Prisoner of Azkaban
+Harry Potter and the Goblet of Fire	author	J. K. Rowling
+J. K. Rowling	notable work	Harry Potter and the Goblet of Fire
+Giles Greenfield	notable work	Harry Potter and the Goblet of Fire
+Harry Potter and the Goblet of Fire	language of work or name	English
+Harry Potter and the Goblet of Fire	part of the series	Harry Potter series
+Harry Potter series	has part	Harry Potter and the Goblet of Fire
+Harry Potter and the Goblet of Fire	part of the series	the series
+the series	has part	Harry Potter and the Goblet of Fire
+Harry Potter and the Goblet of Fire	genre	fantasy
+Harry Potter and the Goblet of Fire	publisher	Bloomsbury
+Harry Potter and the Goblet of Fire	publication date	8 July 2000
+Harry Potter and the Goblet of Fire	country of origin	United Kingdom
+first edition	part of the series	Harry Potter and the Goblet of Fire
+Harry Potter and the Goblet of Fire	has part	first edition
+Harry Potter and the Goblet of Fire	publication date	0
+Harry Potter and the Goblet of Fire	follows	Harry Potter and the Prisoner of Azkaban
+Harry Potter and the Prisoner of Azkaban	followed by	Harry Potter and the Goblet of Fire
+Harry Potter and the Goblet of Fire	followed by	Harry Potter and the Order of the Phoenix
+Harry Potter and the Order of the Phoenix	follows	Harry Potter and the Goblet of Fire
+Harry Potter and the Order of the Phoenix	author	J. K. Rowling
+J. K. Rowling	notable work	Harry Potter and the Order of the Phoenix
+Harry Potter and the Order of the Phoenix	author	Jason Cockcroft
+Harry Potter and the Order of the Phoenix	part of the series	the series
+the series	has part	Harry Potter and the Order of the Phoenix
+Harry Potter and the Order of the Phoenix	genre	fantasy
+Harry Potter and the Order of the Phoenix	publisher	Bloomsbury
+Harry Potter and the Order of the Phoenix	publication date	21 June 2003
+Harry Potter and the Order of the Phoenix	country of origin	United Kingdom
+Harry Potter and the Order of the Phoenix	publication date	0
+Harry Potter and the Order of the Phoenix	follows	Harry Potter and the Goblet of Fire
+Harry Potter and the Goblet of Fire	followed by	Harry Potter and the Order of the Phoenix
+Harry Potter and the Half-Blood Prince	author	J. K. Rowling
+J. K. Rowling	notable work	Harry Potter and the Half-Blood Prince
+Harry Potter and the Half-Blood Prince	language of work or name	English
+Harry Potter and the Half-Blood Prince	part of the series	Harry Potter series
+Harry Potter series	has part	Harry Potter and the Half-Blood Prince
+Harry Potter and the Half-Blood Prince	part of the series	the series
+the series	has part	Harry Potter and the Half-Blood Prince
+Harry Potter and the Half-Blood Prince	genre	fantasy
+Harry Potter and the Half-Blood Prince	publisher	Bloomsbury
+Harry Potter and the Half-Blood Prince	publication date	16 July 2005
+first edition	part of the series	Harry Potter and the Half-Blood Prince
+Harry Potter and the Half-Blood Prince	has part	first edition
+Harry Potter and the Half-Blood Prince	publication date	0
+Harry Potter and the Half-Blood Prince	follows	Harry Potter and the Order of the Phoenix
+Harry Potter and the Order of the Phoenix	followed by	Harry Potter and the Half-Blood Prince
+Harry Potter and the Half-Blood Prince	followed by	Harry Potter and the Deathly Hallows
+Harry Potter and the Deathly Hallows	follows	Harry Potter and the Half-Blood Prince
+Harry Potter and the Deathly Hallows	author	J. K. Rowling
+J. K. Rowling	notable work	Harry Potter and the Deathly Hallows
+Harry Potter and the Deathly Hallows	author	Jason Cockcroft
+Harry Potter and the Deathly Hallows	language of work or name	English
+Harry Potter and the Deathly Hallows	part of the series	Harry Potter series
+Harry Potter series	has part	Harry Potter and the Deathly Hallows
+Harry Potter and the Deathly Hallows	part of the series	series
+series	has part	Harry Potter and the Deathly Hallows
+Harry Potter and the Deathly Hallows	genre	fantasy
+Harry Potter and the Deathly Hallows	publication date	21 July 2007
+Harry Potter and the Deathly Hallows	country of origin	United Kingdom
+first edition	part of the series	Harry Potter and the Deathly Hallows
+Harry Potter and the Deathly Hallows	has part	first edition
+Harry Potter and the Deathly Hallows	publication date	0
+Harry Potter and the Deathly Hallows	follows	Harry Potter and the Half-Blood Prince
+Harry Potter and the Half-Blood Prince	followed by	Harry Potter and the Deathly Hallows
+Mum	said to be the same as	"mom"
+"mom"	said to be the same as	Mum
+Mam	said to be the same as	"mom"
+"mom"	said to be the same as	Mam
+Sherbet lemon	has part	lemon
+Motorbike	said to be the same as	motorcycle
+motorcycle	said to be the same as	Motorbike
+chips	said to be the same as	fries
+fries	said to be the same as	Chips
+Jelly	said to be the same as	Jell-O
+Jell-O	said to be the same as	Jelly

@@ -106,3 +106,131 @@ Professor Albus Dumbledore	different from	Professor Albus Dumbledore
 Professor Albus Dumbledore	different from	Professor Albus Dumbledore
 Professor Albus Dumbledore	different from	Professor Albus Dumbledore
 Professor Albus Dumbledore	different from	Professor
+Professor Minerva McGonagall	field of work	Transfiguration
+Professor Minerva McGonagall	field of work	Transfiguration
+Minerva McGonagall	residence	Gryffindor House
+Vernon Dursley	spouse	Petunia Dursley
+Petunia Dursley	spouse	Vernon Dursley
+Dudley Dursley	relative	Harry Potter
+Harry Potter	relative	Dudley Dursley
+Draco Malfoy	father	his parents
+his parents	child	Draco Malfoy
+Harry Potter	present in work	Harry Potter's friends
+Harry Potter's friends	characters	Harry Potter
+Professor Quirrell	field of work	Defence Against the Dark Arts
+Professor Quirrell	instance of	vampire
+Professor Quirrell	instance of	vampire
+Professor Quirrell	uses	turban
+Professor Quirrell	uses	turban
+Professor Quirrell	uses	turban
+Slytherin	instance of	House
+Harry Potter	member of	Slytherin
+Professor Sprout	field of work	Herbology
+Professor Flitwick	field of work	Charms
+Professor Binns	field of work	History of magic
+Hermione	creator	J.Rowling
+J. K. Rowling	notable work	The Lord of the Rings
+The Lord of the Rings	author	J. K. Rowling
+the most evil wizard	significant event	attempted to kill him
+attempted to kill him	participant	the most evil wizard
+Harry Potter	publication date	1990
+J. K. Rowling	instance of	pen name
+The Scotsman	different from	Sunday Times
+children's books have to wait for years	facet of	children
+The following year	winner	Philosopher's Stone
+Philosopher's Stone	award received	The following year
+Dahl	notable work	Dahl's books
+Dahl's books	author	Dahl
+The Big Read	publisher	BBC
+Harry Potter and the Philosopher's Stone	award received	British Book Awards Children's Book of the Year
+Harry Potter and the Philosopher's Stone	award received	Booksellers' Association / Bookseller Author of the Year
+Harry Potter	author	J. K. Rowling
+J. K. Rowling	notable work	Harry Potter
+Harry Potter and the Sorcerer's Stone	publication date	1999
+Harry Potter and the Sorcerer's Stone	publisher	Scholastic
+Sirius Black	present in work	Harry Potter and the Philosopher's Stone
+Harry Potter and the Philosopher's Stone	characters	Sirius Black
+excited communal reading of letters	author	Austen
+characters	has part	personalities
+personalities	part of	characters
+Roman mythology	part of	ancient
+fantasy	instance of	literary genre
+young adult fiction	instance of	literary genre
+boarding school stories	instance of	literary genre
+Bildungsroman	instance of	literary genre
+adult	opposite of	child
+child	opposite of	adult
+Victorian	followed by	Edwardian
+Hogwarts	instance of	boarding school
+Argus Filch	owner of	Mrs. Norris
+Mrs. Norris	owned by	Argus Filch
+social stereotypes	facet of	stratified society
+Voldemort	present in work	Voldemort's own horrific version of order
+Voldemort's own horrific version of order	characters	Voldemort
+Voldemort's own horrific version of order	characters	Voldemort
+Voldemort	present in work	Voldemort's own horrific version of order
+Hermione Granger	notable work	Philosopher's Stone
+Harry Potter	occupation	wizard
+Rubeus Hagrid	family	Weasley family
+Remus Lupin	family	Weasley family
+Sirius Black	family	Weasley family
+Harry Potter and the Chamber of Secrets	publication date	2 July 1998
+Harry Potter and the Goblet of Fire	publication date	8 July 2000
+Harry Potter and the Goblet of Fire	publisher	Bloomsbury
+Harry Potter and the Goblet of Fire	publisher	Scholastic
+Harry Potter and the Half-Blood Prince	publication date	16 July 2005
+Metacritic	has part	Fresh rating
+Harry Potter and the Philosopher's Stone	publication date	26 June 1997
+Harry Potter and the Philosopher's Stone	publisher	Bloomsbury
+Hardback Signature Special Edition	publication date	8 October 2001
+Paperback Special Edition	publication date	10 July 2004
+Paperback Adult Edition	country of origin	United Kingdom
+Paperback Adult Edition	publication date	1 November 2010
+Paperback Edition	publication date	8 September 1999
+Hardback Collector's Edition	publication date	1 November 2000
+The Paperback	publication date	September 2008
+Hardcover Illustrated Edition	publication date	6 October 2015
+Harry Potter and the Philosopher's Stone	publisher	Raincoast
+Paperback Adult Edition	country of origin	Canada
+Paperback Adult Edition	publication date	1 December 1998
+Paperback Magic Edition	publication date	16 October 2002
+Paperback Adult Edition	publisher	Bloomsbury
+Paperback Harry Potter Signature Edition	publication date	12 January 2011
+Argonaut	platform	PlayStation
+Warthog	genre	Action-adventure
+Warthog	genre	Action-adventure
+The Boy Who Lived	cast member	Daniel Radcliffe
+Alec Baldwin	spouse	Carmen Baldwin
+Carmen Baldwin	spouse	Alec Baldwin
+Midnight Duel	publication date	3 June 2020
+Hallowe'en	publication date	4 June 2020
+The Mirror of Erised	publication date	3 July 2020
+Norbert the Norwegian Ridgeback	publication date	8 July 2020
+Harry Potter and the Philosopher's Stone	author	Thomas Taylor
+Thomas Taylor	notable work	Harry Potter and the Philosopher's Stone
+Harry Potter and the Philosopher's Stone	part of the series	Harry Potter series
+Harry Potter series	has part	Harry Potter and the Philosopher's Stone
+Harry Potter and the Chamber of Secrets	author	J. K. Rowling
+J. K. Rowling	notable work	Harry Potter and the Chamber of Secrets
+Cliff Wright	notable work	Harry Potter and the Chamber of Secrets
+Harry Potter and the Chamber of Secrets	part of the series	the series
+the series	has part	Harry Potter and the Chamber of Secrets
+Harry Potter and the Chamber of Secrets	genre	fantasy
+Harry Potter and the Chamber of Secrets	publisher	Bloomsbury
+Harry Potter and the Chamber of Secrets	country of origin	United Kingdom
+Harry Potter and the Chamber of Secrets	publication date	251
+Harry Potter and the Chamber of Secrets	publication date	0
+Harry Potter and the Prisoner of Azkaban	part of the series	Harry Potter series
+Harry Potter series	has part	Harry Potter and the Prisoner of Azkaban
+Harry Potter and the Order of the Phoenix	language of work or name	English
+Harry Potter and the Order of the Phoenix	part of the series	Harry Potter series
+Harry Potter series	has part	Harry Potter and the Order of the Phoenix
+first edition	part of the series	Harry Potter and the Order of the Phoenix
+Harry Potter and the Order of the Phoenix	has part	first edition
+Harry Potter and the Order of the Phoenix	followed by	Harry Potter and the Half-Blood Prince
+Harry Potter and the Half-Blood Prince	follows	Harry Potter and the Order of the Phoenix
+Harry Potter and the Half-Blood Prince	author	Jason Cockcroft
+Harry Potter and the Half-Blood Prince	country of origin	United Kingdom
+Harry Potter and the Deathly Hallows	publisher	Bloomsbury
+Crisp	said to be the same as	chip
+chip	said to be the same as	Crisp
