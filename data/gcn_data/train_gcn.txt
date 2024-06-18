@@ -1,0 +1,32 @@
+Harry Potter	educated at	Hogwarts School
+Hermione Granger	educated at	Hogwarts School
+Ron Weasley	educated at	Hogwarts School
+Hogwarts School	student	Harry Potter
+Hogwarts School	student	Hermione Granger
+Hogwarts School	student	Ron Weasley
+Harry Potter	occupation	wizards
+Lord Voldemort	occupation	wizards
+adult	opposite of	younger readers
+younger readers	opposite of	adult
+Lord Voldemort	child	Harry
+Harry	father	Lord Voldemort
+Harry	sibling	Voldemort
+Harry	sibling	Voldemort
+Voldemort	sibling	Harry
+Voldemort	sibling	Harry
+Harry	sibling	Voldemort
+Harry	sibling	Voldemort
+Voldemort	sibling	Harry
+Voldemort	sibling	Harry
+Harry survived	has effect	lightning-shaped scar
+lightning-shaped scar	has cause	Harry survived
+Harry	field of work	wizarding community
+Hogwarts	has part	Gryffindor House
+Gryffindor House	part of	Hogwarts
+Ron Weasley	spouse	Hermione Granger
+Hermione Granger	spouse	Ron Weasley
+Albus Dumbledore	position held	headmaster
+Severus Snape	occupation	potions professor
+Quirinus Quirrell	member of	Defence Against the Dark Arts
+Voldemort	member of	Defence Against the Dark Arts
+non-magical parentage	subclass of	Wizards

@@ -2,9 +2,39 @@
 > [!IMPORTANT]
 > **构建知识图谱的 PipeLine**
 
-### 1. 数据
+### 1. 数据与模型下载
 
 "Harry Pottle" in Wikipedia. 
+
+**如果网络流畅，可以跳过模型下载这一步**。
+
+> 如果你希望训练自己的关系抽取模型，那么需要进行 step1 & step2
+>
+> 如果你只是想体验关系抽取推理，那么只需要进行 step3
+
+**Step1**. 下载 NER 模型，放置到 `/models/bert-large-ner` 目录，请将仓库 dslim/bert-large-NER 的文件放在里面，而不是文件夹
+
+```bash
+git clone https://huggingface.co/dslim/bert-large-NER
+```
+
+建议使用 SSH 下载，可能会更加稳定✨
+
+
+
+**Step2**. 下载预训练 BERT 模型，放置到 `/models/bert-large-uncased` 目录，要求同 step1.
+
+```bash
+git clone https://huggingface.co/google-bert/bert-large-uncased
+```
+
+ **Step3**. 下载 Babelscape/rebel-large 仓库模型，放置到 `/models/rebel` 目录，要求同 step1.
+
+```bash
+git clone https://huggingface.co/Babelscape/rebel-large
+```
+
+
 
 ### 2. 实体关系抽取
 
