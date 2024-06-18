@@ -3,62 +3,66 @@
 @author:XuMing(xuming624@qq.com)
 @description: 
 """
-import os, torch, json
+import torch, argparse
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 from seqeval.metrics.sequence_labeling import get_entities
 
-config = json.load(open("config.json", "r"))
+from config import NER_LABLES
 # Load model from HuggingFace Hub
-tokenizer = AutoTokenizer.from_pretrained("dslim/bert-large-NER")
-model = AutoModelForTokenClassification.from_pretrained("dslim/bert-large-NER")
 
-label_list = config["NER_LABLES"]
+label_list = NER_LABLES
 
 # sentence = "Established in 1875, Blackburn were one of the founding members of the Football League."
 
-def get_str_from_list(tokens):
-    str = ""
-    for token in tokens:
-        if token.startswith("##"):
-            str += token[2:]
+class NER:
+    def __init__(self, model_path) -> None:
+        self.tokenizer = AutoTokenizer.from_pretrained(model_path)
+        self.model = AutoModelForTokenClassification.from_pretrained(model_path)
+
+    def get_str_from_list(self, tokens):
+        str = ""
+        for token in tokens:
+            if token.startswith("##"):
+                str += token[2:]
+            else:
+                str += " " + token
+        return str.strip()
+
+    def get_entity(self, x):
+        if isinstance(x, str):
+            tokens = self.tokenizer.tokenize(x)
+            inputs = self.tokenizer.encode(x, return_tensors="pt")
         else:
-            str += " " + token
-    return str.strip()
+            raise ValueError("x must be a string.")
+        # print(inputs)
+        with torch.no_grad():
+            outputs = self.model(inputs).logits
+        predictions = torch.argmax(outputs, dim=2)
+        word_tags = [(token, label_list[prediction]) for token, prediction in zip(tokens, predictions[0].numpy()[1:-1])]
+        # print(x)
+        # print(word_tags)
 
-def get_entity(x):
-    if isinstance(x, str):
-        tokens = tokenizer.tokenize(x)
-        inputs = tokenizer.encode(x, return_tensors="pt")
-    else:
-        raise ValueError("x must be a string.")
-    # print(inputs)
-    with torch.no_grad():
-        outputs = model(inputs).logits
-    predictions = torch.argmax(outputs, dim=2)
-    word_tags = [(token, label_list[prediction]) for token, prediction in zip(tokens, predictions[0].numpy()[1:-1])]
-    # print(x)
-    # print(word_tags)
+        pred_labels = [i[1] for i in word_tags]
+        entities = [tokens]
+        line_entities = get_entities(pred_labels)
+        for i in line_entities:
+            word = tokens[i[1]: i[2] + 1]
+            entity_type = i[0]
+            #去除 ## 符号
+            if len(entities) > 1 and (word[0].startswith("##") or entities[-1]["pos"][1] == i[1]):
+                word = self.get_str_from_list(word)
+                entities[-1]["name"] += word
+                entities[-1]["pos"][1] = i[2] + 1
+            else: 
+                word = self.get_str_from_list(word)
+                entities.append({
+                    "name": "".join(word),  
+                    "type": entity_type,
+                    "pos": [i[1], i[2] + 1]
+                })
 
-    pred_labels = [i[1] for i in word_tags]
-    entities = [tokens]
-    line_entities = get_entities(pred_labels)
-    for i in line_entities:
-        word = tokens[i[1]: i[2] + 1]
-        entity_type = i[0]
-        #去除 ## 符号
-        if len(entities) > 1 and (word[0].startswith("##") or entities[-1]["pos"][1] == i[1]):
-            word = get_str_from_list(word)
-            entities[-1]["name"] += word
-            entities[-1]["pos"][1] = i[2] + 1
-        else: 
-            word = get_str_from_list(word)
-            entities.append({
-                "name": "".join(word),  
-                "type": entity_type,
-                "pos": [i[1], i[2] + 1]
-            })
+        # print("Sentence entity:")
+        # print(entities)
+        return entities
 
-    # print("Sentence entity:")
-    print(entities)
-    return entities
-# get_entity("Harry finds an old textbook with notes from the Half-Blood Prince that helps him in Potions class.")
+    

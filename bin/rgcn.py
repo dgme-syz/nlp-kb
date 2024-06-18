@@ -1,12 +1,10 @@
-import torch, sys, json
+import torch, argparse
 import torch.nn as nn
 import torch.nn.functional as F
 from torch_geometric.nn import RGCNConv
-from transformers import Trainer, TrainingArguments
 from tqdm import trange, tqdm
 
-config = json.load(open('config.json'))
-sys.path.append(config['root_dir'])
+
 
 from data.gcn_data.data_utils import *
 
@@ -43,7 +41,6 @@ class RGCN(torch.nn.Module):
 
     def score_loss(self, embedding, triplets, target):
         score = self.distmult(embedding, triplets)
-
         return F.binary_cross_entropy_with_logits(score, target)
 
     def reg_loss(self, embedding):
@@ -76,66 +73,56 @@ def test(test_triplets, model, test_graph, all_triplets):
 
     return mrr
 
+class GlobalConfig:
+    def __init__(self, path):
+        self.entity2id, self.relation2id, self.train_triplets, self.valid_triplets = load_data(path)
+        self.all_triplets = torch.LongTensor(np.concatenate((self.train_triplets, self.valid_triplets)))
+        self.test_graph = build_test_graph(len(self.entity2id), len(self.relation2id), self.train_triplets)
+        self.valid_triplets = torch.LongTensor(self.valid_triplets)
 
-entity2id, relation2id, train_triplets, valid_triplets = load_data(config['gcn_data_root'])
-all_triplets = torch.LongTensor(np.concatenate((train_triplets, valid_triplets)))
-test_graph = build_test_graph(len(entity2id), len(relation2id), train_triplets)
-valid_triplets = torch.LongTensor(valid_triplets)
-
-def main():
+def main(args):
     use_cuda = torch.cuda.is_available()
     if use_cuda:
         torch.cuda.set_device(0)
-
     best_mrr = 0
-
-    
-    model = RGCN(len(entity2id), len(relation2id), num_bases=4, dropout=0.2)
+    info = GlobalConfig(args.data_path)
+    model = RGCN(len(info.entity2id), len(info.relation2id), num_bases=4, dropout=0.2)
     optimizer = torch.optim.Adam(model.parameters(), lr=0.01)
-
     print(model)
-
     if use_cuda:
         model.cuda()
-
-    for epoch in trange(1, (101), desc='Epochs', position=0):
-
+    for epoch in trange(1, (args.epoch + 1), desc='Epochs', position=0):
         model.train()
         optimizer.zero_grad()
-
-        loss = train(train_triplets, model, use_cuda, batch_size=30000, split_size=0.6, 
-            negative_sample=1, reg_ratio = 0.01, num_entities=len(entity2id), num_relations=len(relation2id))
-        
+        loss = train(info.train_triplets, model, use_cuda, batch_size=args.batch_size, split_size=0.6, 
+            negative_sample=1, reg_ratio = 0.01, num_entities=len(info.entity2id), num_relations=len(info.relation2id))
         loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
         optimizer.step()
-
-        if epoch % 20 == 0:
-
+        if epoch % args.eval_step == 0:
             tqdm.write("Train Loss {} at epoch {}".format(loss, epoch))
-
             if use_cuda:
                 model.cpu()
-
             model.eval()
-            valid_mrr = valid(valid_triplets, model, test_graph, all_triplets)
-            
+            valid_mrr = valid(info.valid_triplets, model, info.test_graph, info.all_triplets)
             if valid_mrr > best_mrr:
                 best_mrr = valid_mrr
                 torch.save({'state_dict': model.state_dict(), 'epoch': epoch},
-                            'best_mrr_model.pth')
-
+                            os.path.join(args.save_folder, 'best_mrr_model.pth'))
             if use_cuda:
                 model.cuda()
     
     if use_cuda:
         model.cpu()
 
-entities = json.load(open(os.path.join(config['gcn_data_root'], 'entities.json')))
-id2entity = {v: k for k, v in entities.items()}
-relations = json.load(open(os.path.join(config['gcn_data_root'], 'relations.json')))
-id2relation = {v: k for k, v in relations.items()}
-
 if __name__ == '__main__':
-    # use_2entitys_to_get_relation('san francisco', 'apple')
-    main()
+    paser = argparse.ArgumentParser()
+    paser.add_argument('--epoch', type=int, default=100, help='epoch')
+    paser.add_argument('--batch_size', type=int, default=30000, help='batch_size')
+    paser.add_argument('--save_folder', type=str, default='./rgcn_model', help='save folder')
+    paser.add_argument('--eval_step', type=int, default=20, help='every x steps calc mrr')
+    paser.add_argument('--data_path', type=str, default='./data/gcn_data', help='data path')
+    args = paser.parse_args()
+    if not os.path.exists(args.save_folder):
+        os.makedirs(args.save_folder)
+    main(args)
