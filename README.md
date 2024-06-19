@@ -1,12 +1,24 @@
 # NLP-KB
 > [!IMPORTANT]
-> **构建知识图谱的 PipeLine**
+> 概要：**构建知识图谱的 PipeLine**
 
-### 0. 环境安装
+
+📢 **通知**
+* 完成了简单的 `webui` 的部署 
+
+😶‍🌫️ **TODO**
+* 更换分句模型
+* 测试环境配置
+<br/>
+
+----
+
+
+## 0. 环境安装
 
 建议使用 `Python` >= 3.10，注意 `gradio` 使用最新版的，老旧版本已经被验证可能会出现**无限递归**的错误(暂不清楚原因)
 
-使用：
+使用如下命令开始安装依赖：
 
 ```shell
 pip install -r requirements.txt
@@ -16,9 +28,10 @@ pip install -r requirements.txt
 
 * `nltz` 库下载模型需要足够流畅的网络[TODO 之后考虑换一个分句模型]
 
+<br/>
+<br/>
 
-
-### 1. 数据与模型下载
+## 1. 数据与模型下载
 
 "Harry Pottle" in Wikipedia. 
 
@@ -50,13 +63,15 @@ git clone https://huggingface.co/google-bert/bert-large-uncased
 git clone https://huggingface.co/Babelscape/rebel-large
 ```
 
+<br/>
+<br/>
 
-
-### 2. 实体关系抽取
+## 2. 实体关系抽取
 
 **NER**
 
 直接使用 https://huggingface.co/dslim/bert-base-NER 的成品，详细细节在 `/bin/ner.py`
+<br/>
 
 **ERE**
 
@@ -68,6 +83,7 @@ $$\rm \[E1\] \mbox{ SUBJ } \[/E1\] \mbox{ ... }\[E2\]\mbox{ ... }\[/E2\]$$
 ```
 {"token": ["Zagat", "Survey", ",", "the", "guide", "empire", "that", "started", "as", "a", "hobby", "for", "Tim", "and", "Nina", "Zagat", "in", "1979", "as", "a", "two-page", "typed", "list", "of", "New", "York", "restaurants", "compiled", "from", "reviews", "from", "friends", ",", "has", "been", "put", "up", "for", "sale", ",", "according", "to", "people", "briefed", "on", "the", "decision", "."], "h": {"name": "Zagat", "pos": [0, 1]}, "t": {"name": "1979", "pos": [17, 18]}, "relation": "org:founded"}
 ```
+<br/>
 
 > [!TIP]
 > **数据增强**
@@ -84,7 +100,7 @@ $$\rm \[E1\] \mbox{ SUBJ } \[/E1\] \mbox{ ... }\[E2\]\mbox{ ... }\[/E2\]$$
 为我生成 100 条关系 "per:friend_of" 的训练语料
 ```
 
-
+<br/>
 
 > [!TIP]
 > **训练流程**
@@ -104,7 +120,9 @@ $$\rm \[E1\] \mbox{ SUBJ } \[/E1\] \mbox{ ... }\[E2\]\mbox{ ... }\[/E2\]$$
   <img src="./logs/train_loss.svg" width="50%">
 </div>
 
-**如何提取**
+<br/>
+
+**如何提取关系**
 
 详情参考 `/bin/extract.py` ，提供了两种输入
 
@@ -121,12 +139,15 @@ Harry Potter	per:origin	British
 
 extract.py 的结果 70% 概率输入到 `train_gcn.txt` ，30% 概率输入到 `val_gcn.txt` 用于 R-GCN 模型的训练集和验证集
 
+<br/>
 
 
 > [!TIP]
 > **知识表示和推理**
 
 采用 [Modeling Relational Data with Graph Convolutional Networks](https://arxiv.org/abs/1703.06103) 提出的 R-GCN 获得实体节点的向量嵌入。
+
+<br/>
 
 **数据处理**
 
@@ -137,13 +158,19 @@ Harry Potter	per:origin	British
 J. K . Rowling	per:origin	British
 Harry Potter	per:schools_attended	Ron Weasley
 ...
-```
+
 
 之后调用 `data/gcn_data/data_utils.py` 即可获得 `entities.json`，`relations.json`，`train.txt` ，`valid.txt`
+
+<br/>
+
 
 **训练**
 
 直接调用 `/bin/rgcn.py` 即可，需要注意的参数为 `batch_size` (每次从图中选多少点作为子集进行训练).
+
+<br/>
+
 
 **推理**
 
@@ -160,13 +187,20 @@ Harry Potter	per:schools_attended	Ron Weasley
 >
 > 方法 2 & 3，首先通过 BFS 搜索，获得与当前实体之间最短路径不超过 `lim_edge=2` 条边的点，接着与方法 1 一样，为候选三元组打分。
 
-### 4. 数据存储及可视化
+<br/>
+<br/>
+
+
+## 4. 数据存储及可视化
 
 为了简化实验，我们只提供了使用 `/bin/neo.py` 对于指定目录(比如 `/data/gcn_data`)下 的 `train_gcn.txt` 以及 `val_gcn.txt` 的三元组，生成得到 `neo4j` 支持的 `Cypher` 语言，您可以在你的浏览器的界面粘贴这些指令以获取结果。
 
+<br/>
+
+<br/>
 
 
-### 5. UI
+## 5. UI
 
 为了方便使用😎，这里部署了`webui`，可以使用如下命令 ：
 
