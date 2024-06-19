@@ -4,6 +4,7 @@ from config import gcn_data_root, schema, ner_model
 
 from data.llm import llm
 from bin.interface import InterFace
+from bin.neo_graph import Neo
 
 Infer = InterFace()
 import nltk
@@ -43,7 +44,7 @@ def convert_data(dir: str) -> None:
     try:
         os.system(f'python -m data.ere_data.data_utils --data_dir {dir}')
     except Exception as e:
-        gr.Warning(f'数据处理失败: {e}')
+        gr.Error(f'数据处理失败: {e}')
         return
     gr.Info('数据处理完成')
 
@@ -53,7 +54,7 @@ def train_ere_fn(epochs, batch_size, save_steps, dir, pretrained_model, relation
     try:
         os.system(f'python -m bin.ere --epoch {int(epochs)} --batch_size {int(batch_size)} --save_steps {int(save_steps)} --data_dir {dir} --pretrained_model {pretrained_model}')
     except Exception as e:
-        gr.Warning(f'训练失败: {e}')
+        gr.Error(f'训练失败: {e}')
         return
     gr.Info('训练完成')
 
@@ -61,6 +62,7 @@ def ere_file(data_path: str, method: str, out_dir: str, pretrained_model: str, n
     try:
         if method == 'bert-large-uncased(tuning)':
             # 使用 os 调用 bin/extract.py
+            print(ner_model)
             os.system(f'python -m bin.extract --article "{data_path}" --output_dir {out_dir} --model_path {pretrained_model} --ner_path {ner_model}')
         else:
             # 使用 os 调用 bin/rebel-extract.py
@@ -71,7 +73,7 @@ def ere_file(data_path: str, method: str, out_dir: str, pretrained_model: str, n
             part_of_out += "".join(f.readlines()[:5])
         return part_of_out
     except Exception as e:
-        gr.Warning(f'数据处理失败: {e}')
+        gr.Error(f'数据处理失败: {e}')
         return ''
 
 def update_visibility(selected_method):
@@ -91,7 +93,7 @@ def split_fn(dir: str) -> None:
     try:
         os.system(f'python -m data.gcn_data.data_utils --data_dir {dir}')
     except Exception as e:
-        gr.Warning(f'数据处理失败: {e}')
+        gr.Error(f'数据处理失败: {e}')
         return
     gr.Info('数据划分完成')
 
@@ -99,7 +101,7 @@ def train_rgcn(epochs, batch_size, eval_step, dir):
     try:
         os.system(f'python -m bin.rgcn --epoch {int(epochs)} --batch_size {int(batch_size)} --eval_step {int(eval_step)} --data_path {dir}')
     except Exception as e:
-        gr.Warning(f'训练失败: {e}')
+        gr.Error(f'训练失败: {e}')
         return
     gr.Info('训练完成')
 
@@ -113,7 +115,7 @@ def infer1_fn(entity1: str, entity2: str, threshold: float, data: str):
         for i in ans:
             di[i[0][1]] = i[1] / tot
     except Exception as e:
-        gr.Warning(f'推理失败: {e}')
+        gr.Error(f'推理失败: {e}')
         return {}
     gr.Info('推理完成')
     return di
@@ -127,7 +129,7 @@ def infer2_fn(entity1: str, relation: str, lim_edge_1: int, threshold: float, da
         for i in ans:
             di[i[0][2]] = i[1] / tot
     except Exception as e:
-        gr.Warning(f'推理失败: {e}')
+        gr.Error(f'推理失败: {e}')
         return {}
 
     gr.Info('推理完成')
@@ -142,15 +144,33 @@ def infer3_fn(relation: str, entity2: str, lim_edge_2: int, threshold: float, da
         for i in ans:
             di[i[0][0]] = i[1] / tot
     except Exception as e:
-        gr.Warning(f'推理失败: {e}')
+        gr.Error(f'推理失败: {e}')
         return {}
     gr.Info('推理完成')
     return di
 
+def enjoy_neo(txt_path: str):
+    try:
+        # 解析三元组生成指令
+        os.system(f'python -m bin.neo --input_dir {txt_path}')
+        gr.Info('解析三元组完成，你能在 ./neos/ 文件夹下找到运行指令')
+    except Exception as e:
+        gr.Error(f'生成失败: {e}')
+        return gr.Markdown('生成失败')
+
 with app:
     gr.Markdown(value="""# 知识表示 课设
         **Author**:[DGMEFG](https://github.com/DGMEFG) """)
+    
     with gr.Tabs():
+        with gr.Tab(label='How to start'):
+            gr.Markdown("### 1. Python环境(建议使用 conda 创建 Python>=3.10 的环境)")
+            gr.Markdown("```shell pip install -r requirements.txt ```")
+            gr.Markdown("值得注意的是，gradio需要使用较新版本，老版本会报一类似，递归深度过大 (3.xx.x 版本) 的错误")
+            gr.Markdown("### 2. 关于模型")
+            gr.Markdown("秉持着一键式的初心，这里我并没花太多精力编写下载模型的脚本，因为如果上网姿势正确，运行代码应该是能一键到底，这里提示几个需要注意的地方")
+            gr.Markdown("* nltk下载punkt可能会失败，因为上网姿势不太正确")
+            gr.Markdown("* 本地模型的路径需要自己输入，如./models/bert-large-ner','./models/rebel")
         with gr.Tab(label='数据预处理'):
             with gr.Row():
                 raw_data = gr.Textbox(label='原始数据', type='text', lines=10)
@@ -188,7 +208,8 @@ with app:
                 data_path = gr.Textbox(label='文件路径', type='text', value='.\\data\\raw.txt', interactive=True)
                 part_of_out = gr.Textbox(label='部分输出', value='wait for processing', type='text', lines=10)
                 with gr.Column():
-                    ere_merthod = gr.Radio(label='关系抽取方法', choices=['bert-large-uncased(tuning)', 'rebel'])
+                    ere_merthod = gr.Radio(label='关系抽取方法', choices=['bert-large-uncased(tuning)', 'rebel'], 
+                            value='rebel', interactive=True)
                     ner_model_txt = gr.Dropdown(label='NER模型', choices=[ner_model], 
                             visible=False, allow_custom_value=True, interactive=True)
                     pretrained_models = gr.Dropdown(label='选择预训练模型', choices=li, visible=False, allow_custom_value=True)
@@ -198,7 +219,7 @@ with app:
                         outputs=[ner_model_txt, pretrained_models, rebel_model_txt])
                     out_dir = gr.Textbox(label='输出路径', type='text', value=gcn_data_root, interactive=True)
                     run2 = gr.Button()
-            run2.click(ere_file, inputs=[data_path, ere_merthod, out_dir, pretrained_models, ner_model_demo, rebel_model_txt], outputs=[part_of_out])
+            run2.click(ere_file, inputs=[data_path, ere_merthod, out_dir, pretrained_models, ner_model_txt, rebel_model_txt], outputs=[part_of_out])
             # 训练
             gr.Markdown("### 训练")
             with gr.Row():
@@ -264,6 +285,11 @@ with app:
                     infer3 = gr.Button()
                     out3 = gr.Label(label='推理 -> 实体1')
                 infer3.click(infer3_fn, inputs=[relation2, entity2, lim_edge_2, th3, data_for_infer], outputs=[out3])
+        with gr.Tab(label='知识存储 & 可视化'):
+            with gr.Row():
+                txt_dir = gr.Textbox(label='三元组存储文件路径', type='text', value='./data/gcn_data', interactive=True)
+                encode = gr.Button(value='解析三元组生成知识图谱')
+            encode.click(fn=enjoy_neo, inputs=[txt_dir])
 if __name__ == '__main__':
     app.launch()
     
