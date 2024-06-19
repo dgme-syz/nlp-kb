@@ -158,7 +158,7 @@ Harry Potter	per:origin	British
 J. K . Rowling	per:origin	British
 Harry Potter	per:schools_attended	Ron Weasley
 ...
-
+```
 
 之后调用 `data/gcn_data/data_utils.py` 即可获得 `entities.json`，`relations.json`，`train.txt` ，`valid.txt`
 
