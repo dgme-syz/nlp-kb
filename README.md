@@ -147,7 +147,7 @@ Harry Potter	per:schools_attended	Ron Weasley
 
 **推理**
 
-`/bin/interface.py` 提供了 $3$ 个函数：
+`/bin/interface.py` 提供了 `Interface`类的 $3$ 个成员函数：
 
 * **use_2entitys_to_get_relation** 
   * 接受 `(entity1, entity2)` 的输入，期望的 `entity1` 是原始的表达，比如 "Harry".
