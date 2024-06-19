@@ -54,7 +54,7 @@ class Rebel:
             
     def write(self, triplets: list[dict], output: str) -> None:
         filepath = output
-        if random.random() > 0.3:
+        if random.random() > 0.15:
             filepath = os.path.join(output, "train_gcn.txt")
         else:
             filepath = os.path.join(output, "val_gcn.txt")

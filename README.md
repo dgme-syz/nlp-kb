@@ -2,6 +2,22 @@
 > [!IMPORTANT]
 > **构建知识图谱的 PipeLine**
 
+### 0. 环境安装
+
+建议使用 `Python` >= 3.10，注意 `gradio` 使用最新版的，老旧版本已经被验证可能会出现**无限递归**的错误(暂不清楚原因)
+
+使用：
+
+```shell
+pip install -r requirements.txt
+```
+
+需要指出：
+
+* `nltz` 库下载模型需要足够流畅的网络[TODO 之后考虑换一个分句模型]
+
+
+
 ### 1. 数据与模型下载
 
 "Harry Pottle" in Wikipedia. 
@@ -145,3 +161,18 @@ Harry Potter	per:schools_attended	Ron Weasley
 > 方法 2 & 3，首先通过 BFS 搜索，获得与当前实体之间最短路径不超过 `lim_edge=2` 条边的点，接着与方法 1 一样，为候选三元组打分。
 
 ### 4. 数据存储及可视化
+
+为了简化实验，我们只提供了使用 `/bin/neo.py` 对于指定目录(比如 `/data/gcn_data`)下 的 `train_gcn.txt` 以及 `val_gcn.txt` 的三元组，生成得到 `neo4j` 支持的 `Cypher` 语言，您可以在你的浏览器的界面粘贴这些指令以获取结果。
+
+
+
+### 5. UI
+
+为了方便使用😎，这里部署了`webui`，可以使用如下命令 ：
+
+```shell
+Python -m app
+```
+
+
+

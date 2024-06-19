@@ -1,363 +1,40 @@
-Harry Potter	author	J. K. Rowling
-J. K. Rowling	notable work	Harry Potter
-Harry Potter series	publisher	Bloomsbury
-Harry Potter series	publisher	Scholastic Press
-mystery	subclass of	thriller
-1997	point in time	1997
+Harry Potter	educated_at	Hogwarts School
+Hermione Granger	educated_at	Hogwarts School
+Ron Weasley	educated_at	Hogwarts School
+Hogwarts School	student	Harry Potter
+Hogwarts School	student	Hermione Granger
+Hogwarts School	student	Ron Weasley
 Harry Potter	characters	boy named Harry Potter
-boy named Harry Potter	present in work	Harry Potter
-boy named Harry Potter	present in work	Harry Potter
+boy named Harry Potter	present_in_work	Harry Potter
+boy named Harry Potter	present_in_work	Harry Potter
 Harry Potter	characters	boy named Harry Potter
-Harry	relative	aunt
-Harry	relative	uncle
-Harry	relative	cousin
-aunt	relative	Harry
-aunt	sibling	uncle
-aunt	sibling	cousin
-uncle	relative	Harry
-uncle	sibling	aunt
-uncle	sibling	cousin
-cousin	relative	Harry
-cousin	sibling	aunt
-cousin	sibling	uncle
-Harry	occupation	wizard
-Lily	sibling	James Potter
-James Potter	sibling	Lily
-Voldemort	instance of	spirit
-Voldemort	owner of	Philosopher's Stone
-Philosopher's Stone	owned by	Voldemort
-Chamber of Secrets	instance of	legendary place
-Harry	instance of	snake
-dark magic	instance of	skill
-Hermione	spouse	Ginny Weasley
-Ginny Weasley	spouse	Hermione
-Harry	sibling	Ron
-Ron	sibling	Harry
-Harry	owner of	Gryffindor sword
-Gryffindor sword	owned by	Harry
-Harry	spouse	Hermione
-Hermione	spouse	Harry
-Group chase	subclass of	chase
-Harry	spouse	Hermione
-Hermione	spouse	Harry
-Cedric Diggory	educated at	Hogwarts
-Voldemort	member of	Death Eater
-Dolores Umbridge	position held	High Inquisitor
-Practical Defence Against Dark Arts	instance of	banned
-Harry Potter	derivative work	Harry Potter II
-Harry Potter II	based on	Harry Potter
-Sirius	significant event	being tortured
-being tortured	participant	Sirius
+Harry	sibling	Voldemort
+Harry	sibling	Voldemort
+Voldemort	sibling	Harry
+Voldemort	sibling	Harry
+Harry	sibling	Voldemort
+Harry	sibling	Voldemort
+Voldemort	sibling	Harry
+Voldemort	sibling	Harry
+Group chase	subclass_of	chase
+Alastor "Mad-Eye" Moody	notable_work	Defence Against Dark Arts
+Practical Defence Against Dark Arts	instance_of	banned
 Harry	employer	Ministry
-Horcruxes	owned by	Voldemort
-Draco	member of	Death Eater
-Sword of Gryffindor	owned by	Patronus
-Harry	instance of	Horcrux
-Harry	present in work	Harry is brought back to life
-Harry is brought back to life	characters	Harry
-Harry Potter and the Philosopher's Stone	author	J. K. Rowling
-J. K. Rowling	notable work	Harry Potter and the Philosopher's Stone
-Harry Potter and the Philosopher's Stone	publisher	Scholastic Corporation
-film of the same name	based on	Harry Potter and the Philosopher's Stone
-Harry Potter and the Philosopher's Stone	main subject	boarding school
-Harry Potter and the Philosopher's Stone	main subject	boarding school
-Harry Potter	owner of	Gringotts Wizarding Bank
-Harry Potter	owner of	Gringotts Wizarding Bank
-Harry Potter	owner of	Gringotts Wizarding Bank
-Gringotts Wizarding Bank	owned by	Harry Potter
-Gringotts Wizarding Bank	owned by	Harry Potter
-Gringotts Wizarding Bank	owned by	Harry Potter
-Harry Potter	owner of	Gringotts Wizarding Bank
-Hedwig	instance of	owl
-Hogwarts Express	terminus	King's Cross railway station
-Hermione Granger	present in work	Harry Potter
-Harry Potter	characters	Hermione Granger
-Harry Potter	sport	Quidditch
-Firenze	instance of	forest centaur
-Professor Quirrell	field of work	Defence Against the Dark Arts
-Harry's scar	has effect	passes out
-passes out	has cause	Harry's scar
-Harry	relative	Voldemort
-Voldemort	relative	Harry
-Albus Dumbledore	student	Harry
-Harry	student of	Albus Dumbledore
-Gryffindor	award received	House Cup
-Harry Potter	significant event	eleventh birthday
-Harry Potter	significant event	eleventh birthday
-Harry Potter	relative	Voldemort
-Harry Potter	relative	Voldemort
-Voldemort	relative	Harry Potter
-Voldemort	relative	Harry Potter
-Ron Weasley	relative	Harry Potter
-Harry Potter	relative	Ron Weasley
-Harry Potter	relative	Ron Weasley
-Ron Weasley	relative	Harry Potter
-Ron Weasley	family	pure-blood family
-Ron Weasley	family	family
-Philosopher's Stone	owned by	Ron Weasley
-Professor Albus Dumbledore	different from	Professor Albus Dumbledore
-Professor Albus Dumbledore	different from	Professor Albus Dumbledore
-Professor Albus Dumbledore	different from	Professor Albus Dumbledore
-Professor Albus Dumbledore	different from	Professor Albus Dumbledore
-Professor Albus Dumbledore	different from	Professor Albus Dumbledore
-Professor Albus Dumbledore	different from	Professor Albus Dumbledore
-Professor Albus Dumbledore	different from	Professor Albus Dumbledore
-Professor Albus Dumbledore	different from	Professor Albus Dumbledore
-Professor Albus Dumbledore	different from	Professor Albus Dumbledore
-Professor Albus Dumbledore	different from	Professor Albus Dumbledore
-Professor Albus Dumbledore	different from	Professor
-Professor Minerva McGonagall	field of work	Transfiguration
-Professor Minerva McGonagall	field of work	Transfiguration
-Minerva McGonagall	residence	Gryffindor House
-Vernon Dursley	spouse	Petunia Dursley
-Petunia Dursley	spouse	Vernon Dursley
-Dudley Dursley	relative	Harry Potter
-Harry Potter	relative	Dudley Dursley
-Draco Malfoy	father	his parents
-his parents	child	Draco Malfoy
-Harry Potter	present in work	Harry Potter's friends
-Harry Potter's friends	characters	Harry Potter
-Professor Quirrell	field of work	Defence Against the Dark Arts
-Professor Quirrell	instance of	vampire
-Professor Quirrell	instance of	vampire
-Professor Quirrell	uses	turban
-Professor Quirrell	uses	turban
-Professor Quirrell	uses	turban
-Slytherin	instance of	House
-Harry Potter	member of	Slytherin
-Professor Sprout	field of work	Herbology
-Professor Flitwick	field of work	Charms
-Professor Binns	field of work	History of magic
-Hermione	creator	J.Rowling
-J. K. Rowling	notable work	The Lord of the Rings
-The Lord of the Rings	author	J. K. Rowling
-the most evil wizard	significant event	attempted to kill him
-attempted to kill him	participant	the most evil wizard
-Harry Potter	publication date	1990
-J. K. Rowling	instance of	pen name
-The Scotsman	different from	Sunday Times
-children's books have to wait for years	facet of	children
-The following year	winner	Philosopher's Stone
-Philosopher's Stone	award received	The following year
-Dahl	notable work	Dahl's books
-Dahl's books	author	Dahl
-The Big Read	publisher	BBC
-Harry Potter and the Philosopher's Stone	award received	British Book Awards Children's Book of the Year
-Harry Potter and the Philosopher's Stone	award received	Booksellers' Association / Bookseller Author of the Year
-Harry Potter	author	J. K. Rowling
-J. K. Rowling	notable work	Harry Potter
-Harry Potter and the Sorcerer's Stone	publication date	1999
-Harry Potter and the Sorcerer's Stone	publisher	Scholastic
-Sirius Black	present in work	Harry Potter and the Philosopher's Stone
-Harry Potter and the Philosopher's Stone	characters	Sirius Black
-excited communal reading of letters	author	Austen
-characters	has part	personalities
-personalities	part of	characters
-Roman mythology	part of	ancient
-fantasy	instance of	literary genre
-young adult fiction	instance of	literary genre
-boarding school stories	instance of	literary genre
-Bildungsroman	instance of	literary genre
-adult	opposite of	child
-child	opposite of	adult
-Victorian	followed by	Edwardian
-Hogwarts	instance of	boarding school
-Argus Filch	owner of	Mrs. Norris
-Mrs. Norris	owned by	Argus Filch
-social stereotypes	facet of	stratified society
-Voldemort	present in work	Voldemort's own horrific version of order
-Voldemort's own horrific version of order	characters	Voldemort
-Voldemort's own horrific version of order	characters	Voldemort
-Voldemort	present in work	Voldemort's own horrific version of order
-Hermione Granger	notable work	Philosopher's Stone
-Harry Potter	occupation	wizard
-Rubeus Hagrid	family	Weasley family
-Remus Lupin	family	Weasley family
-Sirius Black	family	Weasley family
-Harry Potter and the Chamber of Secrets	publication date	2 July 1998
-Harry Potter and the Goblet of Fire	publication date	8 July 2000
-Harry Potter and the Goblet of Fire	publisher	Bloomsbury
-Harry Potter and the Goblet of Fire	publisher	Scholastic
-Harry Potter and the Half-Blood Prince	publication date	16 July 2005
-Metacritic	has part	Fresh rating
-Harry Potter and the Philosopher's Stone	publication date	26 June 1997
-Harry Potter and the Philosopher's Stone	publisher	Bloomsbury
-Hardback Signature Special Edition	publication date	8 October 2001
-Paperback Special Edition	publication date	10 July 2004
-Paperback Adult Edition	country of origin	United Kingdom
-Paperback Adult Edition	publication date	1 November 2010
-Paperback Edition	publication date	8 September 1999
-Hardback Collector's Edition	publication date	1 November 2000
-The Paperback	publication date	September 2008
-Hardcover Illustrated Edition	publication date	6 October 2015
-Harry Potter and the Philosopher's Stone	publisher	Raincoast
-Paperback Adult Edition	country of origin	Canada
-Paperback Adult Edition	publication date	1 December 1998
-Paperback Magic Edition	publication date	16 October 2002
-Paperback Adult Edition	publisher	Bloomsbury
-Paperback Harry Potter Signature Edition	publication date	12 January 2011
-Argonaut	platform	PlayStation
-Warthog	genre	Action-adventure
-Warthog	genre	Action-adventure
-The Boy Who Lived	cast member	Daniel Radcliffe
-Alec Baldwin	spouse	Carmen Baldwin
-Carmen Baldwin	spouse	Alec Baldwin
-Midnight Duel	publication date	3 June 2020
-Hallowe'en	publication date	4 June 2020
-The Mirror of Erised	publication date	3 July 2020
-Norbert the Norwegian Ridgeback	publication date	8 July 2020
-Harry Potter and the Philosopher's Stone	author	Thomas Taylor
-Thomas Taylor	notable work	Harry Potter and the Philosopher's Stone
-Harry Potter and the Philosopher's Stone	part of the series	Harry Potter series
-Harry Potter series	has part	Harry Potter and the Philosopher's Stone
-Harry Potter and the Chamber of Secrets	author	J. K. Rowling
-J. K. Rowling	notable work	Harry Potter and the Chamber of Secrets
-Cliff Wright	notable work	Harry Potter and the Chamber of Secrets
-Harry Potter and the Chamber of Secrets	part of the series	the series
-the series	has part	Harry Potter and the Chamber of Secrets
-Harry Potter and the Chamber of Secrets	genre	fantasy
-Harry Potter and the Chamber of Secrets	publisher	Bloomsbury
-Harry Potter and the Chamber of Secrets	country of origin	United Kingdom
-Harry Potter and the Chamber of Secrets	publication date	251
-Harry Potter and the Chamber of Secrets	publication date	0
-Harry Potter and the Prisoner of Azkaban	part of the series	Harry Potter series
-Harry Potter series	has part	Harry Potter and the Prisoner of Azkaban
-Harry Potter and the Order of the Phoenix	language of work or name	English
-Harry Potter and the Order of the Phoenix	part of the series	Harry Potter series
-Harry Potter series	has part	Harry Potter and the Order of the Phoenix
-first edition	part of the series	Harry Potter and the Order of the Phoenix
-Harry Potter and the Order of the Phoenix	has part	first edition
-Harry Potter and the Order of the Phoenix	followed by	Harry Potter and the Half-Blood Prince
-Harry Potter and the Half-Blood Prince	follows	Harry Potter and the Order of the Phoenix
-Harry Potter and the Half-Blood Prince	author	Jason Cockcroft
-Harry Potter and the Half-Blood Prince	country of origin	United Kingdom
-Harry Potter and the Deathly Hallows	publisher	Bloomsbury
-Crisp	said to be the same as	chip
-chip	said to be the same as	Crisp
-Jacket potato	subclass of	potato
-The Letters from No One	number of episodes	26
-Diagon Alley	publication date	19 May 2020
-Diagon Alley	number of episodes	48
-The Journey from Platform Nine and Three-Quarters	length	41
-The Sorting Hat	publication date	27 May 2020
-The Sorting Hat	number of episodes	27
-The Sorting Hat	cast member	Olivia Colman
-The Sorting Hat	cast member	Jonathan Van Ness
-The Sorting Hat	cast member	Kate McKinnon
-The Potions Master	number of episodes	18
-Midnight Duel	publication date	3 June 2020
-Hallowe'en	cast member	Whoopi Goldberg
-Quidditch	publication date	10 June 2020
-David Beckham	sport	Quidditch
-Norbert the Norwegian Ridgeback	publication date	8 July 2020
-The Forbidden Forest	number of episodes	33
-Through the Trapdoor	publication date	14 July 2020
-Hogwarts School of Witchcraft and Wizardry	has part	Slytherin
-Slytherin	part of	Hogwarts School of Witchcraft and Wizardry
-petrified	subclass of	threats
-incompetent	subclass of	self-serving
-Hogwarts Express	terminus	King's Cross station
-the car	located in the administrative territorial entity	forest
-Harry	residence	castle walls
-castle walls	occupant	Harry
-Slytherin	office held by head of the organization	Heir
-Bludger	sport	Quidditch
-Dobby	student	Harry
-Harry	student of	Dobby
-Hermione	child	Harry
-Hermione	child	Ron
-Harry	mother	Hermione
-Harry	sibling	Ron
-Ron	mother	Hermione
-Ron	sibling	Harry
-Draco	child	heir
-heir	father	Draco
-Tom Riddle	significant event	another student's death
-another student's death	participant	Tom Riddle
-lockdown	facet of	school
-Albus Dumbledore	position held	Headmaster
-Harry	sibling	Ron
-Harry	spouse	Hermione
-Ron	sibling	Harry
-Ron	spouse	Hermione
-Hermione	spouse	Harry
-Hermione	spouse	Ron
-walls	connects with	plumbing
-plumbing	connects with	walls
-Ron	sibling	Ginny
-Ginny	sibling	Ron
-Tom Riddle	member of	Slytherin
-Hagrid	location	Chamber
-Harry	instance of	basilisk
-Harry	relative	Fawkes
-Fawkes	relative	Harry
-Fawkes	relative	Harry
-Harry	relative	Fawkes
-Harry	spouse	Ginny
-Ginny	spouse	Harry
-Harry	spouse	Ginny
-Ginny	spouse	Harry
-Dobby	relative	Harry
-Dobby	relative	Harry
-Harry	relative	Dobby
-Harry	relative	Dobby
-Dobby	relative	Harry
-Dobby	relative	Harry
-Bloomsbury	field of work	revision
-official website	owned by	J. K. Rowling
-First edition	followed by	subsequent reprints
-subsequent reprints	follows	First edition
-Salazar Slytherin	said to be the same as	his descendant
-his descendant	said to be the same as	Salazar Slytherin
-Gilderoy Lockhart	notable work	Weekends with Werewolves
-Gilderoy Lockhart	notable work	Wanderings with Werewolves
-Weekends with Werewolves	author	Gilderoy Lockhart
-Wanderings with Werewolves	author	Gilderoy Lockhart
-Fawkes	instance of	deus ex machina
-Fawkes	instance of	deus ex machina
-Fawkes	instance of	deus ex machina
-Harry Potter and the Philosopher's Stone	award received	Nestlé Smarties Book Prize
-Harry Potter and the Prisoner of Azkaban	award received	Nestlé Smarties Book Prize
-Children's Book Award	inception	1999
-Harry Potter and the Chamber of Secrets	follows	first book
-first book	followed by	Harry Potter and the Chamber of Secrets
-Gilderoy Lockhart	present in work	Harry Potter and the Chamber of Secrets
-racism	subclass of	prejudice
-Harry Potter and the Chamber of Secrets	characters	Dobby
-Harry Potter and the Chamber of Secrets	characters	Nearly Headless Nick
-Dobby	present in work	Harry Potter and the Chamber of Secrets
-Nearly Headless Nick	present in work	Harry Potter and the Chamber of Secrets
-Chamber of Secrets	characters	Tom Riddle
-Chamber of Secrets	characters	Ginny Weasley
-Tom Riddle	present in work	Chamber of Secrets
-Ginny Weasley	present in work	Chamber of Secrets
-Harry Potter	author	J. Rowling
-Petrarca	notable work	Secretum
-Secretum	author	Petrarca
-Horcruxes	owned by	Voldemort
-Harry Potter and the Secular City	author	Ken Jacobson
-memory modification	instance of	euphemism
-Half-Blood Prince	followed by	book six
-book six	follows	Half-Blood Prince
-Half-Blood Prince	has part	Chamber of Secrets
-Half-Blood Prince	characters	Tom Riddle
-Chamber of Secrets	part of	Half-Blood Prince
-Tom Riddle	present in work	Half-Blood Prince
-Harry	spouse	Ginny Weasley
-Ginny Weasley	spouse	Harry
-Chris Columbus	occupation	directed
-Titanic	publication date	1997
-Harry Potter and the Philosopher's Stone	publication date	2001
-Best Fantasy Film	part of	Saturn Award
-Harry Potter	has part	Philosopher's Stone
-Philosopher's Stone	part of	Harry Potter
-Homer	ethnic group	ancient Greek
-object lessons	subclass of	educational techniques
-Harry Potter	educated at	Hogwarts School of Witchcraft and Wizardry
+Half-Blood Prince	present_in_work	Potions class
+Potions class	characters	Half-Blood Prince
+Harry	sibling	Dumbledore
+Dumbledore	sibling	Harry
+Harry	instance_of	Horcrux
+Harry Potter and the Philosopher's Stone	publication_date	1999
+film of the same name	based_on	Harry Potter and the Philosopher's Stone
+humour	subclass_of	imagination
+Harry Potter and the Philosopher's Stone	main_subject	boarding school
+Harry Potter and the Philosopher's Stone	main_subject	boarding school
+Harry Potter	educated_at	Hogwarts School of Witchcraft and Wizardry
 Harry Potter	father	James
 Harry Potter	mother	Lily Potter
-Rubeus Hagrid	educated at	Hogwarts School of Witchcraft and Wizardry
-Harry Potter	educated at	Hogwarts School of Witchcraft and Wizardry
+Rubeus Hagrid	educated_at	Hogwarts School of Witchcraft and Wizardry
+Harry Potter	educated_at	Hogwarts School of Witchcraft and Wizardry
 Harry Potter	father	James
 Harry Potter	mother	Lily Potter
 James	child	Harry Potter
@@ -365,268 +42,518 @@ James	child	Harry Potter
 James	child	Harry Potter
 James	spouse	Lily Potter
 Lily Potter	child	Harry Potter
-Diagon Alley	located in the administrative territorial entity	London
-Hedwig	instance of	owl
+Harry Potter	owner_of	Gringotts Wizarding Bank
+Harry Potter	owner_of	Gringotts Wizarding Bank
+Harry Potter	owner_of	Gringotts Wizarding Bank
+Gringotts Wizarding Bank	owned_by	Harry Potter
+Gringotts Wizarding Bank	owned_by	Harry Potter
+Gringotts Wizarding Bank	owned_by	Harry Potter
+Harry Potter	owner_of	Gringotts Wizarding Bank
+Harry Potter	sibling	Lord Voldemort
+Lord Voldemort	sibling	Harry Potter
+Harry Potter	educated_at	Hogwarts
+Ron Weasley	educated_at	Hogwarts
+Hermione Granger	educated_at	Hogwarts
 Harry Potter	student	Draco Malfoy
-Draco Malfoy	student of	Harry Potter
-Harry Potter	student	Ron Weasley
-Ron Weasley	student of	Harry Potter
-Hermione Granger	present in work	Harry Potter
-Harry Potter	characters	Hermione Granger
-Harry Potter	student	Ron Weasley
-Harry Potter	student	Hermione Granger
-Ron Weasley	student of	Harry Potter
-Ron Weasley	spouse	Hermione Granger
-Hermione Granger	student of	Harry Potter
-Hermione Granger	spouse	Ron Weasley
-Harry Potter	sport	Quidditch
-Mirror of Erised	narrative location	school
-Harry Potter	father	his parents
-his parents	child	Harry Potter
-philosopher's stone	has effect	immortality
-Voldemort	student	Quirrell
-Quirrell	student of	Voldemort
-philosopher's stone	part of	pocket
-pocket	has part	philosopher's stone
-Quirrell	student	Harry
-Harry	student of	Quirrell
-Harry Potter	instance of	orphan
-Harry Potter	significant event	eleventh birthday
-Harry Potter	significant event	eleventh birthday
-Harry Potter	relative	Voldemort
-Harry Potter	relative	Voldemort
-Voldemort	relative	Harry Potter
-Voldemort	relative	Harry Potter
-Ron Weasley	relative	Harry Potter
-Harry Potter	relative	Ron Weasley
-Harry Potter	relative	Ron Weasley
-Ron Weasley	relative	Harry Potter
-Ron Weasley	family	pure-blood family
-Philosopher's Stone	owned by	Ron Weasley
-Hermione Granger	has part	brown hair
-Neville Longbottom	present in work	Remembrall
-Neville Longbottom	present in work	Remembrall
-Neville Longbottom	present in work	Remembrall
-Neville Longbottom	present in work	Remembrall
-Remembrall	characters	Neville Longbottom
-Remembrall	characters	Neville Longbottom
-Remembrall	characters	Neville Longbottom
-Remembrall	characters	Neville Longbottom
-Remembrall	characters	Neville Longbottom
-Neville Longbottom	present in work	Remembrall
-Neville Longbottom	member of sports team	Neville Longbottom
-Neville Longbottom	member of sports team	Neville Longbottom
-Neville Longbottom	member of sports team	Neville Longbottom
-Neville Longbottom	has part	Neville Longbottom
-Neville Longbottom	has part	Neville Longbottom
-Neville Longbottom	has part	Neville Longbottom
-Neville Longbottom	has part	Neville Longbottom
-Neville Longbottom	has part	Neville Longbottom
-Neville Longbottom	has part	Neville Longbottom
-Neville Longbottom	has part	Neville Longbottom
-Neville Longbottom	has part	Neville Longbottom
-Rubeus Hagrid	educated at	Hogwarts
-Rubeus Hagrid	educated at	Hogwarts
-Rubeus Hagrid	educated at	Hogwarts
-Rubeus Hagrid	educated at	Hogwarts
-Professor Albus Dumbledore	said to be the same as	the "epitome of goodness"
-the "epitome of goodness"	said to be the same as	Professor Albus Dumbledore
-Vernon Dursley	spouse	Petunia Dursley
-Petunia Dursley	spouse	Vernon Dursley
-Oliver Wood	member of sports team	Gryffindor Quidditch team
-Professor Severus Snape	student	Harry Potter
-Professor Severus Snape	student	Harry Potter
-Mrs. Norris	owned by	Argus Filch
-Mrs. Norris	owned by	Argus Filch
+Draco Malfoy	student_of	Harry Potter
+Draco	member_of	Slytherin
+Harry Potter	member_of	Slytherin
+Harry Potter	sibling	Ron Weasley
+Harry Potter	sibling	Hermione Granger
+Harry Potter	member_of	Gryffindor
+Ron Weasley	member_of	Slytherin
+Ron Weasley	sibling	Harry Potter
+Ron Weasley	sibling	Hermione Granger
+Ron Weasley	member_of	Gryffindor
+Hermione Granger	member_of	Slytherin
+Hermione Granger	sibling	Harry Potter
+Hermione Granger	sibling	Ron Weasley
+Hermione Granger	member_of	Gryffindor
+Harry Potter	member_of_sports_team	Gryffindor Quidditch team
+Severus Snape	member_of	Slytherin
+philosopher's stone	has_effect	immortality
+Harry Potter	residence	Dursleys
 Harry Potter	author	Rowling
-Harry Potter	family	Dursley family
-Harry Potter	family	Dursley family
 Harry	creator	Rowling
 Harry	creator	Rowling
 Harry	creator	Rowling
 Harry	creator	Rowling
 Harry	creator	Rowling
 Harry	creator	Rowling
-Rowling	notable work	Harry
-Rowling	notable work	Harry
-Rowling	notable work	Harry
+Rowling	notable_work	Harry
+Rowling	notable_work	Harry
+Rowling	notable_work	Harry
 Harry	creator	Rowling
 Harry	creator	Rowling
 Harry	creator	Rowling
-Ron	creator	Rowling
-J. K. Rowling	notable work	The Lord of the Rings
+J. K. Rowling	notable_work	The Lord of the Rings
 The Lord of the Rings	author	J. K. Rowling
-Professor Quirrell	present in work	Quirrell
+Albus Dumbledore	said_to_be_the_same_as	the epitome of goodness
+the epitome of goodness	said_to_be_the_same_as	Albus Dumbledore
+Professor Quirrell	present_in_work	Quirrell
 Quirrell	characters	Professor Quirrell
-Harry	occupation	wizard
-Harry	occupation	wizard
-Harry's parents	child	Harry
-Harry	father	Harry's parents
-the curse	characters	Harry
-Harry	present in work	the curse
 Voldemort	occupation	evil wizard
-Harry Potter	publication date	1990
-Philosopher's Stone	has part	I began to write Philosopher's Stone that very evening
-I began to write Philosopher's Stone that very evening	part of	Philosopher's Stone
-2008 Summer Olympics	point in time	2008
-2008 Summer Olympics	location	Beijing
-2008 Summer Olympics	country	China
-Beijing	country	China
-China	capital	Beijing
-Nestlé Smarties Book Prize	inception	1997
-The following year	winner	Philosopher's Stone
-Philosopher's Stone	award received	The following year
-children's books awards	different from	adults
-adults	different from	children's books awards
+boys' book	opposite_of	male authors
+male authors	opposite_of	boys' book
+Harry Potter and the Philosopher's Stone	genre	thriller
 The Big Read	publisher	BBC
-Scottish Braille Press	language of work or name	Braille
-Philip Nel	field of work	alchemy
-Scholastic	language used	British English
-BookBrowse	instance of	aggregates book reviews
-Harry Potter and the Sorcerer's Stone	publication date	1998
-Harry Potter and the Sorcerer's Stone	publication date	1998
-Harry Potter and the Sorcerer's Stone	publication date	1998
-Ancient Greek	influenced by	Latin
-Sirius Black	present in work	Harry Potter and the Philosopher's Stone
-Harry Potter and the Philosopher's Stone	characters	Sirius Black
-excited communal reading of letters	author	Austen
-Charles Dickens	genre	caricature
+Scottish Braille Press	language_of_work_or_name	Braille
+Harry Potter	author	J. K. Rowling
+Harry Potter	author	J. K. Rowling
+Philip Nel	field_of_work	alchemy
+Harry Potter and the Sorcerer's Stone	genre	children's fiction
+Harry Potter and the Sorcerer's Stone	genre	children's fiction
+Harry Potter	author	J. K. Rowling
+J. K. Rowling	notable_work	Harry Potter
+Harry Potter and the Sorcerer's Stone	genre	children's fiction
+Jane Austen	influenced_by	J. K. Rowling
 Narnia	author	C. S. Lewis
-C. S. Lewis	notable work	Narnia
-R. L. Stine	genre	children's author
-adult	opposite of	child
-child	opposite of	adult
-Victorian	followed by	Edwardian
-Vernon	spouse	Petunia Dursley
-Petunia Dursley	spouse	Vernon
-Harry Potter	instance of	orphan
-Harry Potter	instance of	orphan
-social stereotypes	facet of	stratified society
+C. S. Lewis	notable_work	Narnia
+Ministry of Magic	present_in_work	Harry Potter books
+Harry Potter	occupation	wizard
 Rubeus Hagrid	family	Weasley family
 Remus Lupin	family	Weasley family
 Sirius Black	family	Weasley family
-Harry Potter and the Chamber of Secrets	publication date	2 July 1998
-Harry Potter and the Prisoner of Azkaban	publication date	8 July 1999
-Harry Potter and the Order of the Phoenix	publication date	21 June 2003
-Harry Potter and the Half-Blood Prince	publication date	16 July 2005
-Harry Potter	has part	Wizarding World
-Wizarding World	part of	Harry Potter
-Dumbledore	performer	Richard Harris
-Harry Potter and the Philosopher's Stone	publication date	14 November 2001
-education	part of	business
-Paperback Children's Edition	publication date	11 September 1998
-Paperback Children's Edition	publication date	6 October 2015
-Hardcover Illustrated Edition	publication date	6 October 2015
-Hardback Signature Special Edition	publication date	1 November 1999
-Paperback Adult Edition	publication date	27 August 2013
-Action	subclass of	puzzle genre
-Warthog	genre	Action-adventure
-The Keeper of the Keys	publication date	14 May 2020
-The Forbidden Forest	cast member	Claudia Kim
-The Forbidden Forest	cast member	Dakota Fanning
-The Man with the Two Faces	publication date	16 July 2020
+Harry Potter and the Half-Blood Prince	publication_date	16 July 2005
+Harry Potter and the Philosopher's Stone	publication_date	14 November 2001
+Bertie Bott	notable_work	Every Flavour Beans
+Every Flavour Beans	author	Bertie Bott
+Paperback Adult Edition	country_of_origin	Canada
+Paperback Adult Edition	publication_date	1 December 1998
+The Keeper of the Keys	publication_date	14 May 2020
+The Sorting Hat	cast_member	Olivia Colman
+The Sorting Hat	cast_member	Jonathan Van Ness
+The Sorting Hat	cast_member	Kate McKinnon
+Through the Trapdoor	cast_member	Kenneth Branagh
+Through the Trapdoor	cast_member	Ruth Wilson
+Through the Trapdoor	cast_member	Helena Bonham Carter
+Harry Potter and the Philosopher's Stone	part_of_the_series	Harry Potter series
+Harry Potter series	has_part	Harry Potter and the Philosopher's Stone
+Harry Potter and the Philosopher's Stone	country_of_origin	United Kingdom
+Harry Potter and the Philosopher's Stone	followed_by	Harry Potter and the Chamber of Secrets
+Harry Potter and the Chamber of Secrets	follows	Harry Potter and the Philosopher's Stone
+Harry Potter and the Chamber of Secrets	author	J. K. Rowling
+J. K. Rowling	notable_work	Harry Potter and the Chamber of Secrets
+Harry Potter and the Chamber of Secrets	country_of_origin	United Kingdom
+Harry Potter and the Prisoner of Azkaban	followed_by	Harry Potter and the Goblet of Fire
+Harry Potter and the Goblet of Fire	follows	Harry Potter and the Prisoner of Azkaban
+Harry Potter and the Goblet of Fire	author	J. K. Rowling
+J. K. Rowling	notable_work	Harry Potter and the Goblet of Fire
+Harry Potter and the Goblet of Fire	publication_date	0
+Harry Potter and the Order of the Phoenix	part_of_the_series	the series
+the series	has_part	Harry Potter and the Order of the Phoenix
+Harry Potter and the Order of the Phoenix	genre	fantasy
+Harry Potter and the Order of the Phoenix	publication_date	21 June 2003
+first edition	part_of_the_series	Harry Potter and the Half-Blood Prince
+Harry Potter and the Half-Blood Prince	has_part	first edition
+Harry Potter and the Deathly Hallows	follows	Harry Potter and the Half-Blood Prince
+Harry Potter and the Half-Blood Prince	followed_by	Harry Potter and the Deathly Hallows
+Sherbet lemon	has_part	lemon
+Crisp	said_to_be_the_same_as	chip
+chip	said_to_be_the_same_as	Crisp
+Jelly	said_to_be_the_same_as	Jell-O
+Jell-O	said_to_be_the_same_as	Jelly
+The Journey from Platform Nine and Three-Quarters	length	41
+Hallowe'en	number_of_episodes	29
+The Mirror of Erised	number_of_episodes	39
+Norbert the Norwegian Ridgeback	publication_date	8 July 2020
+Norbert the Norwegian Ridgeback	cast_member	Jason Isaacs
+Norbert the Norwegian Ridgeback	cast_member	Tom Felton
+Norbert the Norwegian Ridgeback	cast_member	Helen McCrory
+Through the Trapdoor	publication_date	14 July 2020
+The Man with the Two Faces	publication_date	16 July 2020
+film adaptation of the novel	publication_date	2002
+Harry	educated_at	Hogwarts
+Aunt Petunia	spouse	Uncle Vernon
+Uncle Vernon	spouse	Aunt Petunia
+Hogwarts Express	terminus	King's Cross station
+the car	located_in_the_administrative_territorial_entity	forest
+Hermione	ethnic_group	Muggle
+Dobby	instance_of	house-elf
+Riddle	characters	Hagrid
+Hagrid	present_in_work	Riddle
+lockdown	facet_of	school
+Hagrid	child	Harry
+Hagrid	child	Ron
+Harry	father	Hagrid
+Harry	sibling	Ron
+Ron	father	Hagrid
+Ron	sibling	Harry
 Harry	sibling	Ron
 Ron	sibling	Harry
-quick wit	subclass of	knowledge
-Diagon Alley	part of	wizarding world
-Hermione	present in work	Harry Potter
-William Shakespeare	notable work	The Winter's Tale
-The Winter's Tale	author	William Shakespeare
-Philosopher's Stone	owned by	Hermione
-Philosopher's Stone	owned by	Hermione
-Professor Severus Snape	spouse	Hermione
-Draco Malfoy	member of	Slytherin
-Hermione	significant event	Petrified
-Professor Minerva McGonagall	owner of	Time-Turner
-Time-Turner	owned by	Professor Minerva McGonagall
+Harry	sibling	Ron
+Harry	spouse	Hermione
+Ron	sibling	Harry
 Ron	spouse	Hermione
+Hermione	spouse	Harry
 Hermione	spouse	Ron
-James	sibling	Lily Potter
-Lily Potter	sibling	James
-Viktor Krum	sport	Quidditch
-Hermione	student	Krum
-Krum	student of	Hermione
-Krum	student of	Hermione
-Hermione	student	Krum
-Hermione Jean Granger	member of	Gryffindor
-Luna Lovegood	member of	Gryffindor
-Hermione Jean Granger	member of	Gryffindor
-Luna Lovegood	member of	Gryffindor
+walls	connects_with	plumbing
+plumbing	connects_with	walls
+Ron	owner_of	wand
+wand	owned_by	Ron
+Harry	sibling	Ron
+Harry	relative	Fawkes
+Fawkes	relative	Harry
+Fawkes	relative	Harry
+Harry	relative	Fawkes
+Harry	spouse	Ginny
+Ginny	spouse	Harry
+Children's Book of the Year	part_of	British Book Award
+British Book Award	has_part	Children's Book of the Year
+Gilderoy Lockhart	present_in_work	Harry Potter and the Chamber of Secrets
+ingenuity	different_from	hard work
+hard work	different_from	ingenuity
+Harry Potter	author	J. Rowling
+authority figures	different_from	political institutions
+political institutions	different_from	authority figures
+Best Fantasy Film	part_of	Saturn Award
+Harry Potter and the Philosopher's Stone	publisher	Scholastic Corporation
+humour	subclass_of	imagination
+Homer	ethnic_group	ancient Greek
+Diagon Alley	located_in_the_administrative_territorial_entity	London
+Harry Potter	father	his parents
+his parents	child	Harry Potter
+Harry	relative	Voldemort
+Voldemort	relative	Harry
+Ron Weasley	family	pure-blood family
+Harry Potter	student	Ron Weasley
+Harry Potter	student	Hermione Granger
+Ron Weasley	student_of	Harry Potter
+Ron Weasley	student	Hermione Granger
+Hermione Granger	student_of	Harry Potter
+Hermione Granger	student_of	Ron Weasley
+Professor Minerva McGonagall	field_of_work	Transfiguration
+Professor Minerva McGonagall	field_of_work	Transfiguration
+Minerva McGonagall	residence	Gryffindor House
+Vernon Dursley	spouse	Petunia Dursley
+Petunia Dursley	spouse	Vernon Dursley
+Harry Potter	present_in_work	Harry Potter's friends
+Harry Potter's friends	characters	Harry Potter
+Professor Quirrell	instance_of	vampire
+Professor Quirrell	instance_of	vampire
+Harry Potter	student	Ronald Weasley
+Harry Potter	student	Hermione Granger
+Ronald Weasley	student_of	Harry Potter
+Hermione Granger	student_of	Harry Potter
+Voldemort	occupation	evil wizard
+Harry Potter and the Philosopher's Stone	part_of_the_series	the sequels
+the sequels	has_part	Harry Potter and the Philosopher's Stone
+Taylor	notable_work	created the cover
+created the cover	creator	Taylor
+Lindsey Fraser	employer	The Scotsman
+Scottish Braille Press	language_of_work_or_name	Braille
+Scholastic Corporation	country	US
+Bologna Book Fair	country	US
+Harry Potter	author	J. K. Rowling
+Harry Potter	author	J. K. Rowling
+Harry Potter	present_in_work	Harry Potter's ideas
+Harry Potter's ideas	characters	Harry Potter
+fantasy	instance_of	literary genre
+young adult fiction	instance_of	literary genre
+boarding school stories	instance_of	literary genre
+Bildungsroman	instance_of	literary genre
+Roald Dahl	work_period__start_	1970
+Roald Dahl	work_period__start_	1970
+Argus Filch	owner_of	Mrs. Norris
+Mrs. Norris	owned_by	Argus Filch
+Harry Potter	instance_of	orphan
+Harry Potter	instance_of	orphan
+Hogwarts	country	Britain
+Voldemort	present_in_work	Voldemort's own horrific version of order
+Voldemort's own horrific version of order	characters	Voldemort
+Voldemort's own horrific version of order	characters	Voldemort
+Voldemort	present_in_work	Voldemort's own horrific version of order
+Dursleys	creator	J.K. Rowling
+Dursleys	creator	J.K. Rowling
+Harry Potter and the Chamber of Secrets	publication_date	2 July 1998
+Harry Potter and the Order of the Phoenix	publication_date	21 June 2003
+Dumbledore	performer	Richard Harris
+Children's Edition	country_of_origin	United Kingdom
+Paperback Edition	publication_date	8 September 1999
+The Hardback Adult Edition	publication_date	4 October 2004
+Paperback Adult Edition	publisher	Bloomsbury
+Paperback Adult Edition	publication_date	27 August 2013
+Griptonite	product_or_material_produced	Role-playing game
+Aspyr	product_or_material_produced	Mac OS X
+The Boy Who Lived	cast_member	Daniel Radcliffe
+The Vanishing Glass	publication_date	8 May 2020
+The Man with the Two Faces	publication_date	16 July 2020
+Hermione	performer	Emma Watson
+Hermione	present_in_work	Philosopher's Stone
+Hermione	present_in_work	Deathly Hallows – Part 2
+Harry Potter films	has_part	Philosopher's Stone
+Harry Potter films	has_part	Deathly Hallows – Part 2
+Philosopher's Stone	cast_member	Emma Watson
+Philosopher's Stone	part_of_the_series	Harry Potter films
+Deathly Hallows – Part 2	cast_member	Emma Watson
+Deathly Hallows – Part 2	part_of_the_series	Harry Potter films
+Hermione	creator	Rowling
+Rowling	notable_work	Hermione
+Hermione	instance_of	only child
+Hermione Jean Granger	said_to_be_the_same_as	Hermione
+Hermione	said_to_be_the_same_as	Hermione Jean Granger
+Hermione's name	author	Rowling
+Hermione's name	author	Rowling
+Hermione's name	author	Rowling
+Hermione	present_in_work	Harry Potter
+Harry Potter	characters	Hermione
+Harry Potter	characters	Hermione
+Hermione	present_in_work	Harry Potter
+Lockhart	member_of	Slytherin
+Harry	spouse	Hermione
+Harry	spouse	Hermione
+Harry	spouse	Hermione
+Hermione	spouse	Harry
 Hermione	spouse	Harry
 Harry	spouse	Hermione
-Undetectable Extension Charm	owned by	Hermione
-Hermione	owner of	Undetectable Extension Charm
-Bellatrix	student	Griphook the goblin
-Griphook the goblin	student of	Bellatrix
-Bellatrix	student	Hermione
-Hermione	student of	Bellatrix
-Hermione	spouse	Ron
-Ron	spouse	Hermione
-final battle	characters	Bellatrix Lestrange
-final battle	characters	Ginny Weasley
-final battle	characters	Luna Lovegood
-Bellatrix Lestrange	present in work	final battle
-Ginny Weasley	present in work	final battle
-Luna Lovegood	present in work	final battle
-Hermione	spouse	Ron
-Ron	spouse	Hermione
-Emma Watson	medical condition treated	difficulties in speech
-difficulties in speech	medical condition treated	Emma Watson
-Hermione	present in work	Prisoner of Azkaban
-Buckbeak	instance of	hippogriff
-Hermione	occupation	librarian
-bossy	opposite of	loyal
-loyal	opposite of	bossy
-Hermione	creator	J. K. Rowling
+Harry	spouse	Hermione
+Harry	spouse	Hermione
+Hermione	spouse	Harry
+Hermione	spouse	Harry
+Hermione	residence	Lavender Brown
+Lavender Brown	spouse	Hermione
+Hermione	spouse	Harry
+Harry	spouse	Hermione
+Hermione Jean Granger	present_in_work	Harry Potter and the Cursed Child
+Minister for Magic	present_in_work	Harry Potter and the Cursed Child
+Kingsley Shacklebolt	present_in_work	Harry Potter and the Cursed Child
+Madam Pomfrey	student	Hermione
+Madam Pomfrey	student	Hermione
+Madam Pomfrey	student	Hermione
+Hermione	student_of	Madam Pomfrey
+Hermione	student_of	Madam Pomfrey
+Prisoner of Azkaban	characters	Florean Fortescue
+Prisoner of Azkaban	characters	Ron
+Prisoner of Azkaban	characters	Hermione
+Florean Fortescue	present_in_work	Prisoner of Azkaban
+Ron	present_in_work	Prisoner of Azkaban
+Hermione	present_in_work	Prisoner of Azkaban
+levelheaded	said_to_be_the_same_as	book-smart
+book-smart	said_to_be_the_same_as	levelheaded
+Hermione	residence	school library
 Prisoner of Azkaban	characters	Professor McGonagall
-Professor McGonagall	present in work	Prisoner of Azkaban
-last book	author	J.K. Rowling
-Hermione Jean Granger	occupation	witch
+Professor McGonagall	present_in_work	Prisoner of Azkaban
 Hermione	creator	J.K. Rowling
-fake Galleon coins	creator	N.E.W.
-Hermione's name	part of	previous characters with the same name
-previous characters with the same name	has part	Hermione's name
-previous characters with the same name	has part	Hermione's name
-Hermione's name	part of	previous characters with the same name
-Hermione	present in work	the series
-Hermione	present in work	the series
-Hermione	present in work	the series
-Hermione	present in work	the series
-the series	characters	Hermione
-the series	characters	Hermione
-the series	characters	Hermione
-the series	characters	Hermione
-Hermione	present in work	the series
-Hermione Jean Granger	educated at	grammar school
-Hermione's Society for the Promotion of Elfish Welfare	political ideology	abolitionist
-Emma Watson	notable work	Harry Potter films
-Hermione	performer	Emma Watson
-Hermione	present in work	Harry Potter films
-Harry Potter films	cast member	Emma Watson
-Harry Potter films	characters	Hermione
-Emma Watson	participant in	Emma Watson's first screen test
-Emma Watson's first screen test	participant	Emma Watson
+Hermione Jean Granger	educated_at	grammar school
+Emma Watson	notable_work	Emma Watson
+Emma Watson	notable_work	Emma Watson
+Emma Watson	notable_work	Emma Watson
+Emma Watson	notable_work	Emma Watson
+Emma Watson	notable_work	Emma Watson
+Emma Watson	notable_work	Emma Watson
 Harry Potter	author	Rowling
 Harry Potter	author	Rowling
-Rowling	notable work	Harry Potter
-Rowling	notable work	Harry Potter
-Emma Watson	notable work	steals the show
-steals the show	cast member	Emma Watson
-Half-Blood Prince	cast member	Emma Watson
-Half-Blood Prince	cast member	Emma Watson
-Hermione	performer	Emma Watson
-Hermione	performer	Emma Watson
-dumb themselves down	said to be the same as	bad
-bad	said to be the same as	dumb themselves down
-Emma Watson	notable work	Beautiful
-Beautiful	cast member	Emma Watson
-Emma Watson	creator	J.K. Rowling
-J.K. Rowling	notable work	Emma Watson
-J.K. Rowling	notable work	Emma Watson
-J.K. Rowling	notable work	Emma Watson
-Emma Watson	creator	J.K. Rowling
-Emma Watson	creator	J.K. Rowling
-parodied	subclass of	animated series
-Big Impression	presenter	Alistair McGowan
-Yes Man	cast member	Zooey Deschanel
-Yes Man	cast member	Jim Carrey
+Rowling	notable_work	Harry Potter
+Rowling	notable_work	Harry Potter
+Order of the Phoenix	cast_member	Emma Watson
+Emma Watson	notable_work	Beautiful
+Beautiful	cast_member	Emma Watson
+Hermione	performer	Noma Dumezweni
+Hermione	performer	Noma Dumezweni
+Hermione	performer	Noma Dumezweni
+Noma Dumezweni	award_received	Award for Best Actress in a Supporting Role
+Award for Best Actress in a Supporting Role	winner	Noma Dumezweni
+Award for Best Actress in a Supporting Role	winner	Noma Dumezweni
+Noma Dumezweni	award_received	Award for Best Actress in a Supporting Role
+Rita Skeeter	performer	Miranda Richardson
+All That	cast_member	Lisa Foiles
+Laura J	sibling	Amy K
+Laura J	sibling	Anna M. Lewis
+Amy K	sibling	Laura J
+Amy K	sibling	Anna M. Lewis
+Anna M. Lewis	sibling	Laura J
+Anna M. Lewis	sibling	Amy K
+Harry Potter	student_of	Dumbledore
+Dumbledore	student	Harry Potter
+Dudley	relative	Harry
+Harry	relative	Dudley
+Harry	member_of	Order of the Phoenix
+Ron	spouse	Hermione
+Hermione	spouse	Ron
+textbook	subclass_of	curriculum
+Department of Mysteries	parent_organization	Ministry
+Ministry	subsidiary	Department of Mysteries
+Umbridge	instance_of	centaur
+Harry	sibling	Voldemort
+Voldemort	sibling	Harry
+Harry	member_of	Death Eater
+Harry	owner_of	sphere
+sphere	owned_by	Harry
+sphere	owned_by	Harry
+Harry	owner_of	sphere
+Earlestown	located_in_the_administrative_territorial_entity	Merseyside
+Harry Potter and the Order of the Phoenix	part_of_the_series	the series
+the series	has_part	Harry Potter and the Order of the Phoenix
+greatest total of 2007	point_in_time	2007
+Serbia and Montenegro	language_used	Serbian
+Serbian	country	Serbia and Montenegro
+Harry	sibling	Ron
+Ron	sibling	Harry
+Harry	present_in_work	Riddle
+Harry	present_in_work	Riddle
+Lavender	spouse	Hermione
+Hermione	spouse	Lavender
+Killing Curse	used_by	Snape
+Harry Potter and the Half-Blood Prince	followed_by	Harry Potter and the Deathly Hallows
+Harry Potter and the Deathly Hallows	follows	Harry Potter and the Half-Blood Prince
+Harry Potter and the Deathly Hallows	publication_date	21 July 2007
+blue dress	has_part	grey jacket
+grey jacket	part_of	blue dress
+Please Yourself	opposite_of	Please Anyone else
+Please Anyone else	opposite_of	Please Yourself
+Chamber of Secrets	followed_by	the second book
+Albus Dumbledore	place_of_death	Bungay
+Real Canadian Superstore	located_in_the_administrative_territorial_entity	Coquitlam
+Liz Rosenberg	employer	Boston Globe
+Charles Dickens	work_location	London
+David Kipen	employer	San Francisco Chronicle
+romance	characters	main characters
+main characters	present_in_work	romance
+Yvonne Zipp	employer	The Christian Science Monitor
+Liz Rosenberg	employer	Boston Globe
+Canada	shares_border_with	US
+US	shares_border_with	Canada
+Locus Award	has_part	Best Fantasy Novel
+Best Fantasy Novel	part_of	Locus Award
+Harry Potter	characters	Prisoner of Azkaban
+Prisoner of Azkaban	present_in_work	Harry Potter
+Dursleys	has_part	Aunt Marge
+Aunt Marge	part_of	Dursleys
+Patronus charm	uses	Patronus
+Patronus	uses	Patronus charm
+Harry	spouse	Hermione
+Hermione	spouse	Harry
+Time Turner	owned_by	Hermione
+Hermione	owner_of	Time Turner
+Harry	uses	Patronus
+Hermione	uses	Patronus
+Black	uses	Patronus
+Patronus	used_by	Harry
+Patronus	used_by	Hermione
+Patronus	used_by	Black
+Buckbeak	owned_by	Hagrid
+Harry's third year	instance_of	charm
+Harry Potter	uses	Potter spell
+Potter spell	used_by	Harry Potter
+2004 Colorado Blue Spruce Young Adult Book Award	point_in_time	2004
+2004 Colorado Blue Spruce Young Adult Book Award	point_in_time	2004
+Notable Children's Book	conferred_by	American Library Association
+Advance Reader's Edition	country	US
+We understand, we couldn’t wait to read it either	followed_by	We couldn’t wait to read it either
+We couldn’t wait to read it either	follows	We understand, we couldn’t wait to read it either
+We couldn’t wait to read it either	follows	We understand, we couldn’t wait to read it either
+hardcover	has_part	signature
+signature	part_of	hardcover
+Kazu Kibuishi	occupation	illustrator
+Harry Potter and the Prisoner of Azkaban	publication_date	3 October 2017
+second-highest-grossing film of 2004	point_in_time	2004
+Harry Potter and the Half-Blood Prince	characters	Harry Potter
+Harry Potter and the Half-Blood Prince	characters	Lord Voldemort
+Harry Potter	present_in_work	Harry Potter and the Half-Blood Prince
+Lord Voldemort	present_in_work	Harry Potter and the Half-Blood Prince
+Order of the Phoenix	has_part	Death Eater
+Death Eater	present_in_work	Order of the Phoenix
+Harry	present_in_work	Chamber of Secrets
+Chamber of Secrets	characters	Harry
+Dumbledore	present_in_work	Half-Blood Prince
+Half-Blood Prince	characters	Dumbledore
+Harry	residence	The Burrow
+Harry	owner_of	the locket
+the locket	owned_by	Harry
+Luna	present_in_work	Xenophilius
+Snitch	owner_of	Resurrection Stone
+Resurrection Stone	owned_by	Snitch
+Bill	spouse	Fleur
+Fleur	spouse	Bill
+Elder Wand	owned_by	Voldemort
+Voldemort	owner_of	Horcruxes
+Horcruxes	owned_by	Voldemort
+Draco	sibling	Crabbe
+Draco	sibling	Goyle
+Crabbe	sibling	Draco
+Crabbe	sibling	Goyle
+Goyle	sibling	Draco
+Goyle	sibling	Crabbe
+Neville Longbottom	participant_in	Nagini
+Nagini	participant	Neville Longbottom
+Ron	spouse	Hermione
+Ron	child	Rose
+Ron	child	Hugo
+Hermione	spouse	Ron
+Hermione	child	Rose
+Hermione	child	Hugo
+Rose	sibling	Hugo
+Hugo	sibling	Rose
+Teddy Lupin	father	Remus Lupin
+Teddy Lupin	mother	Nymphadora Tonks
+Remus Lupin	child	Teddy Lupin
+Remus Lupin	spouse	Nymphadora Tonks
+Nymphadora Tonks	child	Teddy Lupin
+Nymphadora Tonks	spouse	Remus Lupin
+Slytherin	instance_of	sorted
+Harry Potter and the Chamber of Secrets	publication_date	July 2, 1998
+Harry Potter and the Half-Blood Prince	publication_date	July 16, 2005
+Harry Potter	author	J. K. Rowling
+J. K. Rowling	notable_work	Harry Potter
+Harry Potter	author	J. K. Rowling
+Deathly Hallows	author	Rowling
+Rowling	notable_work	Deathly Hallows
+Christian allegories present in Deathly Hallows	present_in_work	Deathly Hallows
+Deathly Hallows	characters	Christian allegories present in Deathly Hallows
+King's Cross	location	King's Cross
+Harry	relative	Dumbledore
+Dumbledore	relative	Harry
+Carnegie Hall	location	New York City
+Who will live?	publisher	Scholastic
+Who will die?	point_in_time	2020
+Levy Home Entertainment	instance_of	distributor
+Asda	country	UK
+booksellers	country	UK
+Adult Edition	publisher	Bloomsbury
+Harry Potter and the Relics of Death	language_of_work_or_name	Swedish
+Harry Potter aur Maut ke Tohfe	publisher	Manjul Publication
+Harry Potter aur Maut ke Tohfe	publication_date	27 June 2008
+Mary Carole McCley	employer	Baltimore Sun
+Michiko Kakutani	employer	New York Times
+Lev Grossman	employer	Time magazine
+Amanda Craig	employer	The Times
+2010 Commonwealth Games	point_in_time	2010
+United States	diplomatic_relation	United Kingdom
+United Kingdom	diplomatic_relation	United States
+Notable Children's Book	conferred_by	American Library Association
+Elder Wand	owned_by	Voldemort
+Peter Pettigrew	cast_member	Dean Thomas
+Peter Pettigrew	cast_member	Viktor Krum
+negative reaction	facet_of	critics
+The Tale of the Three Brothers	characters	Deathly Hallows
+Deathly Hallows	present_in_work	The Tale of the Three Brothers
+moonstone	subclass_of	sterling silver
+Bloomsbury	country	United Kingdom
+Scholastic	country	United States
+Voldemort	member_of	Death Eater
+Goblet of Fire	instance_of	magical object
+Second Task	has_part	saving a close friend or relative from the lake
+saving a close friend or relative from the lake	part_of	Second Task
+Barty Crouch	educated_at	Hogwarts
+Voldemort	member_of	Death Eater
+Harry	family	Dursleys
+Harry Potter and the Philosopher's Stone	publisher	Bloomsbury
+Harry Potter and the Philosopher's Stone	publication_date	26 June 1997
+Prince Harry	spouse	Princess Diana
+Princess Diana	spouse	Prince Harry
+Harry Potter and the Doomspell Tournament	instance_of	working title
+Triwizard Tournament	based_on	Doomspell
+Harry Potter	author	Rowling
+Rowling	notable_work	Harry Potter
+equal	said_to_be_the_same_as	good
+good	said_to_be_the_same_as	equal
+New York City	contains_administrative_territorial_entity	Manhattan
+Manhattan	located_in_the_administrative_territorial_entity	New York City
+Taw Valley	owned_by	Bloomsbury
+Bloomsbury	owner_of	Taw Valley
+coaches	has_part	sleeping car
+sleeping car	part_of	coaches
+Thomas and the Magic Railroad	narrative_location	London
+list of the top 100 children's novels	publisher	School Library Journal
+100 Best Books of the 21st Century	conferred_by	Guardian
+Best Art Direction	instance_of	Academy Awards
