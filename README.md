@@ -22,6 +22,7 @@
 
 ```shell
 pip install -r requirements.txt
+pip install torch_scatter
 ```
 
 需要指出：

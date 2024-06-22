@@ -10,6 +10,5 @@ pyvis
 seqeval
 torch
 torch_geometric
-torch_scatter
 tqdm
 transformers
