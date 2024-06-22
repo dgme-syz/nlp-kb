@@ -11,3 +11,4 @@ torch
 torch_geometric
 tqdm
 transformers
+numpy==1.25.0
