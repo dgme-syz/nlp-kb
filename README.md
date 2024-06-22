@@ -5,12 +5,12 @@
 
 📢 **通知**
 
-* 中文的 webui 使用视频已经发布到 b 站: https://www.bilibili.com/video/BV1f3gveUEZK/
-* 完成了简单的 `webui` 的部署 
+* 预训练 bert-large-uncased(For 关系抽取)在 [Link](https://drive.google.com/file/d/1uVyGTZYOURnM-N-nvvuD3ZUHRC5Aln0n/view?usp=sharing) 可以获取到
+* 中文的 webui 使用视频已经发布到 b 站: [Link](https://www.bilibili.com/video/BV1f3gveUEZK/)
+* 完成了简单的 `webui` 的部署 ，使用 `python -m app.py` 即可
 
-😶‍🌫️ **TODO**
-* 更换分句模型
-* 测试环境配置
+
+😶‍🌫️ **TODO**: 更换分句模型
 <br/>
 
 ----
