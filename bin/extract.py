@@ -41,7 +41,7 @@ class ERE:
                     # 随机 70% 概率写入训练集，30%写入验证集
                     if output_dir is None:
                         continue
-                    if torch.rand(1).item() > 0.3:
+                    if torch.rand(1).item() > 0.15:
                         file = os.path.join(output_dir, 'train_gcn.txt')
                     else:
                         file = os.path.join(output_dir, 'val_gcn.txt')
@@ -72,7 +72,7 @@ if __name__ == '__main__':
     paser = argparse.ArgumentParser()
     paser.add_argument('--sentence', type=str, default=None, help='input sentence')
     paser.add_argument('--article', type=str, default=None, help='input article path')
-    paser.add_argument('--output_dir', type=str, default=None, help='output path')
+    paser.add_argument('--output_dir', type=str, default='./tmp', help='output path')
     paser.add_argument('--model_path', type=str, default='dslim/bert-large-NER', help='model path')
     paser.add_argument('--ner_path', type=str, default='dslim/bert-large-NER', help='config file')
     args = paser.parse_args()

@@ -12,7 +12,7 @@ def split(data_root):
     entitys, relations = {}, {}
     train, val = os.path.join(data_root, "train_gcn.txt"), os.path.join(data_root, "val_gcn.txt")
     for x in [train, val]:    
-        with open(x, "r") as f:
+        with open(x, "r", encoding='utf-8') as f:
             for line in f:
                 e1, r, e2 = line.strip().split("\t")
                 if e1 not in entitys:
@@ -26,22 +26,22 @@ def split(data_root):
     # json 写入
     dicts = [entitys, relations]
     for i in range(2):
-        with open(os.path.join(data_root, ["entities.json", "relations.json"][i]), "w") as f:
+        with open(os.path.join(data_root, ["entities.json", "relations.json"][i]), "w", encoding='utf-8') as f:
             json.dump(dicts[i], f, indent=4)
 
     # 将训练集和测试集中的实体和关系映射到数字
     print("now converting...")
     filenames = ["train.txt", "valid.txt"]
     for i in range(2):
-        with open([train, val][i], "r") as f:
-            with open(os.path.join(data_root, filenames[i]), "w") as f2:
+        with open([train, val][i], "r", encoding='utf-8') as f:
+            with open(os.path.join(data_root, filenames[i]), "w", encoding='utf-8') as f2:
                 for line in f:
                     e1, r, e2 = line.strip().split("\t")
                     f2.write(f"{entitys[e1]}\t{relations[r]}\t{entitys[e2]}\n")
     print("Split Done!")          
 def read_triplets(file):
     triplets = []
-    with open(file, "r") as f:
+    with open(file, "r", encoding='utf-8') as f:
         for line in f:
             e1, r, e2 = line.strip().split("\t")
             triplets.append([int(e1), int(r), int(e2)])
