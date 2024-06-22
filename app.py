@@ -160,7 +160,7 @@ def enjoy_neo(txt_path: str):
 
 with app:
     gr.Markdown(value="""# 知识表示 课设
-        **Author**:[DGMEFG](https://github.com/DGMEFG) """)
+        **Author**:[dgme-syz](https://github.com/dgme-syz) """)
     
     with gr.Tabs():
         with gr.Tab(label='How to start'):
