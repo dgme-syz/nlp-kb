@@ -1,0 +1,15 @@
+datasets
+gradio==4.36.1
+matplotlib
+neo4j
+networkx
+nltk
+numpy
+ollama
+pyvis
+seqeval
+torch
+torch_geometric
+torch_scatter
+tqdm
+transformers

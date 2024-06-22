@@ -1,3 +1,0 @@
-Harry Potter	author	J. K. Rowling
-J. K. Rowling	notable_work	Harry Potter
-Harry Potter	occupation	wizards
