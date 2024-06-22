@@ -65,4 +65,6 @@ class NER:
         # print(entities)
         return entities
 
-    
+if __name__ == '__main__':
+    ner = NER("dslim/bert-large-NER")
+    print(ner.get_entity("Established in 1875, Blackburn were one of the founding members of the Football League."))

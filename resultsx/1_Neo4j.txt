@@ -1,9 +1,0 @@
-CREATE (subj3:Entity {name: 'Harry Potter aur Maut ke Tohfe'})
-CREATE (subj2:Entity {name: 'Swedish'})
-CREATE (subj5:Entity {name: '27 June 2008'})
-CREATE (subj1:Entity {name: 'Harry Potter and the Relics of Death'})
-CREATE (subj4:Entity {name: 'Manjul Publication'})
-CREATE (subj3)-[:publication_date]->(subj5)
-CREATE (subj1)-[:language_of_work_or_name]->(subj2)
-CREATE (subj3)-[:publisher]->(subj4)
-RETURN subj1, subj2, subj3, subj4, subj5
